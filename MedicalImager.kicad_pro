@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "#PWR1-8,U1-3,J1-2",
+    "used_designators": "L1,JP1-5,R1-10,C1-45,#PWR1-55,U1-9,J1-2",
     "variants": []
   },
   "sheets": [
@@ -452,6 +452,26 @@
     [
       "5bcb5f89-2ce9-4250-883d-0611c80a67ce",
       "SOM"
+    ],
+    [
+      "5830e0c8-dbec-4983-b510-499d28a57221",
+      "RX_LANE"
+    ],
+    [
+      "95556610-6559-46ea-84a8-67146002b452",
+      "RX_LANE1"
+    ],
+    [
+      "0873a565-bcb6-455c-aeed-058cd3eb4ae9",
+      "RX_LANE2"
+    ],
+    [
+      "c0d2e9b2-e7b7-4abd-81f9-7295819074a2",
+      "RX_LANE3"
+    ],
+    [
+      "479a6f5a-02b8-4cd9-9a92-add4ba90ba54",
+      "Interface"
     ]
   ],
   "text_variables": {},

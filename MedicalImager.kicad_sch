@@ -5,17 +5,64 @@
 	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
 	(paper "A4")
 	(lib_symbols)
-	(text "TODO:\n- Complete pinout stidy of k26\n- Migrate progress in altium to here (TX dcaps)"
+	(text "TODO:\n- Complete power circuit (one instance of 4A & 1A modules)\n- Set up power sequencing stuff\n- Complete the AD8285's part (duplicated in all replicas)\n- Figure out power requirements (which banks, USB?, etc.)\n- Link peripherals in K26 to components\n- Set up circuit protection measures\n- Add an SD card (if not found on SOM)"
 		(exclude_from_sim no)
-		(at 140.716 142.24 0)
+		(at 30.988 149.352 0)
 		(effects
 			(font
 				(size 5 5)
 				(thickness 1)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "14b1c70c-4a3d-4460-a55f-97515aab8fbf")
+	)
+	(sheet
+		(at 203.2 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "479a6f5a-02b8-4cd9-9a92-add4ba90ba54")
+		(property "Sheetname" "Interface"
+			(at 203.2 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 203.2 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b"
+					(page "10")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 165.1 50.8)
