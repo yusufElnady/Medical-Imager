@@ -1,0 +1,210 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO:\n- Complete pinout stidy of k26\n- Migrate progress in altium to here (TX dcaps)"
+		(exclude_from_sim no)
+		(at 140.716 142.24 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "14b1c70c-4a3d-4460-a55f-97515aab8fbf")
+	)
+	(sheet
+		(at 165.1 50.8)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5bcb5f89-2ce9-4250-883d-0611c80a67ce")
+		(property "Sheetname" "SOM"
+			(at 165.1 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOM.kicad_sch"
+			(at 165.1 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "676521dc-c395-4edc-9c7d-a1255ba7b768")
+		(property "Sheetname" "TX"
+			(at 127 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TX.kicad_sch"
+			(at 127 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ba161b84-3650-478e-81fe-b4f2d77a0043")
+		(property "Sheetname" "RX"
+			(at 165.1 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RX.kicad_sch"
+			(at 165.1 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd63d6e1-5dfb-4921-86f2-9a66ea07210d")
+		(property "Sheetname" "Power"
+			(at 127 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 127 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
