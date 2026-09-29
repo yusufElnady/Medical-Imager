@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "L1,JP1-5,R1-10,C1-45,#PWR1-55,U1-9,J1-2",
+    "used_designators": "T1-8,L1-2,JP1-5,R1-38,D1-4,C1-93,Y1-4,#PWR1-91,U1-12,J1-2",
     "variants": []
   },
   "sheets": [
@@ -458,15 +458,15 @@
       "RX_LANE"
     ],
     [
-      "95556610-6559-46ea-84a8-67146002b452",
+      "0f38faf5-8f46-4c99-b322-9eef33f5593c",
       "RX_LANE1"
     ],
     [
-      "0873a565-bcb6-455c-aeed-058cd3eb4ae9",
+      "22851602-a46d-4725-bcd8-1456e30b9c14",
       "RX_LANE2"
     ],
     [
-      "c0d2e9b2-e7b7-4abd-81f9-7295819074a2",
+      "f654995b-154a-4b65-a911-6d3bf79dc4c0",
       "RX_LANE3"
     ],
     [
