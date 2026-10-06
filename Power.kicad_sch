@@ -2839,6 +2839,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 241.3) (xy 69.85 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02742acb-1e04-41a3-97ca-70ae1f346461")
+	)
+	(wire
+		(pts
 			(xy 325.12 107.95) (xy 330.2 107.95)
 		)
 		(stroke
@@ -2917,6 +2927,16 @@
 		)
 		(uuid "06960551-5c39-4491-837f-ffa43ac080f1")
 	)
+	(wire
+		(pts
+			(xy 31.75 219.71) (xy 38.1 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eaf018-5da2-46f8-9733-d42702749710")
+	)
 	(polyline
 		(pts
 			(xy 26.67 153.416) (xy 123.19 156.21)
@@ -2937,6 +2957,16 @@
 			(type default)
 		)
 		(uuid "080b6d21-0fb2-438b-b043-ad8e25697228")
+	)
+	(wire
+		(pts
+			(xy 31.75 241.3) (xy 31.75 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dcf488-6fc4-4915-a60f-4195c5bc99b7")
 	)
 	(wire
 		(pts
@@ -3237,6 +3267,16 @@
 			(type default)
 		)
 		(uuid "1c4a8ed3-c0fb-4529-89a9-f5c64a66ef79")
+	)
+	(wire
+		(pts
+			(xy 31.75 245.11) (xy 38.1 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d987201-2e97-48c3-befc-eeb1a6889432")
 	)
 	(wire
 		(pts
@@ -3918,6 +3958,16 @@
 			(type default)
 		)
 		(uuid "6523f9e0-7d47-42ba-b24d-c6f5b96aea9c")
+	)
+	(wire
+		(pts
+			(xy 31.75 215.9) (xy 31.75 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65476f2d-489f-4dd4-837f-75b33d474d42")
 	)
 	(wire
 		(pts
@@ -4701,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 190.5) (xy 31.75 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ce96ac-8417-406f-986d-4d7d89364acc")
+	)
+	(wire
+		(pts
 			(xy 210.82 208.28) (xy 203.2 208.28)
 		)
 		(stroke
@@ -5231,6 +5291,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 194.31) (xy 38.1 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b319c0-642d-4e51-b630-cedf198dbbe0")
+	)
+	(wire
+		(pts
 			(xy 232.41 184.15) (xy 269.24 184.15)
 		)
 		(stroke
@@ -5338,6 +5408,16 @@
 			(type default)
 		)
 		(uuid "e357b2e3-2bf5-42c5-a755-a5bd21b5d5cf")
+	)
+	(wire
+		(pts
+			(xy 69.85 248.92) (xy 63.5 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cdd67f-f7da-4e52-add0-75f26a578116")
 	)
 	(wire
 		(pts
@@ -9751,6 +9831,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 31.75 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4348d812-605d-4946-9748-ccee24045b6a")
+		(property "Reference" "#PWR0213"
+			(at 31.75 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_MAIN"
+			(at 31.75 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"DC_MAIN\""
+			(at 31.75 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c3ee3d4-84b4-4ea8-b3c9-c33f63618ac4")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RSX501LAM20TR:RSX501LAM20TR")
 		(at 317.5 184.15 180)
 		(unit 1)
@@ -12903,6 +13061,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 31.75 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a0e4a99-70bd-491a-a980-6f50634af67e")
+		(property "Reference" "#PWR0225"
+			(at 31.75 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_MAIN"
+			(at 31.75 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"DC_MAIN\""
+			(at 31.75 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdc1c015-8704-4b5b-bee3-75173a7d690d")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 133.35 0)
 		(unit 1)
@@ -14261,6 +14497,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 69.85 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad288ffa-f116-4ea9-a0ed-3d484e7d74a2")
+		(property "Reference" "#PWR0226"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_1V8"
+			(at 69.85 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"USB_1V8\""
+			(at 69.85 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "021da39d-29d3-4b5b-b26d-a9585ab31985")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -16027,6 +16341,84 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 31.75 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d54e681f-4c9e-4b12-b41a-236231cdcf1f")
+		(property "Reference" "#PWR0214"
+			(at 31.75 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_MAIN"
+			(at 31.75 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"DC_MAIN\""
+			(at 31.75 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c80283de-c17b-4e84-8c3d-59752aa7385b")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 273.05 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -17163,7 +17555,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "1acf250f-5047-45dc-9a16-165524a78292")
-		(property "Sheetname" "1V8_BUCK"
+		(property "Sheetname" "TX1V8"
 			(at 38.1 215.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17295,6 +17687,82 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 241.3)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eaff5d2d-0388-4fd5-9017-e3a0b7bc0808")
+		(property "Sheetname" "USB_1V8"
+			(at 38.1 240.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1V8_BUCK.kicad_sch"
+			(at 38.1 254.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Input_Voltage" input
+			(at 38.1 245.11 180)
+			(uuid "6256c86a-df25-4ca1-893d-ffa7bd66187f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output_Voltage" output
+			(at 63.5 248.92 0)
+			(uuid "66868c62-f836-4faa-8907-d4e5e8656c78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 38.1 251.46 180)
+			(uuid "1a6c4966-fade-449a-a0c5-018435e9d300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(page "13")
 				)
 			)
 		)

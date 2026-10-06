@@ -5,7 +5,7 @@
 	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
 	(paper "A4")
 	(lib_symbols)
-	(text "TODO:\n- Add an SD card\n- Bind interfaces to the SOM (SPI, SDIO, GPIO)\n- Add necessary instances of the LDOs"
+	(text "TODO:\n- Add ESD protection to USB & revise, then adjust SOM power\n- Add an SD card\n- Bind interfaces to the SOM (SPI, SDIO, GPIO)\n- Add necessary instances of the LDOs"
 		(exclude_from_sim no)
 		(at 14.478 140.97 0)
 		(effects
@@ -42,6 +42,18 @@
 		)
 		(uuid "3f603dab-1297-467b-93d1-e3a2bc06c700")
 	)
+	(text "POWER IS DONE (1V8, 3V3)"
+		(exclude_from_sim no)
+		(at 101.6 46.482 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "5bc0e705-fdea-447d-b5a6-ab1b7e5564af")
+	)
 	(text "NEEDS ONLY 3V3 SUPPLIES\n(CLOCK & FANOUT)"
 		(exclude_from_sim no)
 		(at 176.022 102.87 0)
@@ -54,21 +66,9 @@
 		)
 		(uuid "803f9d3d-343b-49dc-85b5-30c9201f6941")
 	)
-	(text "NEEDS 1V8 & 3V3 SUPPLIES\n(USB & SD)"
-		(exclude_from_sim no)
-		(at 102.87 62.484 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-		)
-		(uuid "a7b5a3f2-031a-4729-baf2-2c5462bc3c79")
-	)
 	(sheet
 		(at 88.9 50.8)
-		(size 25.4 25.4)
+		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -94,7 +94,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 88.9 76.7846 0)
+			(at 88.9 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -102,6 +102,136 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_D7" bidirectional
+			(at 114.3 71.12 0)
+			(uuid "ff87d1d8-241a-447b-bc57-247eea076da0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D0" bidirectional
+			(at 114.3 53.34 0)
+			(uuid "f0f03359-4fc7-4ea6-8220-0f5c7eecdcb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_CLKOUT" output
+			(at 114.3 76.2 0)
+			(uuid "bcd3f09e-054a-4c0b-a0b5-39b55f712b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D4" bidirectional
+			(at 114.3 63.5 0)
+			(uuid "8757f4f9-26ee-48f4-9a82-bf024b78216b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D3" bidirectional
+			(at 114.3 60.96 0)
+			(uuid "712bb705-1f83-4275-ad2f-cbadff79a9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D1" bidirectional
+			(at 114.3 55.88 0)
+			(uuid "68633c48-6a0d-4669-8f66-6833922cf124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_STP" output
+			(at 114.3 81.28 0)
+			(uuid "16a0f333-cdd8-4a2b-b6da-fc484b502420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_RESET" input
+			(at 114.3 83.82 0)
+			(uuid "026643b6-12a6-430f-91e7-98ddc1ecd4a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D6" bidirectional
+			(at 114.3 68.58 0)
+			(uuid "b7414bbf-9aeb-4019-8958-d148fe8be0f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DIR_CTRL" output
+			(at 114.3 86.36 0)
+			(uuid "cd4968d1-837f-462b-9d35-ff821d5802a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_NXT" output
+			(at 114.3 88.9 0)
+			(uuid "4d0716fb-534a-404b-92cd-92157a2bf1bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D5" bidirectional
+			(at 114.3 66.04 0)
+			(uuid "7bda24ba-dfae-4e4b-b50c-73f09735a467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D2" bidirectional
+			(at 114.3 58.42 0)
+			(uuid "a90994d4-208b-43fe-ba27-4f92331bb5d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

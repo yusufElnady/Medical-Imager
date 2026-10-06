@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "J1-2,U1-12,Q1-2,#PWR1-206,Y1-4,C1-206,D1-20,R1-56,JP1-5,L1-13,T1-8",
+    "used_designators": "J1-2,U1-14,Q1-2,#PWR1-235,Y1-4,C1-228,D1-20,R1-61,JP1-5,L1-14,T1-8",
     "variants": []
   },
   "sheets": [
@@ -479,7 +479,11 @@
     ],
     [
       "1acf250f-5047-45dc-9a16-165524a78292",
-      "1V8_BUCK"
+      "TX1V8"
+    ],
+    [
+      "eaff5d2d-0388-4fd5-9017-e3a0b7bc0808",
+      "USB_1V8"
     ]
   ],
   "text_variables": {},
