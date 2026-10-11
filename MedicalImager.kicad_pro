@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "J1-2,U1-14,Q1-2,#PWR1-235,Y1-4,C1-228,D1-20,R1-61,JP1-5,L1-14,T1-8",
+    "used_designators": "J1-3,U1-26,Q1-2,FB1-9,#PWR1-306,Y1-4,C1-228,D1-20,R1-70,JP1-5,L1-18,T1-8",
     "variants": []
   },
   "sheets": [
@@ -455,19 +455,19 @@
     ],
     [
       "5830e0c8-dbec-4983-b510-499d28a57221",
-      "RX_LANE"
+      "AFE1"
     ],
     [
       "d70dff0b-ff0a-44be-951a-60ecd2a43aad",
-      "RX_LANE1"
+      "AFE2"
     ],
     [
       "5f050c87-28b6-42e9-a088-9723ee843617",
-      "RX_LANE2"
+      "AFE3"
     ],
     [
       "0b5813b6-79d7-4c2b-b59c-e7717d7585bc",
-      "RX_LANE3"
+      "AFE4"
     ],
     [
       "479a6f5a-02b8-4cd9-9a92-add4ba90ba54",
@@ -475,7 +475,7 @@
     ],
     [
       "3d7f6431-4463-44ea-a624-e623c2838c01",
-      "3V3_BUCK"
+      "SOM_HDC_3V3"
     ],
     [
       "1acf250f-5047-45dc-9a16-165524a78292",
@@ -484,6 +484,26 @@
     [
       "eaff5d2d-0388-4fd5-9017-e3a0b7bc0808",
       "USB_1V8"
+    ],
+    [
+      "e269633f-c26a-42b5-a12c-87dd41533928",
+      "50V_SUPPLY"
+    ],
+    [
+      "658d364b-8f90-4723-893c-ccf92a06e0d4",
+      "SOM_HDA_3V3"
+    ],
+    [
+      "042a0157-c895-4fee-b312-8cb9bd0fcaa1",
+      "100V_SUPPLY"
+    ],
+    [
+      "6035e4a1-a138-4208-abfe-cd2d572bc56c",
+      "SOM_HPA_1V8"
+    ],
+    [
+      "ac2616e5-5fcb-4d5f-b57c-47a2e84a02ae",
+      "SD_CARD_3V3"
     ]
   ],
   "text_variables": {},
