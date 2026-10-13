@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "J1-3,U1-26,Q1-2,FB1-9,#PWR1-306,Y1-4,C1-228,D1-20,R1-70,JP1-5,L1-18,T1-8",
+    "used_designators": "J1-3,U1-31,Q1-2,FB1-9,#PWR1-338,Y1-4,C1-238,D1-21,R1-103,R116-119,JP1-5,L1-19,T1-8",
     "variants": []
   },
   "sheets": [
@@ -478,10 +478,6 @@
       "SOM_HDC_3V3"
     ],
     [
-      "1acf250f-5047-45dc-9a16-165524a78292",
-      "TX1V8"
-    ],
-    [
       "eaff5d2d-0388-4fd5-9017-e3a0b7bc0808",
       "USB_1V8"
     ],
@@ -504,6 +500,14 @@
     [
       "ac2616e5-5fcb-4d5f-b57c-47a2e84a02ae",
       "SD_CARD_3V3"
+    ],
+    [
+      "13fd9014-45ca-49bc-9f84-d472ea969ffb",
+      "SOM_5V"
+    ],
+    [
+      "34e67654-2fde-4dd2-93d7-94beb6c57daa",
+      "IM_5V"
     ]
   ],
   "text_variables": {},

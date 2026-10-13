@@ -3001,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 57.15) (xy 320.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1196531f-2f28-47b4-ae8a-6a7d83ce607b")
-	)
-	(wire
-		(pts
 			(xy 358.14 135.89) (xy 358.14 134.62)
 		)
 		(stroke
@@ -3088,16 +3078,6 @@
 			(type default)
 		)
 		(uuid "19404936-5a23-44ab-9ca4-bfc9bef2613e")
-	)
-	(wire
-		(pts
-			(xy 304.8 96.52) (xy 304.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e0a80db-6cb8-4177-abd4-f977c6c0e998")
 	)
 	(wire
 		(pts
@@ -3241,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 107.95) (xy 320.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f31f03e-6a7e-422d-9f80-fe7748487c62")
-	)
-	(wire
-		(pts
 			(xy 196.85 76.2) (xy 208.28 76.2)
 		)
 		(stroke
@@ -3321,16 +3291,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 133.35) (xy 320.04 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f74baf-2833-4664-a839-0b158b510e08")
-	)
-	(wire
-		(pts
 			(xy 57.15 60.96) (xy 57.15 63.5)
 		)
 		(stroke
@@ -3358,6 +3318,16 @@
 			(type default)
 		)
 		(uuid "39c33251-1156-4448-9b51-f96c451f34f4")
+	)
+	(wire
+		(pts
+			(xy 269.24 111.76) (xy 276.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac32b4e-0acb-4ec4-97dc-74f4fb447375")
 	)
 	(wire
 		(pts
@@ -3541,26 +3511,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 83.82) (xy 298.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5583f1b4-5b80-447d-aade-8f2401e81729")
-	)
-	(wire
-		(pts
-			(xy 336.55 107.95) (xy 327.66 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56efbcab-114d-4814-beb5-442f79054281")
-	)
-	(wire
-		(pts
 			(xy 196.85 96.52) (xy 208.28 96.52)
 		)
 		(stroke
@@ -3618,26 +3568,6 @@
 			(type default)
 		)
 		(uuid "5d35c569-96ae-4f2f-a7a9-3ef634fd7f13")
-	)
-	(wire
-		(pts
-			(xy 269.24 111.76) (xy 300.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da0d442-0adf-4c77-b905-f8aa8f768e35")
-	)
-	(wire
-		(pts
-			(xy 336.55 82.55) (xy 327.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f28851f-590b-425f-a30e-b8797421d322")
 	)
 	(wire
 		(pts
@@ -3861,6 +3791,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 83.82) (xy 276.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d55b12d-c0c9-4eed-867d-212f72950a0d")
+	)
+	(wire
+		(pts
 			(xy 355.6 161.29) (xy 358.14 161.29)
 		)
 		(stroke
@@ -3971,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 111.76) (xy 300.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f6bd3e-a385-4df1-a066-5b49d4d52bb1")
-	)
-	(wire
-		(pts
 			(xy 196.85 60.96) (xy 208.28 60.96)
 		)
 		(stroke
@@ -3998,16 +3928,6 @@
 			(type default)
 		)
 		(uuid "8ac9b7be-3a45-4199-a7e3-459c67914e21")
-	)
-	(wire
-		(pts
-			(xy 269.24 96.52) (xy 304.8 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901585dd-2bba-4444-af9d-9815fa0d52c0")
 	)
 	(wire
 		(pts
@@ -4038,6 +3958,16 @@
 			(type default)
 		)
 		(uuid "95bd5b71-ce20-43cb-940e-18e6a6ff7412")
+	)
+	(wire
+		(pts
+			(xy 269.24 96.52) (xy 276.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a05a0e-ef1a-46d2-84bf-99f121533abb")
 	)
 	(wire
 		(pts
@@ -4118,16 +4048,6 @@
 			(type default)
 		)
 		(uuid "9d8b3c31-cbde-4519-8820-870bc884a181")
-	)
-	(wire
-		(pts
-			(xy 307.34 104.14) (xy 307.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de1403b-5a5c-46fe-923b-06c78fde24d4")
 	)
 	(wire
 		(pts
@@ -4501,16 +4421,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 83.82) (xy 298.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a88436-eda6-4b42-8140-0cd83463484c")
-	)
-	(wire
-		(pts
 			(xy 55.88 152.4) (xy 43.18 152.4)
 		)
 		(stroke
@@ -4601,16 +4511,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 57.15) (xy 327.66 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d023b424-f7cb-466f-9314-37d0c3cc427a")
-	)
-	(wire
-		(pts
 			(xy 327.66 95.25) (xy 355.6 95.25)
 		)
 		(stroke
@@ -4658,16 +4558,6 @@
 			(type default)
 		)
 		(uuid "d420df0e-ddd7-43ad-9e91-b3995388608b")
-	)
-	(wire
-		(pts
-			(xy 269.24 104.14) (xy 307.34 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5304032-886e-435d-9ea7-070f47ab7c37")
 	)
 	(wire
 		(pts
@@ -4841,16 +4731,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 133.35) (xy 327.66 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3916407-ab1b-48e6-8c6d-0d1d0b533919")
-	)
-	(wire
-		(pts
 			(xy 353.06 160.02) (xy 353.06 161.29)
 		)
 		(stroke
@@ -4958,16 +4838,6 @@
 			(type default)
 		)
 		(uuid "ed9f40bf-fc97-402c-8925-2bdcafd34322")
-	)
-	(wire
-		(pts
-			(xy 304.8 82.55) (xy 320.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddda2f6-c410-4120-a0f1-3973cf2fc593")
 	)
 	(wire
 		(pts
@@ -5119,6 +4989,16 @@
 		)
 		(uuid "feccc988-d233-41fa-a532-9d259a728545")
 	)
+	(wire
+		(pts
+			(xy 269.24 104.14) (xy 276.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffebc168-1d87-4115-a180-eef55329e3c5")
+	)
 	(label "AFE_INB_N_PRE"
 		(at 304.8 190.5 0)
 		(effects
@@ -5128,26 +5008,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c39a001-18a3-461c-8044-862816de3ca3")
-	)
-	(label "AFE_IND_P"
-		(at 368.3 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22242f86-348a-4743-b482-ac13a643dfd3")
-	)
-	(label "AFE_INA_P"
-		(at 368.3 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23a3da83-965c-4871-90b4-3bf54e9f1906")
 	)
 	(label "AFE_INA_N_PRE"
 		(at 276.86 83.82 0)
@@ -5168,16 +5028,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c1e6384-6480-4bdf-9bc8-7bb7e2852ed4")
-	)
-	(label "AFE_INB_N"
-		(at 336.55 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3db9a827-3dcb-43fc-8431-99ca07c58108")
 	)
 	(label "AFE_SDIO_PRE"
 		(at 201.93 132.08 180)
@@ -5219,16 +5069,6 @@
 		)
 		(uuid "651f5b27-b554-4056-8f90-2072f9d9ed08")
 	)
-	(label "AFE_INC_P"
-		(at 368.3 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6dba0325-ac77-4305-9ac3-fc2199b36cd1")
-	)
 	(label "AFE_INB_P_PRE"
 		(at 276.86 99.06 0)
 		(effects
@@ -5238,16 +5078,6 @@
 			(justify left bottom)
 		)
 		(uuid "7803298c-b5a3-4f89-a3f3-3452aa8c7751")
-	)
-	(label "AFE_INB_P"
-		(at 368.3 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e7e4670-3f7a-4088-8c6e-a7004092e3e0")
 	)
 	(label "AFE_INC_P_PRE"
 		(at 276.86 106.68 0)
@@ -5278,16 +5108,6 @@
 			(justify left bottom)
 		)
 		(uuid "93d95aa9-52af-4fe5-be8b-7d6d952d2eff")
-	)
-	(label "AFE_IND_N"
-		(at 336.55 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a31891cb-64df-4eeb-9658-57d7a0e4f980")
 	)
 	(label "AFE_INC_N"
 		(at 336.55 107.95 0)
@@ -5338,16 +5158,6 @@
 			(justify left bottom)
 		)
 		(uuid "f332353b-099c-4998-96d6-bf40d9ccf372")
-	)
-	(label "AFE_INA_N"
-		(at 336.55 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbb1d08a-130b-4c67-b923-e3b7f3e1b2a1")
 	)
 	(hierarchical_label "AFE_D11"
 		(shape output)
@@ -5535,6 +5345,39 @@
 		)
 		(uuid "8eebe63c-bfca-4ee9-9baa-958f7ee4c81b")
 	)
+	(hierarchical_label "AFE_INC_P"
+		(shape input)
+		(at 368.3 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9022e9a9-749d-4aa4-b916-bffc250d3f0b")
+	)
+	(hierarchical_label "AFE_INA_P"
+		(shape input)
+		(at 368.3 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93f81c44-91b1-4ade-8034-720c40cc187a")
+	)
+	(hierarchical_label "AFE_INB_P"
+		(shape input)
+		(at 368.3 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b4796dc-7c04-47a8-ba18-3eda7d205f3f")
+	)
 	(hierarchical_label "3V3A"
 		(shape input)
 		(at 279.4 44.45 0)
@@ -5580,6 +5423,17 @@
 			(justify right)
 		)
 		(uuid "b5e7d0a5-f270-493e-8282-b645e7771170")
+	)
+	(hierarchical_label "AFE_IND_P"
+		(shape input)
+		(at 368.3 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba02c967-b55f-4d8b-a231-d59872a0b26a")
 	)
 	(hierarchical_label "AFE_D7"
 		(shape output)
@@ -6053,98 +5907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 323.85 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13782686-d7a5-41cf-b88c-ff0170e5e676")
-		(property "Reference" "C88"
-			(at 323.85 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 108.9152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 323.85 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7223f113-ab00-4557-a734-e52ca77c9e53")
-		)
-		(pin "1"
-			(uuid "f68042ab-be36-4564-b209-ae92b0191d21")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "C88")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "C88")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "C88")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MMBD4148SE:MMBD4148SE")
 		(at 355.6 154.94 0)
 		(unit 1)
@@ -6466,6 +6228,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 304.8 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed8f76a-8cf6-4dd5-bcb3-12c1d8615efa")
+		(property "Reference" "R30"
+			(at 307.34 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8R"
+			(at 307.34 198.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 305.816 197.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8R 0402"
+			(at 304.8 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71255f86-72c7-4cff-8a93-8b488b853bc1")
+		)
+		(pin "1"
+			(uuid "8dc34cb9-e7bc-4064-81c0-06edc09394d8")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 78.74 0)
 		(unit 1)
@@ -6644,192 +6500,6 @@
 				)
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
 					(reference "C177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 355.6 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34659377-b75c-4b64-8ba0-356925d5a3a4")
-		(property "Reference" "R40"
-			(at 358.14 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 358.14 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.616 197.104 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 355.6 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd7d3b0b-3a23-45ce-9b00-ecf428480029")
-		)
-		(pin "1"
-			(uuid "c8f7f818-8d99-4ce9-8fb1-93a9ab0e874a")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 323.85 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37fab17b-d3df-498e-af53-b1263f67db8c")
-		(property "Reference" "C73"
-			(at 323.85 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 83.5152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 323.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c6934ad-8321-4ab8-b86d-71a5a3803bce")
-		)
-		(pin "1"
-			(uuid "c497e770-50b5-401b-8af9-14b3b82927ca")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "C73")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "C73")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "C73")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -7441,100 +7111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 304.8 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ca3b256-e913-4973-9766-e638fc96430d")
-		(property "Reference" "R30"
-			(at 307.34 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 307.34 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 305.816 197.104 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 304.8 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eebf8fac-5e42-4443-b253-ae583b7fca8e")
-		)
-		(pin "1"
-			(uuid "94756286-2014-404d-87f6-73a6d929ccf9")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 154.94 0)
 		(unit 1)
@@ -7992,100 +7568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 330.2 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83512582-31ba-467a-9b9d-dd97df014e0d")
-		(property "Reference" "R36"
-			(at 332.74 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 332.74 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 331.216 197.104 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 330.2 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5047b4b2-a9ce-4433-be11-fe2389b224a9")
-		)
-		(pin "1"
-			(uuid "44451d2a-1c4a-41dd-b3cd-6faf7d656f99")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 355.6 111.76 0)
 		(unit 1)
@@ -8264,98 +7746,6 @@
 				)
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
 					(reference "C169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 323.85 133.35 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a789921-ddc1-410a-afa6-1ce9c7a0eb44")
-		(property "Reference" "C91"
-			(at 323.85 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 134.3152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 323.85 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b50f67e-647a-40e0-b8fb-9896bc7de67e")
-		)
-		(pin "1"
-			(uuid "03ec06dc-19d3-4fb0-9818-f5a4501778f7")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "C91")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "C91")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "C91")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -8990,6 +8380,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 355.6 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e49985-5852-4848-811c-1bd8c5d70e00")
+		(property "Reference" "R99"
+			(at 358.14 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8R"
+			(at 358.14 198.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.616 197.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8R 0402"
+			(at 355.6 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1eb6c08-ae09-48c4-bf78-0acb195c3eef")
+		)
+		(pin "1"
+			(uuid "180e87da-a8ab-4833-a7b9-c221c50c96ae")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
+					(reference "R102")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 355.6 215.9 0)
 		(unit 1)
@@ -9568,7 +9052,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "8R"
 			(at 281.94 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +9085,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "8R 0402"
 			(at 279.4 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9910,98 +9394,6 @@
 				)
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
 					(reference "C158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 323.85 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b064ccae-9dd2-4137-b0d5-27d75f2af866")
-		(property "Reference" "C63"
-			(at 323.85 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 58.1152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 323.85 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ad2a7a8-bab5-4dc0-853c-4cb482181fb2")
-		)
-		(pin "1"
-			(uuid "1263e0d6-f717-49a1-b649-8d01fea39ab0")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
-					(reference "C63")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
-					(reference "C63")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
-					(reference "C63")
-					(unit 1)
-				)
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
-					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -11622,6 +11014,100 @@
 				)
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 330.2 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5c370bd-d2a9-4ad5-ac5b-9f56c32133fe")
+		(property "Reference" "R38"
+			(at 332.74 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8R"
+			(at 332.74 198.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.216 197.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8R 0402"
+			(at 330.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce5d8d20-26bb-4aeb-9652-b3d9f02b22e5")
+		)
+		(pin "1"
+			(uuid "43dba3ec-5987-4be2-b6c0-848411608bc1")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/0b5813b6-79d7-4c2b-b59c-e7717d7585bc"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5830e0c8-dbec-4983-b510-499d28a57221"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/5f050c87-28b6-42e9-a088-9723ee843617"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043/d70dff0b-ff0a-44be-951a-60ecd2a43aad"
+					(reference "R40")
 					(unit 1)
 				)
 			)
