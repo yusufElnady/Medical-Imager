@@ -429,7 +429,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "J1-6,U1-31,Q1-2,FB1-9,#PWR1-342,Y1-4,C1-243,D1-21,R1-105,R116-119,JP1-5,L1-19,T1-8",
+    "used_designators": "FB1-9,L1-19,Q1-2,IC1,J1-7,SW1-2,JP1-18,R1-111,R116-119,C1-262,U1-31,D1-21,T1-8,Y1-4,#PWR1-359,CR1",
     "variants": []
   },
   "sheets": [
@@ -476,6 +476,10 @@
     [
       "3d7f6431-4463-44ea-a624-e623c2838c01",
       "SOM_HDC_3V3"
+    ],
+    [
+      "bdc80bcf-7e64-4aed-a563-540ce9396e20",
+      "DP2HDMI"
     ],
     [
       "eaff5d2d-0388-4fd5-9017-e3a0b7bc0808",

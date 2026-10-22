@@ -1332,6 +1332,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "72 MHz Crystal"
+		(exclude_from_sim no)
+		(at 76.708 120.142 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "072a1e0f-eb76-423d-918f-c919a90f71f6")
+	)
 	(text "AFE IO are 3V3"
 		(exclude_from_sim no)
 		(at 279.4 248.666 0)
@@ -1343,6 +1356,91 @@
 			)
 		)
 		(uuid "082f72ed-1832-429c-85f6-7a979c649671")
+	)
+	(text "Fanout Buffer 2"
+		(exclude_from_sim no)
+		(at 237.49 103.378 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4489dbcf-fb8c-4413-97a7-792f3ee44c0c")
+	)
+	(text "Fanout Buffer 1\n"
+		(exclude_from_sim no)
+		(at 142.24 94.234 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "531a2d4a-43fa-4589-8f87-4f5467dde0e6")
+	)
+	(text "Terminated at AFE side"
+		(exclude_from_sim no)
+		(at 275.844 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "56f10702-8f3c-4afa-8aa6-1f23c2d4f2fa")
+	)
+	(text "It was recommended by the datasheet to \nterminate used & unused channels."
+		(exclude_from_sim no)
+		(at 170.942 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bdabe5f-cddd-4350-98a2-ce5a48d36c60")
+	)
+	(text "Feeds:\nSOM sync signal\nPulser beamformer sync signal\nAFE fanout buffer ->"
+		(exclude_from_sim no)
+		(at 143.002 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "6d42b1eb-ea1b-4c2c-943a-bac0623bd152")
+	)
+	(text "Bias for common mode voltage (0.9v)"
+		(exclude_from_sim no)
+		(at 75.438 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "777197ac-18a9-4279-b5f4-fe2849424603")
+	)
+	(text "Feeds:\n4 * AFE"
+		(exclude_from_sim no)
+		(at 237.998 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "9f398cef-1451-4995-a8b4-e413e8cbc5f2")
 	)
 	(junction
 		(at 190.5 139.7)
@@ -3846,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 207.01 124.46)
+			(xy 172.72 124.46) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 207.01 127)
+			(xy 204.47 127) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 233.68 129.54)
+			(xy 231.14 129.54) (xy 233.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5978,7 @@
 		(uuid "8a627397-df47-4f94-9038-bf6104e7b54d")
 	)
 	(label "VAC_REF1"
-		(at 228.6 129.54 180)
+		(at 231.14 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6333,7 +6431,7 @@
 	)
 	(hierarchical_label "SOM_SYNC_CLK_P"
 		(shape output)
-		(at 207.01 124.46 0)
+		(at 205.74 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6421,7 +6519,7 @@
 	)
 	(hierarchical_label "SOM_SYNC_CLK_N"
 		(shape output)
-		(at 207.01 127 0)
+		(at 205.74 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8917,7 +9015,7 @@
 				)
 			)
 		)
-		(property "Value" "FANOUT_VCC"
+		(property "Value" "CLK_3V3"
 			(at 139.7 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"FANOUT_VCC\""
+		(property "Description" "Power symbol creates a global label with name \"CLK_3V3\""
 			(at 139.7 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10484,83 +10582,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
 					(reference "#PWR0249")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 228.6 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89a0180b-1000-4933-a531-9fe8598ed724")
-		(property "Reference" "#PWR0329"
-			(at 228.6 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FANOUT_VCC"
-			(at 228.6 117.348 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"FANOUT_VCC\""
-			(at 228.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68ddb622-5eed-42b8-ac0d-68d1cb3ae631")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
-					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -12642,6 +12663,83 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
 					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 228.6 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c84cba1e-7ad4-4969-b134-8da3d3d3404b")
+		(property "Reference" "#PWR0343"
+			(at 228.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK_3V3"
+			(at 228.6 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"CLK_3V3\""
+			(at 228.6 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9a28921-5135-428a-9a54-e0dd1e4a8910")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
+					(reference "#PWR0343")
 					(unit 1)
 				)
 			)

@@ -833,6 +833,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM5155DSSR:LM5155DSSR"
 			(pin_names
 				(offset 1.016)
@@ -2036,12 +2214,6 @@
 		(uuid "3360a7e6-c903-4a0c-bd4e-02c8b8762616")
 	)
 	(junction
-		(at 254 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4efdee90-9a31-488a-a798-3cb125e85bcd")
-	)
-	(junction
 		(at 50.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2064,6 +2236,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1294da1-a978-4bb2-b337-0d96b83265e5")
+	)
+	(junction
+		(at 254 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a34dab2c-705e-443b-8135-4c7b34ad55d1")
+	)
+	(junction
+		(at 254 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa0c5b25-f03d-4a2b-a0d6-2dd4bab262e2")
 	)
 	(junction
 		(at 203.2 57.15)
@@ -2130,12 +2314,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea53898e-99e8-4629-a831-3fdee45457e7")
-	)
-	(junction
-		(at 254 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f48b5a79-2ad4-4eb0-806f-027cbd26718c")
 	)
 	(junction
 		(at 167.64 57.15)
@@ -2255,16 +2433,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 57.15) (xy 256.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e429c8-0e5c-438c-8324-d5d0aab74968")
-	)
-	(wire
-		(pts
 			(xy 171.45 88.9) (xy 171.45 95.25)
 		)
 		(stroke
@@ -2335,6 +2503,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 46.99) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adaf8d4-c528-4d4c-a9e2-2c5c0d363cbe")
+	)
+	(wire
+		(pts
 			(xy 63.5 118.11) (xy 63.5 127)
 		)
 		(stroke
@@ -2362,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "2f055147-20fc-4d14-ad15-2b038aea7292")
+	)
+	(wire
+		(pts
+			(xy 266.7 107.95) (xy 269.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3062134e-f535-4f47-8d4a-350f3f96805d")
 	)
 	(wire
 		(pts
@@ -2422,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "3cc30e34-8526-4332-838e-0d3514ea8a94")
+	)
+	(wire
+		(pts
+			(xy 266.7 57.15) (xy 269.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e00b254-32b0-4b79-8428-90c1c655f639")
 	)
 	(wire
 		(pts
@@ -2492,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "50ce324e-9eb8-4284-8334-6f53c1efa2c5")
+	)
+	(wire
+		(pts
+			(xy 254 107.95) (xy 256.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52eca5ea-2117-4b08-91e4-601a1b38db25")
 	)
 	(wire
 		(pts
@@ -2582,16 +2790,6 @@
 			(type default)
 		)
 		(uuid "65b7c357-9e8d-48e0-83f0-b8d179801d0a")
-	)
-	(wire
-		(pts
-			(xy 254 107.95) (xy 256.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666692e6-4e08-4b20-b8d1-d44006d5d935")
 	)
 	(wire
 		(pts
@@ -2742,6 +2940,26 @@
 			(type default)
 		)
 		(uuid "841baf5e-c714-4105-8e5f-47776d05b150")
+	)
+	(wire
+		(pts
+			(xy 257.81 114.3) (xy 254 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85324a28-46cd-46c6-a3d3-8acc332206fd")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8588d739-4c83-4d62-89db-8775d8add7ab")
 	)
 	(wire
 		(pts
@@ -3125,6 +3343,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 46.99) (xy 254 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90eeb85-0cf4-4a49-933f-7f7b2b712242")
+	)
+	(wire
+		(pts
 			(xy 245.11 107.95) (xy 254 107.95)
 		)
 		(stroke
@@ -3142,6 +3370,16 @@
 			(type default)
 		)
 		(uuid "f1bf8ee9-28b2-4ad0-b671-9962e3b27511")
+	)
+	(wire
+		(pts
+			(xy 254 114.3) (xy 254 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74bc22c-e1ec-45ca-acdb-94d711c95ccd")
 	)
 	(wire
 		(pts
@@ -4180,6 +4418,85 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 257.81 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e923936-e9a6-460f-a3ee-40af1183bcba")
+		(property "Reference" "#PWR0301"
+			(at 254 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PULSER_50V_PRE"
+			(at 261.62 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"PULSER_50V_PRE\""
+			(at 257.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd0daa02-fe9c-441d-8d65-ba6c0b2edfc5")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -5235,6 +5552,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 261.62 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1a2ae0-a476-4f81-a88a-aeb64542dbe7")
+		(property "Reference" "JP17"
+			(at 261.62 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-50V_JMP"
+			(at 261.62 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 261.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49294cdf-7f3c-41a2-8b97-f80b0847ff9b")
+		)
+		(pin "1"
+			(uuid "1841fef6-7eaa-42c6-9839-b81988f5a942")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "JP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 129.54 0)
 		(unit 1)
@@ -5477,6 +5874,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 261.62 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622e95ef-84d6-4af2-9966-19cf6a6095cd")
+		(property "Reference" "JP18"
+			(at 261.62 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50V_JMP"
+			(at 261.62 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 261.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3acb7ad5-2632-4f84-8b6f-d225849b2a47")
+		)
+		(pin "1"
+			(uuid "36f14376-52ec-43c1-9dfe-aeda85150262")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 146.05 0)
 		(unit 1)
@@ -5634,7 +6111,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 256.54 107.95 270)
+		(at 269.24 107.95 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5645,7 +6122,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e08b271-fe91-4baa-b1d6-09098453aa73")
 		(property "Reference" "#PWR0205"
-			(at 252.73 107.95 0)
+			(at 265.43 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +6133,7 @@
 			)
 		)
 		(property "Value" "PULSER_50VN"
-			(at 260.35 107.9499 90)
+			(at 273.05 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5667,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 107.95 0)
+			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +6155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 107.95 0)
+			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +6166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"PULSER_50VN\""
-			(at 256.54 107.95 0)
+			(at 269.24 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5706,6 +6183,85 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
 					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 257.81 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72feb02d-870d-43d2-b19d-bf66f5a620f0")
+		(property "Reference" "#PWR0299"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PULSER_50VN_PRE"
+			(at 261.62 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"PULSER_50VN_PRE\""
+			(at 257.81 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "742c460e-5c2a-4636-8904-96b635c3125b")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -7066,7 +7622,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 256.54 57.15 270)
+		(at 269.24 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7077,7 +7633,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9be20f9-f333-4d91-ac2d-7a874fd5e91d")
 		(property "Reference" "#PWR0204"
-			(at 252.73 57.15 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +7644,7 @@
 			)
 		)
 		(property "Value" "PULSER_50V"
-			(at 260.35 57.1499 90)
+			(at 273.05 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7099,7 +7655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 57.15 0)
+			(at 269.24 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +7666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 57.15 0)
+			(at 269.24 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7121,7 +7677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"PULSER_50V\""
-			(at 256.54 57.15 0)
+			(at 269.24 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

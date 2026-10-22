@@ -3295,6 +3295,158 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "-50V HV Supply"
+		(exclude_from_sim no)
+		(at 254.254 97.79 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "12dc0ba7-0acb-4d66-98b9-8c71bfa82fc9")
+	)
+	(text "-5V"
+		(exclude_from_sim no)
+		(at 244.856 47.498 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "2dd5c5e0-77bd-42a6-be1e-726a3bd6cf73")
+	)
+	(text "1.8V"
+		(exclude_from_sim no)
+		(at 244.856 53.848 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "301dee38-ac4a-4e0f-ad33-90428d19a97f")
+	)
+	(text "+100V HV Supply"
+		(exclude_from_sim no)
+		(at 253.746 119.888 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "92f67f6f-2b8d-4812-bac8-c060ab47c1bd")
+	)
+	(text "Logic 5V"
+		(exclude_from_sim no)
+		(at 262.382 36.576 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "96953c9d-9110-433c-9e6d-8d73822598c5")
+	)
+	(text "HV Pulser Outputs"
+		(exclude_from_sim no)
+		(at 205.232 59.944 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "9d7ab284-eeb1-4895-a197-057f532f6565")
+	)
+	(text "Only place resistors R1 & R2 if data line 1\nis not used."
+		(exclude_from_sim no)
+		(at 15.24 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb97b955-7c23-405d-8ce4-d43a7ad5b80c")
+	)
+	(text "Output:\nIndicates whether the pulser is in\ntransmit or receiver mode."
+		(exclude_from_sim no)
+		(at 28.194 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c52f0e65-ea06-4490-bc6b-28c68d5307da")
+	)
+	(text "Output:\nSPI error flag (CRC error)."
+		(exclude_from_sim no)
+		(at 118.872 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e08ab18a-c8b8-4b88-a7a1-96577ac6f72f")
+	)
+	(text "-100V HV Supply"
+		(exclude_from_sim no)
+		(at 253.238 73.406 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "f7984e78-4091-42e7-971e-12bcc5039fce")
+	)
+	(text "+50V HV Supply"
+		(exclude_from_sim no)
+		(at 254.762 144.272 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "f8198dad-1a48-4a9d-8bd9-ad778fb4cdd3")
+	)
+	(text "Output:\nThermal shutdown flag."
+		(exclude_from_sim no)
+		(at 84.582 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb83ca49-9d57-42e3-ade5-caca3cfadec0")
+	)
+	(text "T/R Switch Outputs"
+		(exclude_from_sim no)
+		(at 204.724 102.108 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "fbb0a289-2e7a-4b66-92ac-e6110dfb4745")
+	)
 	(junction
 		(at 279.4 99.06)
 		(diameter 0)
@@ -10934,10 +11086,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "514eded3-ada0-4493-86b7-b475fe1e605e")
 		(property "Reference" "R1"
 			(at 60.96 55.8799 0)
@@ -13214,10 +13366,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "b6e17904-9086-4f3f-bd83-a41522a1b702")
 		(property "Reference" "R2"
 			(at 63.5 69.8499 0)
