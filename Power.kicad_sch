@@ -3296,18 +3296,6 @@
 		)
 		(uuid "4e520550-eaa5-44c2-8525-4c6c0c616ea2")
 	)
-	(text "HDMI 3V3\n"
-		(exclude_from_sim no)
-		(at 372.618 218.186 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "77aee943-bce6-42c9-b642-6dcff1080ee4")
-	)
 	(text "HV Supplies (+/- 50/100V)"
 		(exclude_from_sim no)
 		(at 339.852 25.146 0)
@@ -3547,12 +3535,6 @@
 		(uuid "0eb65deb-3221-496a-aaa6-527083eef883")
 	)
 	(junction
-		(at 189.23 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "102d14db-a5b6-4f86-9c27-850d0ffa2c8e")
-	)
-	(junction
 		(at 49.53 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3587,12 +3569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1db24129-abc3-4f7f-aafe-85e5595d54bb")
-	)
-	(junction
-		(at 201.93 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dbb6e27-03b3-4e2f-88fa-db9618cc36d5")
 	)
 	(junction
 		(at 391.16 195.58)
@@ -3655,12 +3631,6 @@
 		(uuid "3345ac65-83c1-487a-880b-50f20e80d50b")
 	)
 	(junction
-		(at 355.6 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37200b8f-29ad-4d8e-a6b2-6df143c8c31f")
-	)
-	(junction
 		(at 259.08 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3703,22 +3673,10 @@
 		(uuid "541e22ac-c782-4a2c-9173-1c17bea644ef")
 	)
 	(junction
-		(at 391.16 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57a1cfb7-9059-41b7-b4e2-8e09885b11d8")
-	)
-	(junction
 		(at 361.95 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c614f3c-9e56-439b-9782-445e196c914f")
-	)
-	(junction
-		(at 189.23 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e96395f-a26f-4598-90c2-ca2e64d25a99")
 	)
 	(junction
 		(at 91.44 152.4)
@@ -3743,12 +3701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a3898b-0419-406f-af7d-ae60dd5673b9")
-	)
-	(junction
-		(at 201.93 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a3e4d37-d07c-4d27-972f-0393e05036f3")
 	)
 	(junction
 		(at 163.83 110.49)
@@ -3799,12 +3751,6 @@
 		(uuid "7f3ab05a-0ce1-4ff2-bceb-575cbe49e54a")
 	)
 	(junction
-		(at 227.33 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8341698d-65f0-4590-a4e9-80fde2514eb8")
-	)
-	(junction
 		(at 101.6 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3815,18 +3761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8560179e-02c3-47a3-8e56-360094d2a5a2")
-	)
-	(junction
-		(at 214.63 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89a8a898-bf11-40b2-b492-76328971eedd")
-	)
-	(junction
-		(at 214.63 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a46fa36-11eb-4ab6-b952-ecf635f85d9e")
 	)
 	(junction
 		(at 29.21 180.34)
@@ -3865,10 +3799,10 @@
 		(uuid "94369b2e-5e45-4fc4-b83c-8f620bc5db25")
 	)
 	(junction
-		(at 123.19 118.11)
+		(at 165.1 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c68eb97-22c0-4d7c-8ea2-c36dd3192cf2")
+		(uuid "989c948b-c80f-4ade-9d2b-f2c8d518c614")
 	)
 	(junction
 		(at 334.01 219.71)
@@ -3917,12 +3851,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afcb70b9-c6ca-4c2a-a95b-1dfa2bc7e292")
-	)
-	(junction
-		(at 391.16 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09640c0-3b03-445d-843f-fe0a1f10cda3")
 	)
 	(junction
 		(at 177.8 62.23)
@@ -3995,12 +3923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbba1af6-bcdf-4b5d-adbf-6ab32315e2d8")
-	)
-	(junction
-		(at 227.33 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc81e36-ba0e-4e0f-ba5d-b44116c84e3c")
 	)
 	(junction
 		(at 391.16 208.28)
@@ -4077,10 +3999,6 @@
 	(no_connect
 		(at 363.22 100.33)
 		(uuid "39dde14b-8bb3-485f-b26a-afbbd4844fa0")
-	)
-	(no_connect
-		(at 358.14 241.3)
-		(uuid "3da00c4a-f09d-48bf-b0d2-0af287868c48")
 	)
 	(no_connect
 		(at 226.06 176.53)
@@ -4180,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 201.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e9968f-6975-4f04-bbe5-9f8911824d59")
-	)
-	(wire
-		(pts
 			(xy 44.45 118.11) (xy 50.8 118.11)
 		)
 		(stroke
@@ -4280,16 +4188,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 226.06) (xy 355.6 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "063c8980-2214-49a2-a98b-98e0241114b8")
-	)
-	(wire
-		(pts
 			(xy 334.01 232.41) (xy 334.01 240.03)
 		)
 		(stroke
@@ -4361,7 +4259,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 43.18) (xy 177.8 43.18)
+			(xy 158.75 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4399,16 +4297,6 @@
 		)
 		(uuid "0ae65fac-2d80-4d67-8a12-3be66731eb12")
 	)
-	(wire
-		(pts
-			(xy 227.33 113.03) (xy 227.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e2301a5-c380-4a96-a6b2-919ac37d2990")
-	)
 	(polyline
 		(pts
 			(xy 243.84 66.04) (xy 246.38 66.04)
@@ -4428,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "0e5d95c7-70a0-44f7-bb97-b50daecc2c8b")
-	)
-	(wire
-		(pts
-			(xy 201.93 110.49) (xy 189.23 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec04e1f-ec40-464f-b39b-e3064c3a1223")
 	)
 	(wire
 		(pts
@@ -4551,16 +4429,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 231.14) (xy 358.14 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d40a9f-5463-47c4-be85-cede2dffb0bc")
-	)
-	(wire
-		(pts
 			(xy 323.85 173.99) (xy 323.85 176.53)
 		)
 		(stroke
@@ -4568,16 +4436,6 @@
 			(type default)
 		)
 		(uuid "194cc98b-ae95-456d-a6be-14451be365f6")
-	)
-	(wire
-		(pts
-			(xy 350.52 231.14) (xy 355.6 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1973a82b-eb43-45ad-bcc8-fcacdeaeb7cd")
 	)
 	(wire
 		(pts
@@ -4648,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "1ef4a72f-03b6-42f7-b902-0dd47069903c")
-	)
-	(wire
-		(pts
-			(xy 240.03 110.49) (xy 227.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f396c2e-bf19-496c-b1f3-dd1d3425fe22")
 	)
 	(wire
 		(pts
@@ -4732,16 +4580,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 236.22) (xy 355.6 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22930ddc-23ac-4542-ae67-95d50254e209")
-	)
-	(wire
-		(pts
 			(xy 88.9 123.19) (xy 95.25 123.19)
 		)
 		(stroke
@@ -4769,16 +4607,6 @@
 			(type default)
 		)
 		(uuid "24a1837e-74a2-49da-b91f-2a5b00b95bd7")
-	)
-	(wire
-		(pts
-			(xy 388.62 236.22) (xy 391.16 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24eb035f-25ed-4ab0-82eb-c7d705c4c47b")
 	)
 	(polyline
 		(pts
@@ -4912,16 +4740,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 231.14) (xy 391.16 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d744682-eda7-4486-9946-6d889b382df3")
-	)
-	(wire
-		(pts
 			(xy 200.66 166.37) (xy 200.66 171.45)
 		)
 		(stroke
@@ -5029,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "324578b8-c0db-403b-aaf1-0ddb2e352aef")
+	)
+	(wire
+		(pts
+			(xy 334.01 219.71) (xy 339.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eb7392-ad97-40e3-ac96-947456a9268c")
 	)
 	(wire
 		(pts
@@ -5202,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b956655-f84b-4a2f-85fc-3f722ce005b1")
+	)
+	(wire
+		(pts
 			(xy 195.58 179.07) (xy 198.12 179.07)
 		)
 		(stroke
@@ -5342,16 +5180,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 243.84) (xy 391.16 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b8b1fc-48bf-4871-b3aa-1cc3c5eca773")
-	)
-	(wire
-		(pts
 			(xy 340.36 127) (xy 340.36 133.35)
 		)
 		(stroke
@@ -5379,16 +5207,6 @@
 			(type default)
 		)
 		(uuid "475a693f-26a3-4178-8571-0e24336c1c6b")
-	)
-	(wire
-		(pts
-			(xy 201.93 123.19) (xy 189.23 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478bef62-5611-4f0b-aefe-307143a22472")
 	)
 	(wire
 		(pts
@@ -5632,16 +5450,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 110.49) (xy 201.93 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57094a07-98bc-4cb4-9f65-95ab088093ae")
-	)
-	(wire
-		(pts
 			(xy 88.9 182.88) (xy 87.63 182.88)
 		)
 		(stroke
@@ -5679,16 +5487,6 @@
 			(type default)
 		)
 		(uuid "580d22b0-7a93-43ea-a80b-7133d927d817")
-	)
-	(wire
-		(pts
-			(xy 240.03 123.19) (xy 227.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "587aa4ab-ba5c-4d2a-ad77-5dd668c38311")
 	)
 	(wire
 		(pts
@@ -6172,16 +5970,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 243.84) (xy 391.16 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79893fdc-025e-467c-bf95-8cac0596ad34")
-	)
-	(wire
-		(pts
 			(xy 223.52 140.97) (xy 226.06 140.97)
 		)
 		(stroke
@@ -6202,16 +5990,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 110.49) (xy 214.63 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a374165-4258-4a77-bf36-311c8ec461c2")
-	)
-	(wire
-		(pts
 			(xy 57.15 41.91) (xy 63.5 41.91)
 		)
 		(stroke
@@ -6219,16 +5997,6 @@
 			(type default)
 		)
 		(uuid "7b5c871c-4e19-4372-8f0a-01860e6b8248")
-	)
-	(wire
-		(pts
-			(xy 214.63 113.03) (xy 214.63 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf2eab8-1f1f-4374-87ce-c1b0dabcd21e")
 	)
 	(wire
 		(pts
@@ -6249,26 +6017,6 @@
 			(type default)
 		)
 		(uuid "7f455fcc-d164-4937-a85f-066167d7ad6f")
-	)
-	(wire
-		(pts
-			(xy 394.97 231.14) (xy 391.16 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7febd919-607e-41c8-8b80-1bb95d4e27c5")
-	)
-	(wire
-		(pts
-			(xy 240.03 120.65) (xy 240.03 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80545274-af4b-48eb-9426-1c35110a5a7b")
 	)
 	(wire
 		(pts
@@ -6309,16 +6057,6 @@
 			(type default)
 		)
 		(uuid "82b0eb94-0259-4ae3-accb-203d66e4ff15")
-	)
-	(wire
-		(pts
-			(xy 391.16 241.3) (xy 391.16 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84588877-3f6c-4c67-a98c-2f22a9044ebc")
 	)
 	(wire
 		(pts
@@ -6532,16 +6270,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 113.03) (xy 240.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94447210-673f-4b8f-9e6f-e4c2fd208c64")
-	)
-	(wire
-		(pts
 			(xy 44.45 123.19) (xy 50.8 123.19)
 		)
 		(stroke
@@ -6609,16 +6337,6 @@
 			(type default)
 		)
 		(uuid "968442c6-ebd9-41e4-8292-000f81abdba7")
-	)
-	(wire
-		(pts
-			(xy 214.63 123.19) (xy 201.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a7525a-9bcd-4b29-81bd-663f41e5e82e")
 	)
 	(wire
 		(pts
@@ -6872,6 +6590,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 54.61) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9eb44b1-3e21-44f5-a762-9bbf076234e6")
+	)
+	(wire
+		(pts
 			(xy 163.83 123.19) (xy 151.13 123.19)
 		)
 		(stroke
@@ -6939,16 +6667,6 @@
 			(type default)
 		)
 		(uuid "af70f8be-3fd2-4570-a2e2-2d7673f4180f")
-	)
-	(wire
-		(pts
-			(xy 391.16 236.22) (xy 391.16 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afca289a-41c6-4aca-a7a3-aaaebdfb7ec6")
 	)
 	(wire
 		(pts
@@ -7022,16 +6740,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 231.14) (xy 391.16 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55d66f9-5869-4f41-bf5d-244c149d9c8d")
-	)
-	(wire
-		(pts
 			(xy 97.79 198.12) (xy 88.9 198.12)
 		)
 		(stroke
@@ -7089,16 +6797,6 @@
 			(type default)
 		)
 		(uuid "b988805c-c5db-4699-bde0-440abf0a9c8a")
-	)
-	(wire
-		(pts
-			(xy 350.52 233.68) (xy 350.52 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a71efd-2924-4d18-adc9-2d9febbf3547")
 	)
 	(wire
 		(pts
@@ -7180,16 +6878,6 @@
 		)
 		(uuid "be550360-8e2f-45d4-806c-ce1080428656")
 	)
-	(wire
-		(pts
-			(xy 388.62 243.84) (xy 391.16 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef2a87c-cbb7-43e2-850f-bcea94dda85a")
-	)
 	(polyline
 		(pts
 			(xy 278.13 96.52) (xy 278.13 254)
@@ -7212,16 +6900,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 134.62 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27e856e-8a23-4d32-858f-624c72caf3a3")
-	)
-	(wire
-		(pts
 			(xy 226.06 166.37) (xy 223.52 166.37)
 		)
 		(stroke
@@ -7239,16 +6917,6 @@
 			(type default)
 		)
 		(uuid "c5bb6334-62d5-4cf8-ab8f-646674e5bb19")
-	)
-	(wire
-		(pts
-			(xy 227.33 123.19) (xy 214.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d3c0f7-4078-411c-9643-c63e5b67a4f7")
 	)
 	(wire
 		(pts
@@ -7279,16 +6947,6 @@
 			(type default)
 		)
 		(uuid "c8838c89-d3a7-4c88-9d38-abf766b1fc7a")
-	)
-	(wire
-		(pts
-			(xy 227.33 120.65) (xy 227.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95a7c5a-7f19-444f-8661-27bb2998165f")
 	)
 	(wire
 		(pts
@@ -7412,6 +7070,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 232.41) (xy 339.09 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15f663b-0262-4a07-aff4-1ffdb7f4bbf6")
+	)
+	(wire
+		(pts
 			(xy 213.36 166.37) (xy 213.36 161.29)
 		)
 		(stroke
@@ -7459,16 +7127,6 @@
 			(type default)
 		)
 		(uuid "d52f2044-3565-4035-9dde-44929b35bd78")
-	)
-	(wire
-		(pts
-			(xy 394.97 233.68) (xy 394.97 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d590755c-35f8-4fbc-96b9-d6a7310646a6")
 	)
 	(wire
 		(pts
@@ -7529,6 +7187,16 @@
 			(type default)
 		)
 		(uuid "d8851abd-bd5d-459c-9d4d-2a9cb327c5c1")
+	)
+	(wire
+		(pts
+			(xy 339.09 222.25) (xy 339.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89fa79b-20b6-47a2-b727-ef886cc8c13b")
 	)
 	(wire
 		(pts
@@ -7642,13 +7310,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 201.93 110.49)
+			(xy 339.09 229.87) (xy 339.09 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e38747fe-83cc-4b97-a9f3-f9662349c954")
+		(uuid "e1306852-49a7-4da3-824b-961e7578503b")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2aa87ff-4a0e-4e89-8018-ae5faecf3ce1")
 	)
 	(wire
 		(pts
@@ -7762,36 +7440,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 241.3) (xy 350.52 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb666890-3d9f-4efc-bd8c-54186960818f")
-	)
-	(wire
-		(pts
-			(xy 134.62 118.11) (xy 123.19 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecbc2551-cfc7-4c08-9128-23cb87c6779e")
-	)
-	(wire
-		(pts
-			(xy 394.97 241.3) (xy 394.97 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed50b014-41a5-414a-a6b8-dc0b8063128d")
-	)
-	(wire
-		(pts
 			(xy 189.23 120.65) (xy 189.23 123.19)
 		)
 		(stroke
@@ -7799,16 +7447,6 @@
 			(type default)
 		)
 		(uuid "ee35b66a-fd0c-4950-8f22-112a01e4bfae")
-	)
-	(wire
-		(pts
-			(xy 388.62 241.3) (xy 391.16 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb32f86-fd56-4412-85ae-0717c8b87e26")
 	)
 	(wire
 		(pts
@@ -7922,16 +7560,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 214.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5759785-9d47-4eef-93bd-2e167dd2905e")
-	)
-	(wire
-		(pts
 			(xy 198.12 176.53) (xy 198.12 179.07)
 		)
 		(stroke
@@ -7989,16 +7617,6 @@
 			(type default)
 		)
 		(uuid "f8a33bb7-3f88-4668-946c-26b5897d1630")
-	)
-	(wire
-		(pts
-			(xy 355.6 236.22) (xy 355.6 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa46f3e5-0480-4e04-9059-68873c79e8da")
 	)
 	(wire
 		(pts
@@ -9334,7 +8952,7 @@
 	)
 	(hierarchical_label "SOM_PL_PWR_EN"
 		(shape input)
-		(at 171.45 43.18 180)
+		(at 158.75 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9422,7 +9040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00a15a66-3762-48e2-89bc-9cfe5e5dd913")
-		(property "Reference" "R91"
+		(property "Reference" "R405"
 			(at 46.736 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9444,7 +9062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.546 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -9486,7 +9104,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R91")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -9504,7 +9122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0173f2c9-1693-4af7-8e75-f7edfe8b9f3d")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0464"
 			(at 261.62 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9564,7 +9182,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR095")
+					(reference "#PWR0464")
 					(unit 1)
 				)
 			)
@@ -9581,7 +9199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0230d9e4-8861-4573-91a4-519b6b56ad63")
-		(property "Reference" "R78"
+		(property "Reference" "R413"
 			(at 116.84 170.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.824 166.624 90)
 			(hide yes)
 			(show_name no)
@@ -9645,7 +9263,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R78")
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -9663,7 +9281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0679f166-a091-41cc-9a47-e582edd7a49c")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0412"
 			(at 85.09 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9723,7 +9341,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0176")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -9741,7 +9359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0762d288-9465-42a8-8769-8baec775fc85")
-		(property "Reference" "FB8"
+		(property "Reference" "FB406"
 			(at 208.2292 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,7 +9379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 208.28 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -9803,7 +9421,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB8")
+					(reference "FB406")
 					(unit 1)
 				)
 			)
@@ -9821,7 +9439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07eb7b60-a985-4d94-8de6-8e92eb9d4b84")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0450"
 			(at 219.71 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9881,7 +9499,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0111")
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -9899,7 +9517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09c22f38-07c9-4341-b1f5-64ff6fd7433f")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR0416"
 			(at 92.71 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9959,89 +9577,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 214.63 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09c47e56-f6bc-48d1-9c9f-e24ba236847c")
-		(property "Reference" "C104"
-			(at 218.44 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 218.44 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.5952 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 214.63 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "67eedb37-d606-44a7-8deb-aa3039a239f5")
-		)
-		(pin "1"
-			(uuid "d28e26ed-18f2-4ae2-99e7-a2c1e4f3bc24")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C104")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -10059,7 +9595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b15c556-bdad-4c65-be18-fcbdf998cced")
-		(property "Reference" "JP13"
+		(property "Reference" "JP402"
 			(at 114.3 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +9615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +9657,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP13")
+					(reference "JP402")
 					(unit 1)
 				)
 			)
@@ -10139,7 +9675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb21493-9586-4493-b397-dfd1e2185941")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0431"
 			(at 157.48 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -10199,7 +9735,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0136")
+					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
@@ -10217,7 +9753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bbf305f-05ac-42c5-8df9-781cb1d3f5be")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0490"
 			(at 388.62 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10277,85 +9813,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 355.6 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cad44e0-1521-44b0-9d92-e9f5edff3a82")
-		(property "Reference" "#PWR0346"
-			(at 355.6 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IM_5V"
-			(at 355.6 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"IM_5V\""
-			(at 355.6 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4738ac64-a932-4f02-b340-471f7be5e052")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0346")
+					(reference "#PWR0490")
 					(unit 1)
 				)
 			)
@@ -10373,7 +9831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d104adb-21c7-4e11-be83-4fdd74f4a9c5")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0433"
 			(at 160.02 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10433,7 +9891,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0109")
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -10451,7 +9909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2c22e7-9641-4227-9cf4-6f958b98cb4a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0404"
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +9969,89 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0104")
+					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f8d160c-e487-44c3-aade-a1b198257a68")
+		(property "Reference" "R421"
+			(at 167.64 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 167.64 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 51.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K 0402"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2513ebdf-ef9b-4198-8fe1-51b0e108d320")
+		)
+		(pin "2"
+			(uuid "68d97b0c-18f6-4b1e-a0db-d24522522f67")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "R421")
 					(unit 1)
 				)
 			)
@@ -10529,7 +10069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fef41a0-7a52-46fe-91b2-6b0010202be5")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0435"
 			(at 162.56 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10589,7 +10129,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0114")
+					(reference "#PWR0435")
 					(unit 1)
 				)
 			)
@@ -10607,7 +10147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103803f0-f04a-4d74-8875-3a7f61770db9")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0405"
 			(at 44.45 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10667,7 +10207,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0308")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -10685,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145ed8be-b391-4231-87b5-3a3c36517266")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0442"
 			(at 195.58 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -10745,7 +10285,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0161")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -10763,7 +10303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16359954-f1c5-4860-b0fd-471e6130cdda")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0443"
 			(at 198.12 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10823,7 +10363,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0108")
+					(reference "#PWR0443")
 					(unit 1)
 				)
 			)
@@ -10842,7 +10382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b6fae1-5e52-4c2f-9a75-b2142f8c9e17")
-		(property "Reference" "D12"
+		(property "Reference" "D403"
 			(at 45.72 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,7 +10404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 49.53 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -10917,7 +10457,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D12")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -10934,7 +10474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b9216ca-18d7-49a5-b773-1a628a910ea0")
-		(property "Reference" "U26"
+		(property "Reference" "U408"
 			(at 373.38 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11133,7 +10673,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U26")
+					(reference "U408")
 					(unit 1)
 				)
 			)
@@ -11151,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d09b497-ef82-461b-895d-a7b11adeda69")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0456"
 			(at 233.68 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -11211,7 +10751,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0154")
+					(reference "#PWR0456")
 					(unit 1)
 				)
 			)
@@ -11229,7 +10769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2098df0b-9f3f-42cc-ae3e-94df21d9fc11")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0449"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11289,7 +10829,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR096")
+					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -11307,7 +10847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244240e4-38c2-4de2-a9b0-43002b444aea")
-		(property "Reference" "FB7"
+		(property "Reference" "FB403"
 			(at 170.1292 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 170.18 258.318 90)
 			(hide yes)
 			(show_name no)
@@ -11369,7 +10909,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB7")
+					(reference "FB403")
 					(unit 1)
 				)
 			)
@@ -11387,7 +10927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "264eb1e3-889c-4920-a4d0-82c354a542f8")
-		(property "Reference" "#PWR0326"
+		(property "Reference" "#PWR0409"
 			(at 62.23 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11447,7 +10987,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0326")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -11466,7 +11006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27c9b46d-2532-4b99-b143-e9de83ca84a4")
-		(property "Reference" "D4"
+		(property "Reference" "D410"
 			(at 121.92 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,7 +11028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -11541,7 +11081,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D4")
+					(reference "D410")
 					(unit 1)
 				)
 			)
@@ -11559,7 +11099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2981cf2f-8f70-48ff-bb75-3010bedd219c")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0418"
 			(at 105.41 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11619,7 +11159,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0116")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -11636,7 +11176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29c5618f-19e2-439c-aad0-b29b26785c00")
-		(property "Reference" "U20"
+		(property "Reference" "U404"
 			(at 241.3 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +11387,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U20")
+					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -11865,7 +11405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a4aa1d7-195d-41a9-bb41-9dcbe7e5d6af")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0476"
 			(at 334.01 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -11925,7 +11465,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0333")
+					(reference "#PWR0476")
 					(unit 1)
 				)
 			)
@@ -11943,7 +11483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b518cbe-47c0-49f3-ab26-a5d04b4fef9f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0447"
 			(at 213.36 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12003,7 +11543,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR091")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 			)
@@ -12020,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b552d35-a2b4-4b34-8f7d-f2e023984be7")
-		(property "Reference" "U21"
+		(property "Reference" "U405"
 			(at 241.3 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +11759,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U21")
+					(reference "U405")
 					(unit 1)
 				)
 			)
@@ -12236,7 +11776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b96c7c0-8c18-4ae0-9fd3-2d36e4a31fad")
-		(property "Reference" "R82"
+		(property "Reference" "R417"
 			(at 157.226 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12258,7 +11798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.036 180.594 90)
 			(hide yes)
 			(show_name no)
@@ -12300,7 +11840,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R82")
+					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -12318,7 +11858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba89e2b-ddda-420b-a756-128f280ddd60")
-		(property "Reference" "JP9"
+		(property "Reference" "JP406"
 			(at 228.6 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12338,7 +11878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 228.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12380,7 +11920,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP9")
+					(reference "JP406")
 					(unit 1)
 				)
 			)
@@ -12397,7 +11937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d384769-78fe-499f-b941-65a7738f6581")
-		(property "Reference" "U31"
+		(property "Reference" "U406"
 			(at 316.23 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12608,7 +12148,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U31")
+					(reference "U406")
 					(unit 1)
 				)
 			)
@@ -12626,7 +12166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2db832b4-51b7-49ef-87e3-2ddf8dd79cda")
-		(property "Reference" "C218"
+		(property "Reference" "C417"
 			(at 346.71 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12648,7 +12188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 349.5548 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12690,7 +12230,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C218")
+					(reference "C417")
 					(unit 1)
 				)
 			)
@@ -12707,7 +12247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33a610d4-9234-4d91-baae-b78347e93557")
-		(property "Reference" "R95"
+		(property "Reference" "R409"
 			(at 97.536 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,7 +12269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.346 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -12771,7 +12311,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R95")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -12788,7 +12328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33c12482-d35b-4dff-a41b-851701674209")
-		(property "Reference" "R81"
+		(property "Reference" "R416"
 			(at 157.226 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12810,7 +12350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.036 155.194 90)
 			(hide yes)
 			(show_name no)
@@ -12852,7 +12392,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R81")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -12869,7 +12409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35faed3e-c6ff-4fbb-be61-965f36da30cc")
-		(property "Reference" "#PWR0324"
+		(property "Reference" "#PWR0413"
 			(at 87.63 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -12929,7 +12469,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0324")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -12948,7 +12488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37782669-8830-4558-8dbc-ba6bf01c5029")
-		(property "Reference" "D2"
+		(property "Reference" "D411"
 			(at 134.62 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12970,7 +12510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 138.43 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -13023,7 +12563,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D2")
+					(reference "D411")
 					(unit 1)
 				)
 			)
@@ -13041,7 +12581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38d3aab9-5b7f-41b1-9ffe-77be16df6239")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0434"
 			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13101,7 +12641,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0110")
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -13119,7 +12659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "395c7a8f-ca9b-4ba2-85bf-e275218355f1")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0403"
 			(at 36.83 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -13179,7 +12719,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0320")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -13197,7 +12737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c5f2c5-147d-436b-8936-b4f10114a206")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0437"
 			(at 182.88 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13257,7 +12797,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0137")
+					(reference "#PWR0437")
 					(unit 1)
 				)
 			)
@@ -13275,7 +12815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cab45e5-b9a2-4f17-8d2b-2cc1ad50b442")
-		(property "Reference" "C99"
+		(property "Reference" "C407"
 			(at 154.94 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,7 +12837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13339,7 +12879,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C99")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -13357,7 +12897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1c0f58-bf7a-48c2-9451-6d95ff42e7b9")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR0420"
 			(at 113.03 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -13417,7 +12957,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0322")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -13435,7 +12975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5fa1ce-42a9-4e25-9948-357eb059cd1c")
-		(property "Reference" "C101"
+		(property "Reference" "C409"
 			(at 180.34 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +12997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.4952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13499,7 +13039,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C101")
+					(reference "C409")
 					(unit 1)
 				)
 			)
@@ -13517,7 +13057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d6b2a85-7773-447b-887c-980fc23bbc1f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0487"
 			(at 361.95 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13577,7 +13117,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR012")
+					(reference "#PWR0487")
 					(unit 1)
 				)
 			)
@@ -13595,7 +13135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8cf61e-5c92-47dd-a276-66e865ae39a4")
-		(property "Reference" "C102"
+		(property "Reference" "C410"
 			(at 193.04 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13617,7 +13157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13659,7 +13199,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C102")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -13677,7 +13217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed58f1b-1c07-4542-9621-23ad780407ad")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0469"
 			(at 295.91 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -13737,7 +13277,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0330")
+					(reference "#PWR0469")
 					(unit 1)
 				)
 			)
@@ -13755,7 +13295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407d6b1b-3524-4198-b790-226c76942c80")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0439"
 			(at 184.15 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13815,7 +13355,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0237")
+					(reference "#PWR0439")
 					(unit 1)
 				)
 			)
@@ -13833,7 +13373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a98d6a-2660-4835-8682-645d39c89bb0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0445"
 			(at 200.66 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13893,7 +13433,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR071")
+					(reference "#PWR0445")
 					(unit 1)
 				)
 			)
@@ -13911,7 +13451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "414c8b0c-a768-4666-bc4c-4ac63bcfc6aa")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR0479"
 			(at 350.52 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13971,7 +13511,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0341")
+					(reference "#PWR0479")
 					(unit 1)
 				)
 			)
@@ -13989,7 +13529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42e6bbef-fc39-42bb-a4d8-a503091a9f52")
-		(property "Reference" "R66"
+		(property "Reference" "R420"
 			(at 362.204 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14011,7 +13551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 358.394 104.394 90)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +13593,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R66")
+					(reference "R420")
 					(unit 1)
 				)
 			)
@@ -14071,7 +13611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4348d812-605d-4946-9748-ccee24045b6a")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0471"
 			(at 304.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14131,7 +13671,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0213")
+					(reference "#PWR0471")
 					(unit 1)
 				)
 			)
@@ -14149,7 +13689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f53e0b-05ed-470b-9ec5-d07819740fbb")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0422"
 			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14209,89 +13749,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 394.97 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "463617ee-4e94-4cc2-b633-9e79716917b1")
-		(property "Reference" "C245"
-			(at 398.78 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 398.78 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 395.9352 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 394.97 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1fe62f5c-b0f1-4d01-a100-23e16542fda3")
-		)
-		(pin "1"
-			(uuid "1cd66156-10b8-4164-92fc-d8eb27001c90")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C245")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -14308,7 +13766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c0c466-6582-4853-9e43-730b596bea98")
-		(property "Reference" "C85"
+		(property "Reference" "C421"
 			(at 396.24 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14330,7 +13788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 393.3952 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14372,7 +13830,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C85")
+					(reference "C421")
 					(unit 1)
 				)
 			)
@@ -14380,7 +13838,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 391.16 246.38 0)
+		(at 165.1 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14389,9 +13847,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4beef759-a91c-4c8a-a31b-37f7634af6d8")
-		(property "Reference" "#PWR0347"
-			(at 391.16 252.73 0)
+		(uuid "4db31eaa-8c26-43cd-84f9-6ac0c9371d7a")
+		(property "Reference" "#PWR0496"
+			(at 165.1 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14402,7 +13860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.16 251.46 0)
+			(at 165.1 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14412,7 +13870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 246.38 0)
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14423,7 +13881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 246.38 0)
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14434,7 +13892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 391.16 246.38 0)
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14445,12 +13903,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dfab7ac-1a68-481c-9d71-d6da51733d68")
+			(uuid "f167c5eb-3ddb-4814-aa20-b701f8ad35a9")
 		)
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0347")
+					(reference "#PWR0496")
 					(unit 1)
 				)
 			)
@@ -14468,7 +13926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8ae484-61f1-4e37-9717-e4a7a3e86a34")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0451"
 			(at 220.98 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14528,7 +13986,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0152")
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -14546,7 +14004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bc4bd6-282f-47c7-a340-53a37e4fee96")
-		(property "Reference" "L17"
+		(property "Reference" "L401"
 			(at 99.06 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14610,7 +14068,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "L17")
+					(reference "L401")
 					(unit 1)
 				)
 			)
@@ -14627,7 +14085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52d46aa1-4616-4fa8-804f-16f3b8a6863b")
-		(property "Reference" "R80"
+		(property "Reference" "R411"
 			(at 104.394 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14649,7 +14107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.584 172.466 90)
 			(hide yes)
 			(show_name no)
@@ -14691,7 +14149,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R80")
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -14710,7 +14168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557d63c5-fdb2-4af9-8564-17e128419048")
-		(property "Reference" "D11"
+		(property "Reference" "D404"
 			(at 58.42 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14732,7 +14190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 62.23 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -14785,7 +14243,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D11")
+					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -14803,7 +14261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f770fd-4010-4984-bc02-f126832454c8")
-		(property "Reference" "C64"
+		(property "Reference" "C420"
 			(at 372.11 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14825,7 +14283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.2652 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14867,7 +14325,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C64")
+					(reference "C420")
 					(unit 1)
 				)
 			)
@@ -14885,7 +14343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab9eeab-f617-4585-815d-198c3bf771aa")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0425"
 			(at 127 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -14945,85 +14403,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 134.62 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b1256fc-ab6f-4871-bdd8-6e3bed26692e")
-		(property "Reference" "#PWR0350"
-			(at 134.62 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDMI_5V"
-			(at 134.62 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"HDMI_5V\""
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03006887-17ab-4ceb-b15e-63a241649c43")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0350")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -15041,7 +14421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60508854-e1d4-4f66-a8cf-8426a35b5eec")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0461"
 			(at 259.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -15101,7 +14481,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0120")
+					(reference "#PWR0461")
 					(unit 1)
 				)
 			)
@@ -15118,7 +14498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60c3f341-e81e-4886-b72c-70e23f8b24e6")
-		(property "Reference" "R90"
+		(property "Reference" "R403"
 			(at 34.036 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15140,7 +14520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 37.846 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -15182,7 +14562,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R90")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -15200,7 +14580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61aec56e-530d-47d7-b796-356134d021cf")
-		(property "Reference" "FB2"
+		(property "Reference" "FB402"
 			(at 170.1292 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15220,7 +14600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 170.18 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -15262,7 +14642,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB2")
+					(reference "FB402")
 					(unit 1)
 				)
 			)
@@ -15280,7 +14660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "648ba16a-e0de-4e2c-8adb-00823030c7ae")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0485"
 			(at 359.41 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15340,7 +14720,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR094")
+					(reference "#PWR0485")
 					(unit 1)
 				)
 			)
@@ -15359,7 +14739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6648da3b-4862-4929-bb5a-af0d776bb7ca")
-		(property "Reference" "D10"
+		(property "Reference" "D405"
 			(at 71.12 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15381,7 +14761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 74.93 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -15434,7 +14814,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D10")
+					(reference "D405")
 					(unit 1)
 				)
 			)
@@ -15453,7 +14833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689e5fbd-0b13-4f8c-ab20-2ae535f64ecd")
-		(property "Reference" "D8"
+		(property "Reference" "D406"
 			(at 83.82 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15475,7 +14855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 87.63 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -15528,7 +14908,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D8")
+					(reference "D406")
 					(unit 1)
 				)
 			)
@@ -15546,7 +14926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a76949-2cb4-4f12-986e-f9be7056be06")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR0411"
 			(at 74.93 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -15606,7 +14986,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0323")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -15624,7 +15004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68df8e7c-f29b-4645-9a25-ecdfe0064044")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR0493"
 			(at 391.16 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15684,7 +15064,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0340")
+					(reference "#PWR0493")
 					(unit 1)
 				)
 			)
@@ -15702,7 +15082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9c7494-3499-4207-b7f9-c328d8dd65eb")
-		(property "Reference" "JP1"
+		(property "Reference" "JP409"
 			(at 377.19 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15722,7 +15102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 377.19 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15764,7 +15144,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP1")
+					(reference "JP409")
 					(unit 1)
 				)
 			)
@@ -15782,7 +15162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c924720-4a9a-4535-b605-e9928bdde9b4")
-		(property "Reference" "JP12"
+		(property "Reference" "JP403"
 			(at 129.54 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15804,7 +15184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 127 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -15846,7 +15226,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP12")
+					(reference "JP403")
 					(unit 1)
 				)
 			)
@@ -15864,7 +15244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d715418-f50c-4962-910f-e964613ea33f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0458"
 			(at 236.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15924,7 +15304,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR093")
+					(reference "#PWR0458")
 					(unit 1)
 				)
 			)
@@ -15942,7 +15322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dfa0357-56ac-4bbc-9675-0b74eb054638")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0483"
 			(at 355.6 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16002,7 +15382,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0339")
+					(reference "#PWR0483")
 					(unit 1)
 				)
 			)
@@ -16020,7 +15400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "716681e7-5582-4982-87d0-aabaa715a3f8")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0421"
 			(at 120.65 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16080,7 +15460,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0112")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -16098,7 +15478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72b17e70-a50a-4cf4-942f-1456a0d61484")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0488"
 			(at 368.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16158,7 +15538,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR075")
+					(reference "#PWR0488")
 					(unit 1)
 				)
 			)
@@ -16175,7 +15555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "734da602-46f3-4f4f-a5b3-31db09c18d68")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0460"
 			(at 241.3 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16235,7 +15615,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR098")
+					(reference "#PWR0460")
 					(unit 1)
 				)
 			)
@@ -16253,7 +15633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "744afd12-ccb8-4fb2-a353-4fd96ea0ee65")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0491"
 			(at 388.62 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16313,7 +15693,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR082")
+					(reference "#PWR0491")
 					(unit 1)
 				)
 			)
@@ -16331,7 +15711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75903ca1-1a10-40b7-a5a3-bb6c4ee7d911")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR0468"
 			(at 293.37 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -16391,7 +15771,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0342")
+					(reference "#PWR0468")
 					(unit 1)
 				)
 			)
@@ -16409,7 +15789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7811b4da-9ac0-47a1-a407-fdba211d3127")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0474"
 			(at 323.85 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -16469,7 +15849,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR066")
+					(reference "#PWR0474")
 					(unit 1)
 				)
 			)
@@ -16486,7 +15866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79707c1a-0a9e-4090-8934-7a577207e102")
-		(property "Reference" "R92"
+		(property "Reference" "R406"
 			(at 59.436 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16508,7 +15888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.246 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -16550,7 +15930,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R92")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -16569,7 +15949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be0a154-6c94-4444-a676-5c9265a5d21d")
-		(property "Reference" "D7"
+		(property "Reference" "D407"
 			(at 96.52 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16591,7 +15971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 100.33 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -16644,7 +16024,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D7")
+					(reference "D407")
 					(unit 1)
 				)
 			)
@@ -16662,7 +16042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be3ad84-1e8c-4731-b20b-3a142884cf8f")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0402"
 			(at 31.75 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16722,7 +16102,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0316")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -16740,7 +16120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d34145f-1d1e-4030-9542-ebabc3aa6a15")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0446"
 			(at 213.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16800,7 +16180,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR086")
+					(reference "#PWR0446")
 					(unit 1)
 				)
 			)
@@ -16817,7 +16197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d9f6435-c045-4847-b588-951546c43fa4")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0455"
 			(at 231.14 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16877,7 +16257,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR073")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 			)
@@ -16894,7 +16274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ef26bf9-63b6-415f-a0ed-40de8e364254")
-		(property "Reference" "R98"
+		(property "Reference" "R415"
 			(at 135.636 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16916,7 +16296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.446 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -16958,7 +16338,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R98")
+					(reference "R415")
 					(unit 1)
 				)
 			)
@@ -16976,7 +16356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f38ea6b-afab-436e-a87a-9d7b3bf14b81")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0428"
 			(at 151.13 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17036,85 +16416,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0244")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 391.16 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80eec903-c7a4-43e2-8d9d-5fded4dd5943")
-		(property "Reference" "#PWR0117"
-			(at 391.16 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDMI_3V3"
-			(at 391.16 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"HDMI_3V3\""
-			(at 391.16 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b89d12b9-07bc-4c33-b177-3f25a051a3e1")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0117")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -17132,7 +16434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c70d20-6632-4561-bad2-c85dfb8b8c85")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0470"
 			(at 298.45 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -17192,7 +16494,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0331")
+					(reference "#PWR0470")
 					(unit 1)
 				)
 			)
@@ -17210,7 +16512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8214f424-2b11-4285-9cf4-6b2f959bf30d")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0463"
 			(at 259.08 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -17270,7 +16572,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0158")
+					(reference "#PWR0463")
 					(unit 1)
 				)
 			)
@@ -17287,7 +16589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883be8dd-069a-4f2b-a28b-0900523c79a0")
-		(property "Reference" "R94"
+		(property "Reference" "R408"
 			(at 84.836 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17309,7 +16611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.646 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -17351,7 +16653,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R94")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -17369,7 +16671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf52308-315f-4d25-838b-f2a39cf7d870")
-		(property "Reference" "FB5"
+		(property "Reference" "FB407"
 			(at 246.3292 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17389,7 +16691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 246.38 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -17431,7 +16733,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB5")
+					(reference "FB407")
 					(unit 1)
 				)
 			)
@@ -17449,7 +16751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3fe181-d671-4175-908f-5186988c27b8")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0482"
 			(at 351.79 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17509,7 +16811,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR083")
+					(reference "#PWR0482")
 					(unit 1)
 				)
 			)
@@ -17526,7 +16828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8df7ba9f-bb6d-4ff8-95ec-778532ae255b")
-		(property "Reference" "U17"
+		(property "Reference" "U403"
 			(at 180.34 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17725,89 +17027,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e0ce8ca-2e75-483c-9dc4-8dc1f3a0c13d")
-		(property "Reference" "C103"
-			(at 205.74 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 205.74 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 202.8952 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 201.93 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4608be75-00f8-4cd4-8db4-36f70164d4fd")
-		)
-		(pin "1"
-			(uuid "36c804b5-569b-4b15-93e1-281d049e4922")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C103")
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -17825,7 +17045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8edae427-55f7-4495-a3aa-80888c85fbe7")
-		(property "Reference" "C229"
+		(property "Reference" "C401"
 			(at 35.56 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17889,7 +17109,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C229")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -17907,7 +17127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f130068-d875-4d5a-9821-32dd698c80fe")
-		(property "Reference" "C231"
+		(property "Reference" "C403"
 			(at 81.28 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17929,7 +17149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.1248 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17971,7 +17191,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C231")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -17989,7 +17209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90df4212-6c45-4af4-9b9d-e99b272ff36a")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0465"
 			(at 261.62 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18049,7 +17269,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR099")
+					(reference "#PWR0465")
 					(unit 1)
 				)
 			)
@@ -18067,7 +17287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937be7cf-927b-4e8b-9689-cb464b9f10aa")
-		(property "Reference" "JP6"
+		(property "Reference" "JP401"
 			(at 101.6 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18087,7 +17307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 101.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18129,7 +17349,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP6")
+					(reference "JP401")
 					(unit 1)
 				)
 			)
@@ -18147,7 +17367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94991347-aac8-49f5-bea8-ca9de70e129c")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0430"
 			(at 157.48 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -18207,7 +17427,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0133")
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
@@ -18224,7 +17444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95ab606d-5342-460c-a00e-739804f04f8d")
-		(property "Reference" "R76"
+		(property "Reference" "R402"
 			(at 26.416 188.976 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18246,7 +17466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 30.226 189.484 90)
 			(hide yes)
 			(show_name no)
@@ -18288,223 +17508,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP176AMX330TCG:NCP176AMX330TCG")
-		(at 373.38 236.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "96e6010a-9d74-4b07-a2a1-565075253fea")
-		(property "Reference" "U30"
-			(at 373.38 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP176AMX330TCG"
-			(at 373.38 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP176AMX330TCG:PSON40P120X120X45-7N_NCP176AMX330TCG"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-XDFN (1.2x1.2)"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "XFDFN-6 ON Semiconductor"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "XDFN-6 ON Semiconductor"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=eda"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=snap"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "NCP176AMX330TCG"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ON Semiconductor"
-			(at 373.38 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "b02d3dd3-0503-4b75-83cf-ec7782af38e7")
-		)
-		(pin "3"
-			(uuid "ffd4f970-b876-4f16-975c-4d0811fa6584")
-		)
-		(pin "6"
-			(uuid "794376b8-fbd9-457c-a6ef-c327ec308bcc")
-		)
-		(pin "2"
-			(uuid "741aa2a3-6b3f-436d-b524-77a6c228341d")
-		)
-		(pin "7"
-			(uuid "ed041b8f-cc98-4238-88ef-21dad71f32c0")
-		)
-		(pin "5"
-			(uuid "f269b001-45b9-4d0c-81f1-c748d9f26cb8")
-		)
-		(pin "4"
-			(uuid "075ee30e-e1b2-4f62-910d-fac1d3aedeea")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U30")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -18522,7 +17526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bd6348f-0d9b-4f43-a03b-de31e9c6d954")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0473"
 			(at 311.15 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -18582,7 +17586,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR014")
+					(reference "#PWR0473")
 					(unit 1)
 				)
 			)
@@ -18599,7 +17603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bffef17-c374-4a85-96ac-485057cfb414")
-		(property "Reference" "U3"
+		(property "Reference" "U407"
 			(at 342.9 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18619,7 +17623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "MIC5363-3-3YMT-TR:TMLF-6_MT_MCH"
 			(at 342.9 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18678,7 +17682,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U3")
+					(reference "U407")
 					(unit 1)
 				)
 			)
@@ -18696,7 +17700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c65ec3d-efd6-4b3f-b7a3-956e8420f820")
-		(property "Reference" "FB4"
+		(property "Reference" "FB405"
 			(at 208.2292 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18716,7 +17720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 208.28 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -18758,7 +17762,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB4")
+					(reference "FB405")
 					(unit 1)
 				)
 			)
@@ -18776,7 +17780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dbca7b4-1c17-4c2d-b555-14a64583956b")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0459"
 			(at 236.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18836,7 +17840,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR079")
+					(reference "#PWR0459")
 					(unit 1)
 				)
 			)
@@ -18855,7 +17859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25f5da9-ede5-483f-ad09-43cbddbf6801")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0407"
 			(at 49.53 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -18915,7 +17919,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0107")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -18932,7 +17936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3a47469-8619-4501-bce1-5d286b1514e2")
-		(property "Reference" "R103"
+		(property "Reference" "R418"
 			(at 293.116 233.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18954,7 +17958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 296.926 233.934 90)
 			(hide yes)
 			(show_name no)
@@ -18996,7 +18000,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R103")
+					(reference "R418")
 					(unit 1)
 				)
 			)
@@ -19015,7 +18019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a565718c-ca89-4316-a5fc-3f4b415d6ce9")
-		(property "Reference" "C84"
+		(property "Reference" "C419"
 			(at 347.98 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19037,7 +18041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 350.8248 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -19079,7 +18083,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C84")
+					(reference "C419")
 					(unit 1)
 				)
 			)
@@ -19096,7 +18100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9b12131-86fd-4a36-bd68-999942af347e")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR0489"
 			(at 387.35 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19156,7 +18160,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0344")
+					(reference "#PWR0489")
 					(unit 1)
 				)
 			)
@@ -19174,7 +18178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad288ffa-f116-4ea9-a0ed-3d484e7d74a2")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0481"
 			(at 351.79 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19234,7 +18238,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0226")
+					(reference "#PWR0481")
 					(unit 1)
 				)
 			)
@@ -19252,7 +18256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9e7f85-b15b-4024-b392-cc2d2ddb2721")
-		(property "Reference" "C182"
+		(property "Reference" "C422"
 			(at 398.78 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19274,7 +18278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 395.9352 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19316,7 +18320,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C182")
+					(reference "C422")
 					(unit 1)
 				)
 			)
@@ -19334,7 +18338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedaf427-70a9-4eb3-b812-7c74e0711869")
-		(property "Reference" "#PWR0283"
+		(property "Reference" "#PWR0486"
 			(at 359.41 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -19394,7 +18398,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0283")
+					(reference "#PWR0486")
 					(unit 1)
 				)
 			)
@@ -19412,7 +18416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ea2fb3-ca8c-4e5f-b71d-fe34ae08ec05")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0454"
 			(at 223.52 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -19472,7 +18476,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0118")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 			)
@@ -19490,7 +18494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44082d5-d7f8-4923-8ee2-0141a3b18f3c")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0424"
 			(at 125.73 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19550,7 +18554,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0106")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -19568,7 +18572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50eefe5-ed24-4108-87fe-c58777a9b224")
-		(property "Reference" "C100"
+		(property "Reference" "C408"
 			(at 167.64 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19590,7 +18594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -19632,7 +18636,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C100")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -19649,7 +18653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b549d777-bef4-4cb5-acdf-ce67d488083d")
-		(property "Reference" "R62"
+		(property "Reference" "R419"
 			(at 321.056 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19671,7 +18675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 324.866 170.434 90)
 			(hide yes)
 			(show_name no)
@@ -19713,7 +18717,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R62")
+					(reference "R419")
 					(unit 1)
 				)
 			)
@@ -19730,7 +18734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b64cbed1-6983-4d34-a958-e2584b668669")
-		(property "Reference" "R96"
+		(property "Reference" "R412"
 			(at 110.236 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19752,7 +18756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.046 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -19794,7 +18798,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R96")
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -19812,7 +18816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b775e39d-ed41-4a74-92ee-5692271f7ef4")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0419"
 			(at 110.49 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -19872,7 +18876,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0315")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -19890,7 +18894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b788609c-5ca0-4522-afea-f419726cf2bc")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0452"
 			(at 220.98 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19950,7 +18954,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0153")
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -19968,7 +18972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d212b7-f5cd-41c4-bcb0-9bd14a950935")
-		(property "Reference" "C239"
+		(property "Reference" "C415"
 			(at 289.56 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19990,7 +18994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -20032,7 +19036,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C239")
+					(reference "C415")
 					(unit 1)
 				)
 			)
@@ -20050,7 +19054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e2abbf-2b50-4474-ad3c-2b5eed952a85")
-		(property "Reference" "#PWR0325"
+		(property "Reference" "#PWR0427"
 			(at 138.43 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -20110,7 +19114,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0325")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -20128,7 +19132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce7ca7a-f770-4149-abf0-b3031a066eae")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0436"
 			(at 182.88 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -20188,7 +19192,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0134")
+					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -20206,7 +19210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c13b5cf0-7c91-4a13-91f8-689bced4c52f")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0475"
 			(at 334.01 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -20266,7 +19270,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0332")
+					(reference "#PWR0475")
 					(unit 1)
 				)
 			)
@@ -20283,7 +19287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13f4a75-3101-4b71-9705-dab917d3767c")
-		(property "Reference" "U16"
+		(property "Reference" "U402"
 			(at 180.34 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20494,89 +19498,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c25d0950-7d1d-46c3-9888-ee5d7b6f75f4")
-		(property "Reference" "C107"
-			(at 243.84 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 243.84 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.9952 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 240.03 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "024e8259-56d8-4b69-851c-db91845969d0")
-		)
-		(pin "1"
-			(uuid "1fd954d3-157e-44ff-81ee-f63d5397b487")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C107")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -20595,7 +19517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3d12094-662e-49e9-b197-5c499b76c2bf")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0401"
 			(at 24.13 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -20655,7 +19577,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0321")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -20673,7 +19595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a57ea8-1197-4358-8493-74f5d371537a")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0462"
 			(at 259.08 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -20733,7 +19655,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0157")
+					(reference "#PWR0462")
 					(unit 1)
 				)
 			)
@@ -20751,7 +19673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e5d420-bfca-4d49-9986-28a38f806dd9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0408"
 			(at 57.15 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20811,7 +19733,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR046")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -20829,7 +19751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82af15e-1da3-4904-a418-5aabc12a50b9")
-		(property "Reference" "FB6"
+		(property "Reference" "FB408"
 			(at 246.3292 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20849,7 +19771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 246.38 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -20891,89 +19813,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 350.52 237.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c92055ae-9e4e-4121-9d04-c411041aea87")
-		(property "Reference" "C244"
-			(at 346.71 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 346.71 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.5548 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 350.52 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "542871da-fc42-4898-89a6-8b3a7dfded82")
-		)
-		(pin "1"
-			(uuid "29bd1f23-09b1-475b-bc5c-e3a4b51e04e3")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C244")
+					(reference "FB408")
 					(unit 1)
 				)
 			)
@@ -20991,7 +19831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9da4bf8-0e69-423d-ba39-1906d7cf7191")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0466"
 			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21051,7 +19891,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0100")
+					(reference "#PWR0466")
 					(unit 1)
 				)
 			)
@@ -21069,7 +19909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce75a1c-d7cf-4858-a2bb-ea5f68fada83")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0441"
 			(at 195.58 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -21129,7 +19969,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0150")
+					(reference "#PWR0441")
 					(unit 1)
 				)
 			)
@@ -21148,7 +19988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde290c8-ab10-4d61-9b27-707a8675a348")
-		(property "Reference" "C65"
+		(property "Reference" "C416"
 			(at 307.34 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21170,7 +20010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 310.1848 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21212,7 +20052,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C65")
+					(reference "C416")
 					(unit 1)
 				)
 			)
@@ -21230,7 +20070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11c0c18-80c0-45bd-8d0e-6e10403312ba")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0406"
 			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21290,7 +20130,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0314")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -21308,7 +20148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53f85dc-2524-454d-a04b-14b06de692e8")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0417"
 			(at 100.33 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -21368,7 +20208,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0105")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -21386,7 +20226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d55548e6-afd0-49f7-9a77-e6fb6d07f4b1")
-		(property "Reference" "C232"
+		(property "Reference" "C404"
 			(at 85.09 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21450,7 +20290,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C232")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -21469,7 +20309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c09c7a-a56b-4dec-a96f-74829b6dab37")
-		(property "Reference" "D6"
+		(property "Reference" "D409"
 			(at 109.22 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21491,7 +20331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 113.03 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -21544,7 +20384,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D6")
+					(reference "D409")
 					(unit 1)
 				)
 			)
@@ -21562,7 +20402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8220511-0f5e-45ab-ac46-48c1e61ef091")
-		(property "Reference" "#PWR0327"
+		(property "Reference" "#PWR0414"
 			(at 87.63 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -21622,7 +20462,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0327")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -21641,7 +20481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8a29186-5daa-4927-966f-c86557bcf5c7")
-		(property "Reference" "D15"
+		(property "Reference" "D401"
 			(at 20.32 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21663,7 +20503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 24.13 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -21716,7 +20556,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D15")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -21733,7 +20573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d01c74-417a-4fe8-b16f-174bf147d27d")
-		(property "Reference" "R79"
+		(property "Reference" "R410"
 			(at 104.394 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21755,7 +20595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.584 157.226 90)
 			(hide yes)
 			(show_name no)
@@ -21797,7 +20637,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R79")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -21815,7 +20655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9389ea4-c0c2-4dfc-9e6f-457f40852a72")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0457"
 			(at 233.68 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -21875,7 +20715,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0156")
+					(reference "#PWR0457")
 					(unit 1)
 				)
 			)
@@ -21893,7 +20733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ce4714-6f47-4ebd-a74b-998d80eb8621")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0432"
 			(at 157.48 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -21953,7 +20793,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0160")
+					(reference "#PWR0432")
 					(unit 1)
 				)
 			)
@@ -21971,7 +20811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da0870a0-3ee6-464b-b2df-95ee379277d1")
-		(property "Reference" "JP11"
+		(property "Reference" "JP407"
 			(at 345.44 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21991,7 +20831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 345.44 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -22033,7 +20873,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP11")
+					(reference "JP407")
 					(unit 1)
 				)
 			)
@@ -22050,7 +20890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da478494-dd97-4ca1-be62-77f7eb2b2401")
-		(property "Reference" "R97"
+		(property "Reference" "R414"
 			(at 122.936 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22072,7 +20912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 126.746 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -22114,7 +20954,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R97")
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -22131,7 +20971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5fa639-6970-450e-9552-5e74ab59190e")
-		(property "Reference" "R77"
+		(property "Reference" "R404"
 			(at 42.418 191.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22153,7 +20993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.704 184.404 90)
 			(hide yes)
 			(show_name no)
@@ -22195,7 +21035,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R77")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -22214,7 +21054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db66d42e-ad5d-4e27-8ffa-6e93c8fb08e9")
-		(property "Reference" "D14"
+		(property "Reference" "D402"
 			(at 33.02 249.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22236,7 +21076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 36.83 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -22289,7 +21129,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D14")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -22307,7 +21147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf7c543-0b9c-47f0-9134-650d605f9c81")
-		(property "Reference" "C234"
+		(property "Reference" "C406"
 			(at 130.81 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22371,7 +21211,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C234")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -22389,7 +21229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de368d35-2083-4f9b-bb61-32a66cdd6394")
-		(property "Reference" "#PWR0245"
+		(property "Reference" "#PWR0429"
 			(at 151.13 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -22449,7 +21289,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0245")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -22467,7 +21307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e06f1130-ca54-47bb-b6d3-f0fd009eaa51")
-		(property "Reference" "JP7"
+		(property "Reference" "JP405"
 			(at 228.6 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22487,7 +21327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 228.6 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22529,7 +21369,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP7")
+					(reference "JP405")
 					(unit 1)
 				)
 			)
@@ -22547,7 +21387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0747039-8aa1-430f-b9fe-31005be510eb")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0477"
 			(at 337.82 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -22607,7 +21447,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0264")
+					(reference "#PWR0477")
 					(unit 1)
 				)
 			)
@@ -22625,7 +21465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fa45e2-baeb-42d6-b1c6-f6f134558662")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0415"
 			(at 88.9 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22685,85 +21525,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0178")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e266b893-1645-43b5-84c2-812145597ee6")
-		(property "Reference" "#PWR0345"
-			(at 350.52 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29d5a629-8789-45e0-803a-21c98f0807a2")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0345")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -22780,7 +21542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3f32266-289d-4fae-a706-e7d4c36f3eca")
-		(property "Reference" "D3"
+		(property "Reference" "D408"
 			(at 112.7125 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22952,7 +21714,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "D3")
+					(reference "D408")
 					(unit 1)
 				)
 			)
@@ -22969,7 +21731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e69996c3-a5f7-464a-974a-1aea46e57afe")
-		(property "Reference" "C230"
+		(property "Reference" "C402"
 			(at 53.34 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22991,7 +21753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.4952 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -23033,7 +21795,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C230")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -23050,7 +21812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6d93e2b-e16b-4cca-b638-9f716641aff8")
-		(property "Reference" "R89"
+		(property "Reference" "R401"
 			(at 21.336 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23072,7 +21834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.146 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -23114,7 +21876,89 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R89")
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 339.09 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6fb5eb6-11ea-44d9-b2c4-a2d5c2ca4251")
+		(property "Reference" "C411"
+			(at 342.9 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 342.9 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 340.0552 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF 0402"
+			(at 339.09 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "639f7f7e-8909-463d-81ea-abcf8d3bd207")
+		)
+		(pin "1"
+			(uuid "6b70e3a8-648a-4cbd-a4e8-7e89fefb48e1")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "C411")
 					(unit 1)
 				)
 			)
@@ -23132,7 +21976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75ad988-4716-49b2-90d6-49ddada30123")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0492"
 			(at 391.16 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -23192,7 +22036,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR085")
+					(reference "#PWR0492")
 					(unit 1)
 				)
 			)
@@ -23210,7 +22054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec45b0bb-d53a-40e4-a402-e3c44517eb54")
-		(property "Reference" "FB3"
+		(property "Reference" "FB404"
 			(at 208.2292 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23230,7 +22074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 208.28 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -23272,7 +22116,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB3")
+					(reference "FB404")
 					(unit 1)
 				)
 			)
@@ -23290,7 +22134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee596bdb-a3f0-41a6-8cce-5977b17191b1")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0467"
 			(at 274.32 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -23350,7 +22194,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0101")
+					(reference "#PWR0467")
 					(unit 1)
 				)
 			)
@@ -23368,7 +22212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17da72e-1810-4c81-8283-2ef3c35d1537")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0453"
 			(at 220.98 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -23428,7 +22272,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0164")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
@@ -23446,7 +22290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19a6242-1f03-41be-b4cd-90bb1e92f22c")
-		(property "Reference" "U15"
+		(property "Reference" "U401"
 			(at 69.85 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23644,7 +22488,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U15")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -23662,7 +22506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f202115b-740c-40f3-b6fb-3e871461fdae")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0444"
 			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -23722,7 +22566,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR078")
+					(reference "#PWR0444")
 					(unit 1)
 				)
 			)
@@ -23740,7 +22584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f24fa215-9283-4f99-822e-b35c591ecc44")
-		(property "Reference" "JP8"
+		(property "Reference" "JP404"
 			(at 224.79 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23760,7 +22604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 224.79 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23802,7 +22646,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP8")
+					(reference "JP404")
 					(unit 1)
 				)
 			)
@@ -23819,7 +22663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f264567a-41af-419d-81ca-aea3296ed42f")
-		(property "Reference" "R93"
+		(property "Reference" "R407"
 			(at 72.136 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23841,7 +22685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 75.946 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -23883,89 +22727,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 227.33 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a9c9fa-994a-47e6-9a09-0587dd4fc3af")
-		(property "Reference" "C106"
-			(at 231.14 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 231.14 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.2952 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 0402"
-			(at 227.33 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2351ae6f-9006-47ae-b464-03f3cfbc318b")
-		)
-		(pin "1"
-			(uuid "ffaa9798-cb23-468e-bef5-2e77c8874d0f")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C106")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -23983,7 +22745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34fa554-db3d-428f-929c-0682ac067a3b")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0440"
 			(at 195.58 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -24043,7 +22805,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0138")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -24061,7 +22823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f359d69b-ca6a-4eec-8816-ad0409fc8d34")
-		(property "Reference" "FB1"
+		(property "Reference" "FB401"
 			(at 170.1292 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24081,7 +22843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 170.18 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -24123,7 +22885,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "FB1")
+					(reference "FB401")
 					(unit 1)
 				)
 			)
@@ -24140,7 +22902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6154604-b49d-44d4-804b-72564024e020")
-		(property "Reference" "C233"
+		(property "Reference" "C405"
 			(at 110.49 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24162,7 +22924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 166.6748 0)
 			(hide yes)
 			(show_name no)
@@ -24204,7 +22966,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "C233")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -24222,7 +22984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7325173-4a1d-4378-a8c7-f644fc313803")
-		(property "Reference" "#PWR0297"
+		(property "Reference" "#PWR0478"
 			(at 340.36 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -24282,7 +23044,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0297")
+					(reference "#PWR0478")
 					(unit 1)
 				)
 			)
@@ -24299,7 +23061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad1a8f3-33e3-4a29-99c6-7d4414af05a2")
-		(property "Reference" "U6"
+		(property "Reference" "U410"
 			(at 374.65 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24459,7 +23221,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U6")
+					(reference "U410")
 					(unit 1)
 				)
 			)
@@ -24477,7 +23239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb95cf8-5cb5-4a53-a680-15fe1071463e")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0438"
 			(at 182.88 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -24537,7 +23299,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0162")
+					(reference "#PWR0438")
 					(unit 1)
 				)
 			)
@@ -24554,7 +23316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc73f2f1-fe1c-4925-92a3-76d06aaf490f")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0448"
 			(at 217.17 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -24614,7 +23376,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR097")
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -24632,7 +23394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea4f6ff-eafe-43c6-9d65-9d98189c3f29")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0423"
 			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -24692,7 +23454,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR048")
+					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
@@ -24710,7 +23472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff51508c-3f2c-4d1f-825d-e7a83d368fef")
-		(property "Reference" "JP10"
+		(property "Reference" "JP408"
 			(at 349.25 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24730,7 +23492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMLF-6_MT_MCH"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 349.25 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24772,7 +23534,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "JP10")
+					(reference "JP408")
 					(unit 1)
 				)
 			)
@@ -24790,7 +23552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff576185-3983-4065-917f-1544c5a9c956")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0410"
 			(at 69.85 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -24850,7 +23612,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0180")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -24868,7 +23630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff692d24-034c-42bf-8fa2-1f3dae96714c")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0472"
 			(at 311.15 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -24928,7 +23690,7 @@
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0113")
+					(reference "#PWR0472")
 					(unit 1)
 				)
 			)
