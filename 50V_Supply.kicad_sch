@@ -5484,8 +5484,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "493f2263-8c60-4d24-8fbc-8c5ad9240ce1")
-		(property "Reference" "#PWR01408"
+		(uuid "4916dd05-644a-464f-bead-2cd7eb927e57")
+		(property "Reference" "#PWR01416"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5496,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Value" "PULSER_100V"
+		(property "Value" "PULSER_50V_PRE"
 			(at 171.45 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5528,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PULSER_100V\""
+		(property "Description" "Power symbol creates a global label with name \"PULSER_50V_PRE\""
 			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5540,12 +5540,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8755a1e-2d57-4472-a492-6bbc10029e65")
+			(uuid "d46fe70d-6f21-496c-8126-92180a00e4bd")
 		)
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
-					(reference "#PWR01408")
+					(reference "#PWR01416")
 					(unit 1)
 				)
 			)

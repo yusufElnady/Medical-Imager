@@ -5,9 +5,9 @@
 	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
 	(paper "A3")
 	(lib_symbols)
-	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- ENSURE STRAPPING RESISTORS ARE AT ALL CS/EN PINS"
+	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- ENSURE STRAPPING RESISTORS ARE AT ALL CS/EN PINS\n- Add LEDs at all unconnected PG signals"
 		(exclude_from_sim no)
-		(at 119.126 211.836 0)
+		(at 98.044 199.39 0)
 		(effects
 			(font
 				(size 3 3)
@@ -17,6 +17,18 @@
 			(justify left)
 		)
 		(uuid "9976fc71-3c34-4230-9889-2bf06dbc31a9")
+	)
+	(no_connect
+		(at 127 38.1)
+		(uuid "5a81f1cc-fc4a-4f56-ad16-f2cf6fc1f93f")
+	)
+	(no_connect
+		(at 86.36 38.1)
+		(uuid "70957406-fae0-4843-a771-291582302512")
+	)
+	(no_connect
+		(at 96.52 38.1)
+		(uuid "b44e3319-5723-494c-b217-c0cb6219bdc9")
 	)
 	(no_connect
 		(at 78.74 44.45)
@@ -81,16 +93,6 @@
 			(type default)
 		)
 		(uuid "1605744b-a136-4c69-8645-fa44f11acfd5")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 96.52 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166f7e1f-af80-491b-a759-39b98a7a6fe4")
 	)
 	(wire
 		(pts
@@ -221,16 +223,6 @@
 			(type default)
 		)
 		(uuid "380cff9d-3176-4762-8825-4c4c168f583a")
-	)
-	(wire
-		(pts
-			(xy 86.36 38.1) (xy 86.36 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aba278f-54d0-4828-ad7f-4432a93c1601")
 	)
 	(wire
 		(pts
@@ -604,6 +596,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 133.35) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae24e0a6-f0b9-461c-b1fd-595bb6cdd406")
+	)
+	(wire
+		(pts
 			(xy 165.1 100.33) (xy 177.8 100.33)
 		)
 		(stroke
@@ -654,6 +656,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 138.43) (xy 63.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b881312b-c3a1-4d04-a858-03f409f3b5f6")
+	)
+	(wire
+		(pts
 			(xy 119.38 38.1) (xy 119.38 44.45)
 		)
 		(stroke
@@ -661,6 +673,16 @@
 			(type default)
 		)
 		(uuid "b92af566-f1bf-4bf9-9c62-8e4ee81837f2")
+	)
+	(wire
+		(pts
+			(xy 50.8 135.89) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92de4b0-3544-4dc7-830f-8509777c7ced")
 	)
 	(wire
 		(pts
@@ -751,6 +773,16 @@
 			(type default)
 		)
 		(uuid "cf572a2d-920b-4766-bf08-09cf27bf5395")
+	)
+	(wire
+		(pts
+			(xy 50.8 143.51) (xy 63.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b1c08d-d970-48e0-9fc4-56e3557827cd")
 	)
 	(wire
 		(pts
@@ -864,6 +896,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 140.97) (xy 63.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0923d07-ac8d-405f-8ff8-643b695fa99f")
+	)
+	(wire
+		(pts
 			(xy 50.8 54.61) (xy 63.5 54.61)
 		)
 		(stroke
@@ -901,16 +943,6 @@
 			(type default)
 		)
 		(uuid "fb444148-d27d-435f-b226-2841ec77d669")
-	)
-	(wire
-		(pts
-			(xy 127 38.1) (xy 127 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7f7671-2760-4eb0-877a-d633d66c9d68")
 	)
 	(wire
 		(pts
@@ -2558,7 +2590,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_26MHZ" input
+		(pin "USB_26MHZ" bidirectional
 			(at 50.8 77.47 0)
 			(uuid "2600642f-866d-43da-905d-0616af3c2971")
 			(effects
@@ -2601,6 +2633,16 @@
 		(pin "LCD_TX_MAIN" output
 			(at 50.8 135.89 0)
 			(uuid "ede5374b-0bc0-483a-8ab7-f0d5b4b85e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_POWER" input
+			(at 50.8 133.35 0)
+			(uuid "1d2f763e-6c59-4771-86dc-05d11c4ffccf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,29 +3046,9 @@
 				(justify right)
 			)
 		)
-		(pin "SOM_5V_PG" input
-			(at 86.36 44.45 90)
-			(uuid "9954f5bd-9903-448c-b163-4c6121ec4477")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "50V_EN" output
 			(at 111.76 44.45 90)
 			(uuid "4ec2aa83-8554-4779-a2a0-7de05d16af83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CLK_PWR_EN" output
-			(at 96.52 44.45 90)
-			(uuid "f3a60948-ef3c-4abd-9976-26ef72cda356")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,16 +3386,6 @@
 				(justify right)
 			)
 		)
-		(pin "CLK_1V8_EN" output
-			(at 127 44.45 90)
-			(uuid "eee68f70-7a35-43c3-94f0-b21495c7698a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "AFE_3V3_EN" output
 			(at 119.38 44.45 90)
 			(uuid "d2f35122-381c-451a-a012-b46ee600f99b")
@@ -3504,9 +3516,59 @@
 				(justify left)
 			)
 		)
-		(pin "USB_26MHZ" output
+		(pin "USB_26MHZ" bidirectional
 			(at 63.5 77.47 180)
 			(uuid "ab6f8030-cb46-49dd-aa90-1aeedce32243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_TX_AUX" input
+			(at 63.5 140.97 180)
+			(uuid "b3e80b0f-f40c-4511-96c3-0a512d55f917")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_RX_MAIN" output
+			(at 63.5 138.43 180)
+			(uuid "759bbe6b-78e1-41c3-91e1-245b6f8dad1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_RX_AUX" output
+			(at 63.5 143.51 180)
+			(uuid "8383715e-45cb-40e1-ae59-5fe16dceaa52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_POWER" output
+			(at 63.5 133.35 180)
+			(uuid "9d9d2877-2249-4de5-b555-5108f375ccb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_TX_MAIN" input
+			(at 63.5 135.89 180)
+			(uuid "5bfd0275-86c7-4185-8dda-9da9142aca2f")
 			(effects
 				(font
 					(size 1.27 1.27)

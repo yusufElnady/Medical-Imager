@@ -1479,12 +1479,6 @@
 		(uuid "30555a21-5bed-4454-b6ec-ba4301ec6fc2")
 	)
 	(junction
-		(at 72.39 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d7113b-6015-4a02-ab16-d9cc9e9dbff2")
-	)
-	(junction
 		(at 190.5 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1507,12 +1501,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a8bc85b-fef6-4ba2-96b0-6b0937133369")
-	)
-	(junction
-		(at 165.1 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "622d2a54-a0fb-4344-8257-5464f14bc95e")
 	)
 	(junction
 		(at 50.8 165.1)
@@ -1563,12 +1551,6 @@
 		(uuid "a69d2cd0-03b1-47e4-9cb8-57036bae7431")
 	)
 	(junction
-		(at 165.1 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab624606-83ca-40fc-834b-691ddc5025fe")
-	)
-	(junction
 		(at 322.58 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1591,12 +1573,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9cda912-b9dd-436e-a56e-4cebf033928b")
-	)
-	(junction
-		(at 152.4 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0de1cf-ca9d-41ba-abf0-0f89a427cfda")
 	)
 	(junction
 		(at 231.14 149.86)
@@ -1633,12 +1609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec929bd0-f0ba-4674-9899-22aa9555fa5b")
-	)
-	(junction
-		(at 152.4 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9d746e9-589a-4a64-8ef6-24ee42a0f840")
 	)
 	(junction
 		(at 199.39 137.16)
@@ -2352,16 +2322,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 177.8) (xy 165.1 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0846fa22-c7fa-4928-b4f2-1d3dd8417a47")
-	)
-	(wire
-		(pts
 			(xy 317.5 87.63) (xy 330.2 87.63)
 		)
 		(stroke
@@ -2559,26 +2519,6 @@
 			(type default)
 		)
 		(uuid "23371374-eef4-40a9-b98b-f939bfa9f0c8")
-	)
-	(wire
-		(pts
-			(xy 165.1 165.1) (xy 165.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2384312d-9bd1-44c3-a19f-88ae27b1682c")
-	)
-	(wire
-		(pts
-			(xy 177.8 175.26) (xy 177.8 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23ac0c6f-4d6f-4489-b042-9a115d0bec0c")
 	)
 	(wire
 		(pts
@@ -2890,16 +2830,6 @@
 		)
 		(uuid "406c4788-9e91-4be6-8bf5-2b86909c82f2")
 	)
-	(wire
-		(pts
-			(xy 177.8 167.64) (xy 177.8 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a341c5-f4d5-43aa-93a4-4d1cb03a6b9b")
-	)
 	(bus
 		(pts
 			(xy 381 151.13) (xy 383.54 151.13)
@@ -3050,16 +2980,6 @@
 		)
 		(uuid "4e344a4e-ffe2-4401-8969-479e926d996d")
 	)
-	(wire
-		(pts
-			(xy 59.69 144.78) (xy 72.39 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502b6ca7-ca67-4bc4-9f87-7b5be499e8f5")
-	)
 	(bus
 		(pts
 			(xy 370.84 139.7) (xy 370.84 149.86)
@@ -3129,16 +3049,6 @@
 			(type default)
 		)
 		(uuid "54452d0e-f28c-4d48-89a3-1b5af3b02274")
-	)
-	(wire
-		(pts
-			(xy 165.1 165.1) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "559dbe89-a3a5-400a-929a-b9bd0f132ccf")
 	)
 	(wire
 		(pts
@@ -3352,16 +3262,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 132.08) (xy 72.39 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69be886b-d423-4809-af02-ec0455408f31")
-	)
-	(wire
-		(pts
 			(xy 127 228.6) (xy 127 229.87)
 		)
 		(stroke
@@ -3472,16 +3372,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 177.8) (xy 165.1 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76029bc0-8cf9-4cfc-8101-d8c195424bdb")
-	)
-	(wire
-		(pts
 			(xy 330.2 34.29) (xy 317.5 34.29)
 		)
 		(stroke
@@ -3529,16 +3419,6 @@
 			(type default)
 		)
 		(uuid "7aa4929f-0a48-4200-8440-9173c1ad07b8")
-	)
-	(wire
-		(pts
-			(xy 59.69 134.62) (xy 59.69 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d562148-41e9-48e5-a4f0-8a2d691952a7")
 	)
 	(wire
 		(pts
@@ -3982,16 +3862,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 165.1) (xy 165.1 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d1a133-dab3-48da-9362-f6a1e9a0dd85")
-	)
-	(wire
-		(pts
 			(xy 63.5 167.64) (xy 63.5 165.1)
 		)
 		(stroke
@@ -4052,16 +3922,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 142.24) (xy 59.69 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6d93ac-61b2-40b3-aee5-2cb5300998de")
-	)
-	(wire
-		(pts
 			(xy 355.6 227.33) (xy 378.46 227.33)
 		)
 		(stroke
@@ -4119,16 +3979,6 @@
 			(type default)
 		)
 		(uuid "aff1b978-aa8a-4be4-bf40-42fc09ee1287")
-	)
-	(wire
-		(pts
-			(xy 165.1 177.8) (xy 152.4 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b047dbfd-4d9b-478c-b6f5-0c6ffb699759")
 	)
 	(wire
 		(pts
@@ -5436,7 +5286,7 @@
 		(uuid "527518c7-c6ed-4711-8a8c-acc130c8dd95")
 	)
 	(label "CLKOUT_B1_P"
-		(at 317.5 222.25 180)
+		(at 317.5 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,7 +5306,7 @@
 		(uuid "559171d4-0be6-4d0a-a1e0-e22b6d3e2d6d")
 	)
 	(label "CLKOUT_B0_P"
-		(at 317.5 158.75 180)
+		(at 317.5 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5516,7 +5366,7 @@
 		(uuid "67cd26d9-c488-4a85-9ab8-cbd821a90814")
 	)
 	(label "CLKOUT_A1_P"
-		(at 317.5 95.25 180)
+		(at 317.5 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5826,7 +5676,7 @@
 		(uuid "b076e160-b84b-4100-a219-a3db0723ddea")
 	)
 	(label "CLKOUT_B1_N"
-		(at 317.5 224.79 180)
+		(at 317.5 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5866,7 +5716,7 @@
 		(uuid "b3f602ab-3511-4d5a-972f-1684513e1b9c")
 	)
 	(label "CLKOUT_A0_N"
-		(at 317.5 34.29 180)
+		(at 317.5 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5906,7 +5756,7 @@
 		(uuid "baf8bc63-54b8-42d3-b83f-c741f60172c2")
 	)
 	(label "CLKOUT_A1_N"
-		(at 317.5 97.79 180)
+		(at 317.5 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5916,7 +5766,7 @@
 		(uuid "bcb235cd-ff66-47e6-861c-44846da6f37b")
 	)
 	(label "CLKOUT_B0_N"
-		(at 317.5 161.29 180)
+		(at 317.5 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6026,7 +5876,7 @@
 		(uuid "e4cc7857-9dda-4f76-a3dc-309c916303d8")
 	)
 	(label "CLKOUT_A0_P"
-		(at 317.5 31.75 180)
+		(at 317.5 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7217,88 +7067,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 171.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21f62473-51b7-4cb7-a83c-f4d8127bf1df")
-		(property "Reference" "C325"
-			(at 168.91 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 168.91 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 164.1348 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 165.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ce78777-7d7a-416f-b355-eb4c90c6b7cb")
-		)
-		(pin "1"
-			(uuid "c9fe46a4-79f7-4f21-8d03-47ebcf6dc9f6")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
-					(reference "C325")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 50.8 171.45 180)
 		(unit 1)
 		(body_style 1)
@@ -7862,88 +7630,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c36c4d3-4310-4627-8a94-1e1ab9c32170")
-		(property "Reference" "C308"
-			(at 63.5 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 63.5 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.7248 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 0402"
-			(at 59.69 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7140aed5-40c5-4c63-b732-a776ae84535d")
-		)
-		(pin "1"
-			(uuid "7e73f449-1b8e-4e09-862b-16fd4a6af5d0")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
-					(reference "C308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 127 223.52 0)
 		(unit 1)
 		(body_style 1)
@@ -8464,88 +8150,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
 					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.8 171.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c886cf4-ea2c-42d0-9800-3217ba96fcb1")
-		(property "Reference" "C326"
-			(at 181.61 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 181.61 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.8348 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 0402"
-			(at 177.8 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1180dfe-e1bc-4bbc-aaf0-24114d501b5b")
-		)
-		(pin "1"
-			(uuid "bb798013-1e8f-48b2-ad60-dba72974438f")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/ba161b84-3650-478e-81fe-b4f2d77a0043"
-					(reference "C326")
 					(unit 1)
 				)
 			)
