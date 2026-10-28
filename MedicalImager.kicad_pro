@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -153,9 +159,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.12,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +209,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.125,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +247,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -495,7 +529,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,11 +540,47 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "name": "AFE_OUTPUTS",
+        "pcb_color": "rgb(255, 235, 3)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.192,
+        "tuning_profile": "Internal Coplanar Single Ended",
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "name": "PULSER_SIGNALS",
+        "pcb_color": "rgb(249, 118, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.192,
+        "tuning_profile": "Internal Coplanar Single Ended",
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "name": "TR_OUTPUTS",
+        "pcb_color": "rgb(65, 255, 18)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2631,
+        "tuning_profile": "External Coplanar Single Ended",
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -518,7 +588,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "AFE_OUTPUTS",
+        "pattern": "*AFE_OUTPUT*"
+      },
+      {
+        "netclass": "TR_OUTPUTS",
+        "pattern": "*TR_OUT*"
+      },
+      {
+        "netclass": "PULSER_SIGNALS",
+        "pattern": "/SOM/PULSER*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +744,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "SW1-2,SW501,R1-111,R116-119,R201-207,R301-306,R401-421,R501,R601-609,R701-709,R801-809,R901-909,R1001-1008,R1101-1102,R1301-1303,R1401-1406,R1501-1502,R1601-1606,R1701-1703,R1801-1802,R1901-1905,R2001-2005,JP1-18,JP401-409,JP501-504,JP1001,JP1401-1402,JP1601-1602,C1-262,C301-327,C401-423,C501-521,C601-628,C701-728,C801-828,C901-928,C1001-1019,C1101-1105,C1301-1306,C1401-1411,C1501-1505,C1601-1611,C1701-1706,C1801-1805,C1901-1910,C2001-2010,D1-21,D401-411,D601-604,D701-704,D801-804,D901-904,D1401-1402,D1601-1602,U1-32,U201,U301-302,U401-410,U601,U701,U801,U901,U1001-1005,U1101,U1301,U1401,U1501,U1601,U1701,U1801,U1901,U2001,F1,F1001,Q1-3,Q1001,Q1401,Q1601,L1-19,L401,L1101,L1301,L1401-1405,L1501,L1601-1605,L1701,L1801,L1901,L2001,FB1-9,FB401-408,CR1,#PWR1-359,#PWR401-496,#PWR501-535,#PWR601-617,#PWR701-717,#PWR801-817,#PWR901-917,#PWR1001-1060,#PWR1101-1104,#PWR1301-1304,#PWR1401-1416,#PWR1501-1504,#PWR1601-1615,#PWR1701-1704,#PWR1801-1804,#PWR1901-1907,#PWR2001-2007,Y1-4,Y301,Y1001,T1-8,J1-7,J501-502,J1001-1005,IC1",
+    "used_designators": "Q1-3,Q1001,Q1401,Q1601,F1,F1001,CR1,FB1-9,FB401-408,L1-19,L401,L1101,L1301,L1401-1405,L1501,L1601-1605,L1701,L1801,L1901,L2001,Y1-4,Y301,Y1001,#PWR1-359,#PWR401-496,#PWR501-535,#PWR601-617,#PWR701-717,#PWR801-817,#PWR901-917,#PWR1001-1060,#PWR1101-1104,#PWR1301-1304,#PWR1401-1416,#PWR1501-1504,#PWR1601-1615,#PWR1701-1704,#PWR1801-1804,#PWR1901-1907,#PWR2001-2007,T1-8,IC1,J1-7,J501-502,J1001-1005,SW1-2,SW501,R1-111,R116-119,R201-207,R301-306,R401-421,R501,R601-609,R701-709,R801-809,R901-909,R1001-1008,R1101-1102,R1301-1303,R1401-1406,R1501-1502,R1601-1606,R1701-1703,R1801-1802,R1901-1905,R2001-2005,JP1-18,JP401-409,JP501-504,JP1001,JP1401-1402,JP1601-1602,C1-262,C301-327,C401-423,C501-521,C601-628,C701-728,C801-828,C901-928,C1001-1019,C1101-1105,C1301-1306,C1401-1411,C1501-1505,C1601-1611,C1701-1706,C1801-1805,C1901-1910,C2001-2010,U1-32,U201,U301-302,U401-410,U601,U701,U801,U901,U1001-1005,U1101,U1301,U1401,U1501,U1601,U1701,U1801,U1901,U2001,D1-21,D401-411,D601-604,D701-704,D801-804,D901-904,D1401-1402,D1601-1602",
     "variants": []
   },
   "sheets": [
@@ -747,6 +830,151 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 234700
+          }
+        ],
+        "profile_name": "Internal Single Ended",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 192000
+          }
+        ],
+        "profile_name": "Internal Coplanar Single Ended",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 134900
+          }
+        ],
+        "profile_name": "Internal Differential Pair",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 120700
+          }
+        ],
+        "profile_name": "Internal Coplanar Differential Pair",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5934500,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 358600
+          }
+        ],
+        "profile_name": "External Single Ended",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5824000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 263100
+          }
+        ],
+        "profile_name": "External Coplanar Single Ended",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5737000,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 182600
+          }
+        ],
+        "profile_name": "External Differential Pair",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5718100,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 156500
+          }
+        ],
+        "profile_name": "External Coplanar Differential pair",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
