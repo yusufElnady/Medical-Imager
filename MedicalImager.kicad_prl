@@ -1,11 +1,31 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 8,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND"
+      "GND",
+      "LCD_VCC",
+      "IM_5V",
+      "EXT_3V3",
+      "AFE3_1V8D",
+      "AFE3_3V3D",
+      "AFE4_1V8A",
+      "AFE4_3V3A",
+      "AFE1_1V8D",
+      "AFE1_3V3D",
+      "AFE1_1V8A",
+      "AFE1_3V3A",
+      "AFE2_1V8A",
+      "AFE2_3V3A",
+      "CLK_VCC_PRE",
+      "AFE3_1V8A",
+      "AFE3_3V3A",
+      "DC_MAIN",
+      "IM_5V_PRE",
+      "CLK_3V3",
+      "CLK_1V8"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -19,17 +39,17 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pads": true,
-      "text": true,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -55,7 +75,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff5f",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffb4f",
     "zone_display_mode": 0
   },
   "git": {
@@ -122,16 +142,16 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": true,
-      "images": true,
+      "graphics": false,
+      "images": false,
       "labels": true,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
-      "ruleAreas": true,
-      "symbols": true,
-      "text": true,
-      "wires": true
+      "otherItems": false,
+      "pins": false,
+      "ruleAreas": false,
+      "symbols": false,
+      "text": false,
+      "wires": false
     }
   }
 }
