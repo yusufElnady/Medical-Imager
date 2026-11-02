@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.12,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.125,
+        "min_track_width": 0.12,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -547,7 +547,7 @@
         "diff_pair_gap": 0.15,
         "name": "AFE_OUTPUTS",
         "pcb_color": "rgb(255, 235, 3)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.192,
         "tuning_profile": "Internal Coplanar Single Ended",
@@ -560,7 +560,7 @@
         "diff_pair_width": 0.1207,
         "name": "CLOCKS",
         "pcb_color": "rgb(52, 255, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1207,
         "tuning_profile": "External Coplanar Differential pair",
@@ -573,7 +573,7 @@
         "diff_pair_width": 0.1207,
         "name": "SPI DIFF LINES",
         "pcb_color": "rgb(241, 53, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1207,
         "tuning_profile": "Internal Coplanar Differential Pair",
@@ -585,10 +585,21 @@
         "diff_pair_gap": 0.15,
         "name": "TR_OUTPUTS",
         "pcb_color": "rgb(65, 255, 18)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2631,
         "tuning_profile": "External Coplanar Single Ended",
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.125,
+        "name": "USB_DATA",
+        "pcb_color": "rgb(21, 32, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2347,
+        "tuning_profile": "Internal Single Ended",
         "via_diameter": 0.35,
         "via_drill": 0.2
       }
@@ -608,7 +619,7 @@
         "pattern": "*TR_OUT*"
       },
       {
-        "netclass": "Default",
+        "netclass": "AFE_OUTPUTS",
         "pattern": "/SOM/PULSER*"
       },
       {
@@ -626,6 +637,10 @@
       {
         "netclass": "SPI DIFF LINES",
         "pattern": "*SPI*_N"
+      },
+      {
+        "netclass": "USB_DATA",
+        "pattern": "*USB_D*"
       }
     ]
   },
@@ -770,7 +785,7 @@
         "uuid": "99848109-7be9-4113-bc9c-faf6c2acfe0b"
       }
     ],
-    "used_designators": "F1,F1001,Q1-3,Q1001,Q1401,Q1601,T1-8,Y1-4,Y301,Y1001,#PWR1-359,#PWR401-496,#PWR501-535,#PWR601-617,#PWR701-717,#PWR801-817,#PWR901-917,#PWR1001-1060,#PWR1101-1104,#PWR1301-1304,#PWR1401-1416,#PWR1501-1504,#PWR1601-1615,#PWR1701-1704,#PWR1801-1804,#PWR1901-1907,#PWR2001-2007,CR1,FB1-9,FB401-408,L1-19,L401,L1101,L1301,L1401-1405,L1501,L1601-1605,L1701,L1801,L1901,L2001,J1-7,J501-502,J1001-1005,IC1,JP1-18,JP401-409,JP501-504,JP1001,JP1401-1402,JP1601-1602,R1-111,R116-119,R201-207,R301-306,R401-421,R501,R601-609,R701-709,R801-809,R901-909,R1001-1008,R1101-1102,R1301-1303,R1401-1406,R1501-1502,R1601-1606,R1701-1703,R1801-1802,R1901-1905,R2001-2005,SW1-2,SW501,C1-262,C301-327,C401-423,C501-521,C601-628,C701-728,C801-828,C901-928,C1001-1019,C1101-1105,C1301-1306,C1401-1411,C1501-1505,C1601-1611,C1701-1706,C1801-1805,C1901-1910,C2001-2010,U1-32,U201,U301-302,U401-410,U601,U701,U801,U901,U1001-1005,U1101,U1301,U1401,U1501,U1601,U1701,U1801,U1901,U2001,D1-21,D401-411,D601-604,D701-704,D801-804,D901-904,D1401-1402,D1601-1602",
+    "used_designators": "FB1-9,FB401-408,L1-19,L401,L1101,L1301,L1401-1405,L1501,L1601-1605,L1701,L1801,L1901,L2001,CR1,IC1,J1-7,J501-503,J1001-1005,SW1-2,SW501,R1-111,R116-119,R201-207,R301-306,R401-421,R501,R601-609,R701-709,R801-809,R901-909,R1001-1008,R1101-1103,R1301-1303,R1401-1406,R1501-1503,R1601-1606,R1701-1703,R1801-1803,R1901-1905,R2001-2005,JP1-18,JP401-409,JP501-504,JP1001,JP1401-1402,JP1601-1602,C1-262,C301-327,C401-423,C501-521,C601-628,C701-728,C801-828,C901-928,C1001-1019,C1101-1105,C1301-1306,C1401-1411,C1501-1505,C1601-1611,C1701-1706,C1801-1805,C1901-1910,C2001-2010,D1-21,D401-411,D601-604,D701-704,D801-804,D901-904,D1401-1402,D1601-1602,U1-32,U201,U301-302,U401-410,U601,U701,U801,U901,U1001-1005,U1101,U1301,U1401,U1501,U1601,U1701,U1801,U1901,U2001,F1,F1001,Q1-3,Q1001,Q1401,Q1601,T1-8,Y1-4,Y301,Y1001,#PWR1-359,#PWR401-496,#PWR501-535,#PWR601-617,#PWR701-717,#PWR801-817,#PWR901-917,#PWR1001-1060,#PWR1101-1105,#PWR1301-1305,#PWR1401-1416,#PWR1501-1505,#PWR1601-1615,#PWR1701-1705,#PWR1801-1805,#PWR1901-1907,#PWR2001-2007",
     "variants": []
   },
   "sheets": [

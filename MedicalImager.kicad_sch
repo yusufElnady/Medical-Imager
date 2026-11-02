@@ -5,7 +5,7 @@
 	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
 	(paper "A3")
 	(lib_symbols)
-	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- ENSURE STRAPPING RESISTORS ARE AT ALL CS/EN PINS\n- Add LEDs at all unconnected PG signals"
+	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- Add the input power connector & necessary input power protetion"
 		(exclude_from_sim no)
 		(at 98.044 199.39 0)
 		(effects
@@ -17,18 +17,6 @@
 			(justify left)
 		)
 		(uuid "9976fc71-3c34-4230-9889-2bf06dbc31a9")
-	)
-	(no_connect
-		(at 127 38.1)
-		(uuid "5a81f1cc-fc4a-4f56-ad16-f2cf6fc1f93f")
-	)
-	(no_connect
-		(at 86.36 38.1)
-		(uuid "70957406-fae0-4843-a771-291582302512")
-	)
-	(no_connect
-		(at 96.52 38.1)
-		(uuid "b44e3319-5723-494c-b217-c0cb6219bdc9")
 	)
 	(no_connect
 		(at 78.74 44.45)
@@ -133,16 +121,6 @@
 			(type default)
 		)
 		(uuid "1d91a044-942d-4533-a227-67ea0fd56b42")
-	)
-	(wire
-		(pts
-			(xy 88.9 38.1) (xy 88.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff331c4-7a5e-4b52-82f9-b5bebb5872c6")
 	)
 	(wire
 		(pts
@@ -3256,16 +3234,6 @@
 				(justify right)
 			)
 		)
-		(pin "IM_5V_PG" input
-			(at 88.9 44.45 90)
-			(uuid "aa43fb0f-b0d6-4a92-b3db-6adb2f68a077")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SD_DAT1" bidirectional
 			(at 63.5 85.09 180)
 			(uuid "022cab0b-4b84-4b1a-a8c0-123d1ef62030")
@@ -4194,26 +4162,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SOM_5V_PG" output
-			(at 86.36 38.1 270)
-			(uuid "e04a086f-309a-4274-b052-ce2eeba14a30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLK_PWR_EN" input
-			(at 96.52 38.1 270)
-			(uuid "be4a3d9d-75e2-439d-b508-5791ec2cee8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "50V_EN" input
 			(at 111.76 38.1 270)
 			(uuid "590ba009-7f80-47af-9819-964909d20c41")
@@ -4264,16 +4212,6 @@
 				(justify left)
 			)
 		)
-		(pin "IM_5V_PG" output
-			(at 88.9 38.1 270)
-			(uuid "b6d74bfd-9563-4f58-be56-017ddf7c81ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SD_3V3_EN" input
 			(at 114.3 38.1 270)
 			(uuid "dd6b2aab-5f10-46f4-a113-3235be1c3a65")
@@ -4317,16 +4255,6 @@
 		(pin "AFE_1V8_EN" input
 			(at 121.92 38.1 270)
 			(uuid "76dadbf7-f782-49f2-8700-ac98fc252fcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLK_1V8_EN" input
-			(at 127 38.1 270)
-			(uuid "012a4c1b-f191-4cf6-b9b8-b3be6a7abdd7")
 			(effects
 				(font
 					(size 1.27 1.27)

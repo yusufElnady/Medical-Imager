@@ -25058,7 +25058,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 101.6 237.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25091,7 +25091,7 @@
 				)
 			)
 		)
-		(property "Description" "10K 0402"
+		(property "Description" "1K 0402"
 			(at 97.79 241.3 0)
 			(hide yes)
 			(show_name no)
