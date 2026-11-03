@@ -16500,7 +16500,7 @@
 	)
 	(hierarchical_label "AFE3_DSYNC"
 		(shape output)
-		(at 82.55 81.28 0)
+		(at 82.55 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16545,12 +16545,12 @@
 	)
 	(hierarchical_label "AFE2_AUX"
 		(shape input)
-		(at 82.55 78.74 0)
+		(at 120.65 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1bf4e0bf-5ab5-4d5a-ac3e-e792ef06287a")
 	)
@@ -16611,7 +16611,7 @@
 	)
 	(hierarchical_label "LCD_TX_MAIN"
 		(shape input)
-		(at 82.55 109.22 0)
+		(at 82.55 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16633,12 +16633,12 @@
 	)
 	(hierarchical_label "AFE4_AUX"
 		(shape input)
-		(at 171.45 68.58 0)
+		(at 120.65 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2657fb20-b350-41a4-a152-385e98714365")
 	)
@@ -16743,12 +16743,12 @@
 	)
 	(hierarchical_label "EXT_MUX_CS2"
 		(shape output)
-		(at 123.19 137.16 180)
+		(at 181.61 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "40199c10-b81a-4ec0-9bf6-2d8051d94094")
 	)
@@ -16919,12 +16919,12 @@
 	)
 	(hierarchical_label "AFE1_AUX"
 		(shape input)
-		(at 82.55 66.04 0)
+		(at 31.75 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "571b84fd-1f16-46c1-a4de-0a799f5b0d79")
 	)
@@ -16952,7 +16952,7 @@
 	)
 	(hierarchical_label "AFE3_CSn"
 		(shape output)
-		(at 120.65 71.12 180)
+		(at 120.65 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16974,7 +16974,7 @@
 	)
 	(hierarchical_label "AFE1_DSYNC"
 		(shape output)
-		(at 31.75 63.5 180)
+		(at 31.75 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17007,7 +17007,7 @@
 	)
 	(hierarchical_label "AFE2_MUXA"
 		(shape input)
-		(at 82.55 76.2 0)
+		(at 171.45 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17107,23 +17107,23 @@
 	)
 	(hierarchical_label "EXT_MUX_CS1"
 		(shape output)
-		(at 123.19 134.62 180)
+		(at 181.61 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8e218ae0-473d-41b1-9bba-1676ed9533b6")
 	)
 	(hierarchical_label "AFE1_MUXA"
 		(shape input)
-		(at 31.75 68.58 180)
+		(at 82.55 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "956416aa-6186-4d5e-b757-a848d5e81496")
 	)
@@ -17140,18 +17140,18 @@
 	)
 	(hierarchical_label "EXT_AFE_CS1"
 		(shape output)
-		(at 181.61 129.54 0)
+		(at 123.19 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "972b8434-5d42-4295-98f1-a579898f5d49")
 	)
 	(hierarchical_label "LCD_RX_MAIN"
 		(shape output)
-		(at 82.55 111.76 0)
+		(at 82.55 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17239,7 +17239,7 @@
 	)
 	(hierarchical_label "LCD_POWER"
 		(shape output)
-		(at 82.55 106.68 0)
+		(at 82.55 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17250,7 +17250,7 @@
 	)
 	(hierarchical_label "AFE2_CSn"
 		(shape output)
-		(at 82.55 71.12 0)
+		(at 82.55 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17316,12 +17316,12 @@
 	)
 	(hierarchical_label "AFE4_MUXA"
 		(shape input)
-		(at 120.65 86.36 180)
+		(at 82.55 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d1abc869-3b60-4f7b-a9be-f5e4eff7c784")
 	)
@@ -17349,12 +17349,12 @@
 	)
 	(hierarchical_label "AFE3_AUX"
 		(shape input)
-		(at 120.65 76.2 180)
+		(at 82.55 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "df2768af-82d4-4f88-ad53-b0e314ac1f03")
 	)
@@ -17404,7 +17404,7 @@
 	)
 	(hierarchical_label "EXT_SCLK"
 		(shape output)
-		(at 181.61 139.7 0)
+		(at 181.61 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17426,7 +17426,7 @@
 	)
 	(hierarchical_label "AFE4_DSYNC"
 		(shape output)
-		(at 120.65 81.28 180)
+		(at 120.65 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17459,7 +17459,7 @@
 	)
 	(hierarchical_label "AFE2_DSYNC"
 		(shape output)
-		(at 82.55 68.58 0)
+		(at 82.55 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17470,12 +17470,12 @@
 	)
 	(hierarchical_label "EXT_AFE_CS2"
 		(shape output)
-		(at 181.61 132.08 0)
+		(at 123.19 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ffb310e9-90b3-411e-9b20-b1f2bc184988")
 	)

@@ -5,7 +5,7 @@
 	(uuid "99848109-7be9-4113-bc9c-faf6c2acfe0b")
 	(paper "A3")
 	(lib_symbols)
-	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- Add the input power connector & necessary input power protetion"
+	(text "TODO:\n- DETAIL THE INDUCTORS' FOOTPRINTS AT THE END\n- Add the input power decoupling capacitors & necessary input power protetion"
 		(exclude_from_sim no)
 		(at 98.044 199.39 0)
 		(effects
