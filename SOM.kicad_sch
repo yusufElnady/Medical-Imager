@@ -16565,7 +16565,7 @@
 		)
 		(uuid "1d06043d-01bb-41a3-9b18-af76980b1723")
 	)
-	(hierarchical_label "USB_26MHZ"
+	(hierarchical_label "USB_CLK"
 		(shape bidirectional)
 		(at 123.19 132.08 180)
 		(effects

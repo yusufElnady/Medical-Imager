@@ -1458,7 +1458,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RSX501LAM20TR:RSX501LAM20TR"
+		(symbol "S5MB:S5MB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1468,28 +1468,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 1.7 8.89 0)
+				(at -5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "RSX501LAM20TR"
-				(at 1.7 6.35 0)
+			(property "Value" "S5MB"
+				(at -5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RSX501LAM20TR:DIOM4725X105N"
+			(property "Footprint" "S5MB:DIOM4336X265N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1512,7 +1512,7 @@
 					)
 				)
 			)
-			(property "Description" "Diode Schottky 20 V 5A Surface Mount PMDTM"
+			(property "Description" "5A, 1000V, Standard Rectifier"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1524,7 +1524,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER_NAME" "ROHM Semiconductor"
+			(property "MF" "Taiwan Semiconductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1536,7 +1536,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "Rohm Semiconductor"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1548,19 +1548,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MOUSER_PART_NUMBER" "755-RSX501LAM20TR"
+			(property "Package" "SMD-2 Taiwan Semiconductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1584,7 +1572,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "SOD-128 Rohm Semiconductor"
+			(property "Check_prices" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1596,7 +1584,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=eda"
+			(property "STANDARD" "IPC-7351B"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1608,7 +1596,7 @@
 					(justify bottom)
 				)
 			)
-			(property "HEIGHT" "1.05mm"
+			(property "PARTREV" "K2102"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1620,7 +1608,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1632,7 +1620,19 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "RSX501LAM20TR"
+			(property "MP" "S5MB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809572&manufacturer=Taiwan Semiconductor&part_name=S5MB&search_term=s5mb"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1656,7 +1656,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER_PART_NUMBER" "RSX501LAM20TR"
+			(property "MANUFACTURER" "Taiwan Semiconductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1668,10 +1668,10 @@
 					(justify bottom)
 				)
 			)
-			(symbol "RSX501LAM20TR_0_0"
+			(symbol "S5MB_0_0"
 				(polyline
 					(pts
-						(xy -5.92 0) (xy -3.38 0)
+						(xy -2.54 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1683,7 +1683,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.396 -1.524) (xy -4.396 -2.54)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1695,7 +1695,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.38 2.54) (xy -3.38 -2.54)
+						(xy -1.27 -1.27) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1707,7 +1707,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.38 2.54) (xy -2.364 2.54)
+						(xy 1.27 1.27) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1719,19 +1719,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.38 0) (xy 1.7 2.54) (xy 1.7 -2.54) (xy -3.38 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.38 -2.54) (xy -4.396 -2.54)
+						(xy 1.27 0) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1743,7 +1731,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.364 1.524) (xy -2.364 2.54)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1753,20 +1741,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.7 0) (xy 4.24 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 0 0)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1775,7 +1751,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "A"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1783,8 +1759,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 6.35 0 180)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1793,7 +1769,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "C"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2140,7 +2116,7 @@
 		)
 		(uuid "ca3aadaa-3591-489b-9624-5960e48a9202")
 	)
-	(text "= (11*25*0.9) / (2*0.3*100*0.4*150000) = 68uH"
+	(text "= (11*25*0.82) / (2*0.3*50*0.4*150000) = 150uH"
 		(exclude_from_sim no)
 		(at 96.012 33.274 0)
 		(effects
@@ -2160,7 +2136,7 @@
 		)
 		(uuid "e64e47d9-d3e7-4863-ad80-fe3d607a1cf9")
 	)
-	(text "Rcomp = 3.3k, Ccomp = 46nF\nR_HF = 8.2nF"
+	(text "Rcomp = 570, Ccomp = 300nF\nR_HF = 47nF"
 		(exclude_from_sim no)
 		(at 100.076 130.81 0)
 		(effects
@@ -2653,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 57.15) (xy 209.55 57.15)
+			(xy 203.2 57.15) (xy 212.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2743,16 +2719,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 57.15) (xy 228.6 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4c6197-99ce-4f62-ba88-ac0bd685e397")
-	)
-	(wire
-		(pts
 			(xy 184.15 82.55) (xy 184.15 57.15)
 		)
 		(stroke
@@ -2833,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 209.55 82.55)
+			(xy 203.2 82.55) (xy 212.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2870,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "7732a649-fd8f-4a36-afc6-2ead29eb248c")
+	)
+	(wire
+		(pts
+			(xy 222.25 57.15) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b748529-49d7-40c8-a7e3-d93615fd8ae6")
 	)
 	(wire
 		(pts
@@ -3273,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 82.55) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6b40f2-765b-425a-a853-8a24158fd147")
+	)
+	(wire
+		(pts
 			(xy 38.1 114.3) (xy 50.8 114.3)
 		)
 		(stroke
@@ -3360,16 +3346,6 @@
 			(type default)
 		)
 		(uuid "ed5f7739-b5d4-4c35-8b08-d252f4363a78")
-	)
-	(wire
-		(pts
-			(xy 223.52 82.55) (xy 228.6 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bf8ee9-28b2-4ad0-b671-9962e3b27511")
 	)
 	(wire
 		(pts
@@ -4503,6 +4479,232 @@
 		)
 	)
 	(symbol
+		(lib_id "S5MB:S5MB")
+		(at 217.17 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c434a9-f3c7-4b43-93cd-d4aa424332c6")
+		(property "Reference" "D1401"
+			(at 217.17 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S5MB"
+			(at 217.17 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "S5MB:DIOM4336X265N"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5A, 1000V, Standard Rectifier"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Taiwan Semiconductor"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=eda"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "K2102"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=snap"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "S5MB"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809572&manufacturer=Taiwan Semiconductor&part_name=S5MB&search_term=s5mb"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "8c3fc8a6-4827-478c-aabb-7f466f2b9d85")
+		)
+		(pin "A"
+			(uuid "a6924bc5-108d-4bf2-b147-2be3cad0ad13")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "D1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM5155DSSR:LM5155DSSR")
 		(at 127 88.9 0)
 		(unit 1)
@@ -5005,7 +5207,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2uF 100V"
 			(at 190.5 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +5239,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2uF 0805 >50V"
+		(property "Description" "2.2uF 0805 100V"
 			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5058,6 +5260,232 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
 					(reference "C1406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S5MB:S5MB")
+		(at 217.17 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea1142a-0bbc-4fb8-be6d-096fc410b5f8")
+		(property "Reference" "D1402"
+			(at 217.17 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S5MB"
+			(at 217.17 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "S5MB:DIOM4336X265N"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5A, 1000V, Standard Rectifier"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65 mm"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Taiwan Semiconductor"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=eda"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "K2102"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S5MB/taiwan/view-part/?ref=snap"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "S5MB"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809572&manufacturer=Taiwan Semiconductor&part_name=S5MB&search_term=s5mb"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "e2c778ab-cc37-4c9d-8203-2b5190bd81cf")
+		)
+		(pin "A"
+			(uuid "660f7d58-2da9-46f4-a31b-77f115ca9ba5")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
+					(reference "D1402")
 					(unit 1)
 				)
 			)
@@ -6349,232 +6777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RSX501LAM20TR:RSX501LAM20TR")
-		(at 215.9 57.15 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a3f984c-ac54-4878-a208-c6c62b3a6178")
-		(property "Reference" "D1401"
-			(at 216.74 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RSX501LAM20TR"
-			(at 216.74 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSX501LAM20TR:DIOM4725X105N"
-			(at 215.646 65.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode Schottky 20 V 5A Surface Mount PMDTM"
-			(at 215.9 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "ROHM Semiconductor"
-			(at 215.646 65.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Rohm Semiconductor"
-			(at 215.646 65.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
-			(at 215.9 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "755-RSX501LAM20TR"
-			(at 215.646 65.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 215.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOD-128 Rohm Semiconductor"
-			(at 215.646 65.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=eda"
-			(at 215.9 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "HEIGHT" "1.05mm"
-			(at 215.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=snap"
-			(at 215.9 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "RSX501LAM20TR"
-			(at 215.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 215.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "RSX501LAM20TR"
-			(at 215.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "07e42b8c-888d-4ee0-a6f0-f29abdc38d6c")
-		)
-		(pin "1"
-			(uuid "57025937-4ff3-4f0b-acf0-269b1a469232")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
-					(reference "D1401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 101.6 50.8 0)
 		(unit 1)
@@ -6754,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2uF 100v"
 			(at 190.5 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2uF 0805 >50V"
+		(property "Description" "2.2uF 0805 250V"
 			(at 190.5 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7772,232 +7974,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
 					(reference "#PWR01413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RSX501LAM20TR:RSX501LAM20TR")
-		(at 215.9 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1e5ce30-15fc-446f-a417-e80096f29daa")
-		(property "Reference" "D1402"
-			(at 216.74 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RSX501LAM20TR"
-			(at 216.74 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RSX501LAM20TR:DIOM4725X105N"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode Schottky 20 V 5A Surface Mount PMDTM"
-			(at 215.9 89.916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "ROHM Semiconductor"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Rohm Semiconductor"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
-			(at 215.9 89.916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "755-RSX501LAM20TR"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 215.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOD-128 Rohm Semiconductor"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=eda"
-			(at 215.9 89.916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "HEIGHT" "1.05mm"
-			(at 215.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=snap"
-			(at 215.9 89.916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "RSX501LAM20TR"
-			(at 215.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 215.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "RSX501LAM20TR"
-			(at 215.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "1c28eb63-b6d7-439b-8c46-16c518ba56e4")
-		)
-		(pin "1"
-			(uuid "ae8bb7c0-7b39-439d-805c-926fe2514aad")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/e269633f-c26a-42b5-a12c-87dd41533928"
-					(reference "D1402")
 					(unit 1)
 				)
 			)

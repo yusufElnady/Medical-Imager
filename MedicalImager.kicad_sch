@@ -2568,7 +2568,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_26MHZ" bidirectional
+		(pin "USB_CLK" bidirectional
 			(at 50.8 77.47 0)
 			(uuid "2600642f-866d-43da-905d-0616af3c2971")
 			(effects
@@ -3484,7 +3484,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_26MHZ" bidirectional
+		(pin "USB_CLK" bidirectional
 			(at 63.5 77.47 180)
 			(uuid "ab6f8030-cb46-49dd-aa90-1aeedce32243")
 			(effects

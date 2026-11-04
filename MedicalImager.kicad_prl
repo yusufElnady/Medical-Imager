@@ -1,11 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "SD_3V3",
       "GND",
       "LCD_VCC",
       "IM_5V",
@@ -14,6 +13,7 @@
       "AFE3_3V3D",
       "AFE4_1V8A",
       "AFE4_3V3A",
+      "DC_MAIN",
       "/Interface/SD_DETECT",
       "/Interface/SD_DAT0",
       "/Interface/SD_DAT1",
@@ -21,6 +21,7 @@
       "/Interface/SD_DAT3",
       "/Interface/SD_CLK",
       "/Interface/SD_CMD",
+      "SD_3V3",
       "AFE1_1V8D",
       "AFE1_3V3D",
       "AFE1_1V8A",
@@ -33,14 +34,13 @@
       "/Interface/SD_DAT0_PRE",
       "/Interface/SD_DAT1_PRE",
       "/Interface/SD_CMD_PRE",
-      "CLK_VCC_PRE",
       "AFE3_1V8A",
       "AFE3_3V3A",
-      "DC_MAIN",
       "IM_5V_PRE",
       "SD_3V3_PRE",
       "CLK_3V3",
-      "CLK_1V8"
+      "CLK_1V8",
+      "CLK_VCC_PRE"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -90,7 +90,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_555555d5_57555145",
+    "visible_layers": "00000000_00000000_55555555_57555145",
     "zone_display_mode": 0
   },
   "git": {
