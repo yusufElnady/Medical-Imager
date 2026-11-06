@@ -8666,6 +8666,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 76.2) (xy 355.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaf7d1c-5374-46c9-a7a3-154b41e5ab32")
+	)
+	(wire
+		(pts
 			(xy 38.1 157.48) (xy 38.1 161.29)
 		)
 		(stroke
@@ -8856,6 +8866,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 88.9) (xy 355.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba71831-d7d5-4c0c-886c-571f2591d6fc")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 227.33 45.72)
 		)
 		(stroke
@@ -8886,7 +8906,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 34.29) (xy 350.52 34.29)
+			(xy 347.98 39.37) (xy 350.52 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9066,7 +9086,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 39.37) (xy 350.52 39.37)
+			(xy 347.98 34.29) (xy 350.52 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9086,7 +9106,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 41.91) (xy 350.52 41.91)
+			(xy 347.98 36.83) (xy 350.52 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9176,7 +9196,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 36.83) (xy 350.52 36.83)
+			(xy 347.98 41.91) (xy 350.52 41.91)
 		)
 		(stroke
 			(width 0)
@@ -19822,7 +19842,7 @@
 		(uuid "860e97e8-c0aa-4782-b833-a5e6c84e29ad")
 	)
 	(label "SD_DAT1_PRE"
-		(at 347.98 39.37 180)
+		(at 347.98 34.29 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -19913,7 +19933,7 @@
 		(uuid "a826ed7f-87ca-4839-ad9e-9c3afac971d6")
 	)
 	(label "SD_DAT3_PRE"
-		(at 347.98 34.29 180)
+		(at 347.98 39.37 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -19943,7 +19963,7 @@
 		(uuid "cb300689-312d-41cd-8328-ee7e53584b29")
 	)
 	(label "SD_DAT2_PRE"
-		(at 347.98 36.83 180)
+		(at 347.98 41.91 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -20064,7 +20084,7 @@
 		(uuid "fc17de81-964e-489b-8ae3-7ad3c05ea497")
 	)
 	(label "SD_DAT0_PRE"
-		(at 347.98 41.91 180)
+		(at 347.98 36.83 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -20286,7 +20306,7 @@
 	)
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
-		(at 393.7 36.83 0)
+		(at 393.7 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20396,7 +20416,7 @@
 	)
 	(hierarchical_label "SD_DAT0"
 		(shape bidirectional)
-		(at 393.7 41.91 0)
+		(at 393.7 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20407,7 +20427,7 @@
 	)
 	(hierarchical_label "SD_DAT3"
 		(shape bidirectional)
-		(at 393.7 34.29 0)
+		(at 393.7 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20440,7 +20460,7 @@
 	)
 	(hierarchical_label "SD_DAT1"
 		(shape bidirectional)
-		(at 393.7 39.37 0)
+		(at 393.7 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23799,6 +23819,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 355.6 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "500602ec-1a3e-4785-b63d-99e1d628f1ae")
+		(property "Reference" "C1020"
+			(at 359.41 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 359.41 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 356.5652 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 0402"
+			(at 355.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67511233-a128-43fe-b56e-8331721a2fcb")
+		)
+		(pin "1"
+			(uuid "8dc74be1-22dd-4a27-9233-954954918d2f")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
+					(reference "C1020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 146.05 254 180)
 		(unit 1)
 		(body_style 1)
@@ -26242,6 +26344,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 355.6 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f37787b-d743-494e-88bd-acde54ea4990")
+		(property "Reference" "#PWR01062"
+			(at 355.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_1V8"
+			(at 355.6 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"USB_1V8\""
+			(at 355.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d861b56-1309-4a85-bb15-b18354660b9d")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
+					(reference "#PWR01062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 222.25 82.55 180)
 		(unit 1)
@@ -28455,6 +28635,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
 					(reference "#PWR01020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d572f9d7-5d5a-4cb6-a915-048d5502074d")
+		(property "Reference" "#PWR01063"
+			(at 355.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.6 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d44fcb57-cbb6-4ce7-82c3-437541851990")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
+					(reference "#PWR01063")
 					(unit 1)
 				)
 			)
