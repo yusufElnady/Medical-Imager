@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000000_a000014f",
+    "visible_layers": "00000000_00000000_00000080_a0000145",
     "zone_display_mode": 0
   },
   "git": {
@@ -118,7 +118,9 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [],
+    "hierarchy_collapsed": [
+      "/ba161b84-3650-478e-81fe-b4f2d77a0043/"
+    ],
     "selection_filter": {
       "graphics": true,
       "images": true,
