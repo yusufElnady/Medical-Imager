@@ -16576,17 +16576,6 @@
 		)
 		(uuid "20b75b50-fa5a-45a9-8dca-fe7f799cc245")
 	)
-	(hierarchical_label "LCD_TX_AUX"
-		(shape input)
-		(at -17.78 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2341fb8a-f5cc-43e2-afb8-5a66fb311d7c")
-	)
 	(hierarchical_label "SD_DETECT"
 		(shape input)
 		(at 171.45 76.2 0)
@@ -16707,17 +16696,6 @@
 			(justify right)
 		)
 		(uuid "316a296b-5865-449c-b240-0a43675c920d")
-	)
-	(hierarchical_label "LCD_RX_AUX"
-		(shape output)
-		(at -17.78 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35b3a10d-eeee-4a97-90e8-c08423fdb13c")
 	)
 	(hierarchical_label "USB_D4"
 		(shape bidirectional)
