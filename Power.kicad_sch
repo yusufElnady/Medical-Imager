@@ -2433,6 +2433,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "S8CM-M3_I:S8CM-M3_I"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "S8CM-M3_I"
+				(at 11.43 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM7959X262N"
+				(at 11.43 -97.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/87607/s8cgjkm.pdf"
+				(at 11.43 -197.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Rectifiers 8A, 1000V SMC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.62"
+				(at 11.43 -397.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 11.43 -497.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "S8CM-M3/I"
+				(at 11.43 -597.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "78-S8CM-M3/I"
+				(at 11.43 -697.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/S8CM-M3-I?qs=Vcr9%2FL0R50gCVcV%2FFPJBQA%3D%3D"
+				(at 11.43 -797.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "S8CM-M3/I"
+				(at 11.43 -897.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s8cm-m3i/vishay?region=nac"
+				(at 11.43 -997.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "S8CM-M3_I_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS22918TDBVRQ1:TPS22918TDBVRQ1"
 			(pin_names
 				(offset 1.016)
@@ -3974,6 +4212,12 @@
 		(uuid "0041f01b-e633-4dfc-9cd4-467faaeabed1")
 	)
 	(junction
+		(at 44.45 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d88c29-551d-4d2c-a810-05f4c767114b")
+	)
+	(junction
 		(at 160.02 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4088,7 +4332,7 @@
 		(uuid "3345ac65-83c1-487a-880b-50f20e80d50b")
 	)
 	(junction
-		(at 27.94 41.91)
+		(at 26.67 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38424551-280b-4584-9b3e-a4f66ce54333")
@@ -4134,12 +4378,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "541e22ac-c782-4a2c-9173-1c17bea644ef")
-	)
-	(junction
-		(at 63.5 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54db47ad-a227-4898-a876-3010db0e83b1")
 	)
 	(junction
 		(at 361.95 170.18)
@@ -4290,6 +4528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "989c948b-c80f-4ade-9d2b-f2c8d518c614")
+	)
+	(junction
+		(at 67.31 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a54d7ae6-b3fa-4855-ba28-b6277330893d")
 	)
 	(junction
 		(at 334.01 219.71)
@@ -4990,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 27.94 41.91)
+			(xy 26.67 34.29) (xy 26.67 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5268,6 +5512,16 @@
 			(type default)
 		)
 		(uuid "2c1797c1-0070-4b87-b883-a595fb9e1eb4")
+	)
+	(wire
+		(pts
+			(xy 67.31 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbd594d-51ce-477e-91a8-81201d5443ac")
 	)
 	(wire
 		(pts
@@ -5641,6 +5895,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 34.29) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e247917-0bb8-4b4b-9584-c737a159f4dc")
+	)
+	(wire
+		(pts
 			(xy 88.9 189.23) (xy 88.9 182.88)
 		)
 		(stroke
@@ -5761,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 40.64 44.45)
+			(xy 21.59 44.45) (xy 40.64 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6351,6 +6615,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 41.91) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf0a411-26cd-4499-8859-9144690524c0")
+	)
+	(wire
+		(pts
 			(xy 160.02 158.75) (xy 160.02 161.29)
 		)
 		(stroke
@@ -6561,16 +6835,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 41.91) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5c871c-4e19-4372-8f0a-01860e6b8248")
-	)
-	(wire
-		(pts
 			(xy 39.37 175.26) (xy 39.37 189.23)
 		)
 		(stroke
@@ -6588,6 +6852,16 @@
 			(type default)
 		)
 		(uuid "7f455fcc-d164-4937-a85f-066167d7ad6f")
+	)
+	(wire
+		(pts
+			(xy 44.45 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd37f05-efe7-44ab-abe3-2e98cdcae14a")
 	)
 	(wire
 		(pts
@@ -6731,7 +7005,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 69.85 44.45)
+			(xy 62.23 44.45) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7098,16 +7372,6 @@
 			(type default)
 		)
 		(uuid "a2622fd2-d119-4ad6-9f09-de84ba44b967")
-	)
-	(wire
-		(pts
-			(xy 45.72 41.91) (xy 63.5 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bf70ef-ac40-4e26-96c2-d821eb9a28fc")
 	)
 	(wire
 		(pts
@@ -7541,6 +7805,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ce28f-2283-4498-8239-ddd611c0953d")
+	)
+	(wire
+		(pts
 			(xy 36.83 240.03) (xy 36.83 245.11)
 		)
 		(stroke
@@ -7631,7 +7905,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 44.45)
+			(xy 62.23 34.29) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7718,16 +7992,6 @@
 			(type default)
 		)
 		(uuid "d17889cf-ec5b-46b1-bd20-107f9f5e1e13")
-	)
-	(wire
-		(pts
-			(xy 27.94 41.91) (xy 30.48 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f04171-57c3-4839-a79e-0c32eb39b00e")
 	)
 	(wire
 		(pts
@@ -7911,7 +8175,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 41.91)
+			(xy 67.31 38.1) (xy 67.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8021,7 +8285,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 41.91) (xy 27.94 41.91)
+			(xy 21.59 41.91) (xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10733,7 +10997,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 50.8 38.1 0)
+		(at 62.23 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10744,7 +11008,7 @@
 		(fields_autoplaced yes)
 		(uuid "103803f0-f04a-4d74-8875-3a7f61770db9")
 		(property "Reference" "#PWR0405"
-			(at 50.8 41.91 0)
+			(at 62.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10755,7 +11019,7 @@
 			)
 		)
 		(property "Value" "VDD_HPA"
-			(at 50.8 33.02 0)
+			(at 62.23 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10765,7 +11029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 38.1 0)
+			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,7 +11040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 38.1 0)
+			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10787,7 +11051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD_HPA\""
-			(at 50.8 38.1 0)
+			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10811,7 +11075,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 20.32 41.91 0)
+		(at 16.51 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10820,10 +11084,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1091576a-7753-4486-bcbb-7eac079339d9")
 		(property "Reference" "J401"
-			(at 20.32 35.56 0)
+			(at 20.828 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10833,7 +11096,7 @@
 			)
 		)
 		(property "Value" "Input Power"
-			(at 20.32 38.1 0)
+			(at 20.828 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10843,7 +11106,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 20.32 41.91 0)
+			(at 16.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10854,7 +11117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 41.91 0)
+			(at 16.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +11128,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 41.91 0)
+			(at 16.51 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15169,7 +15432,7 @@
 	)
 	(symbol
 		(lib_id "0154007.DRT:0154007.DRT")
-		(at 38.1 41.91 0)
+		(at 35.56 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15180,7 +15443,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c0eae64-9a4d-4df3-8508-8c2817984a1b")
 		(property "Reference" "F401"
-			(at 38.1 35.56 0)
+			(at 35.56 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15190,7 +15453,7 @@
 			)
 		)
 		(property "Value" "0154007.DRT"
-			(at 38.1 38.1 0)
+			(at 35.56 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15200,7 +15463,7 @@
 			)
 		)
 		(property "Footprint" "0154007.DRT:FUSE_0154007.DRT"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15212,7 +15475,7 @@
 			)
 		)
 		(property "Datasheet" "https://snapeda.s3.us-east-1.amazonaws.com/datasheet/Littelfuse-Fuse-154-154T-154L-154TL-Datasheet.pdf"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15224,7 +15487,7 @@
 			)
 		)
 		(property "Description" "7 A 72 V AC 60 V DC Fuse Board Mount (Cartridge Style Excluded) Requires Holder, Surface Mount 2-SMD, Square End Block with Holder"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15236,7 +15499,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://snapeda.s3.us-east-1.amazonaws.com/datasheet/Littelfuse-Fuse-154-154T-154L-154TL-Datasheet.pdf"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15248,7 +15511,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse Inc."
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15260,7 +15523,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.81mm"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15272,7 +15535,7 @@
 			)
 		)
 		(property "MPN" "0154007.DRT"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15284,7 +15547,7 @@
 			)
 		)
 		(property "PARTREV" "GD"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15559,7 @@
 			)
 		)
 		(property "Package" "Non-Standard Littelfuse"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15308,7 +15571,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/0154007.DRT/Littelfuse/view-part/"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15320,7 +15583,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 41.91 0)
+			(at 35.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18693,7 +18956,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 27.94 34.29 0)
+		(at 26.67 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18704,7 +18967,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a193517-52f4-4798-9334-59100f9ee4b5")
 		(property "Reference" "#PWR0494"
-			(at 27.94 38.1 0)
+			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18715,7 +18978,7 @@
 			)
 		)
 		(property "Value" "DC_MAIN_PRE"
-			(at 27.94 29.21 0)
+			(at 26.67 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18725,7 +18988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 34.29 0)
+			(at 26.67 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18736,7 +18999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 34.29 0)
+			(at 26.67 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18747,7 +19010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"DC_MAIN_PRE\""
-			(at 27.94 34.29 0)
+			(at 26.67 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19096,6 +19359,172 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0459")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S8CM-M3_I:S8CM-M3_I")
+		(at 60.96 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ffb341e-22ce-437e-b62d-e9fc0b79368a")
+		(property "Reference" "D412"
+			(at 53.34 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8CM-M3_I"
+			(at 53.34 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "S8CM-M3_I:DIOM7959X262N"
+			(at 49.53 -55.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87607/s8cgjkm.pdf"
+			(at 49.53 -155.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Rectifiers 8A, 1000V SMC"
+			(at 60.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.62"
+			(at 49.53 -355.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 49.53 -455.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S8CM-M3/I"
+			(at 49.53 -555.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "78-S8CM-M3/I"
+			(at 49.53 -655.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/S8CM-M3-I?qs=Vcr9%2FL0R50gCVcV%2FFPJBQA%3D%3D"
+			(at 49.53 -755.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "S8CM-M3/I"
+			(at 49.53 -855.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s8cm-m3i/vishay?region=nac"
+			(at 49.53 -955.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "5a8f0cb1-d067-4652-8f76-595a923f3a58")
+		)
+		(pin "2"
+			(uuid "34fd7fe3-16ed-4d78-b3fb-618032d53332")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "D412")
 					(unit 1)
 				)
 			)
@@ -20912,7 +21341,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 63.5 38.1 0)
+		(at 67.31 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20923,7 +21352,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7e5d420-bfca-4d49-9986-28a38f806dd9")
 		(property "Reference" "#PWR0408"
-			(at 63.5 41.91 0)
+			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20934,7 +21363,7 @@
 			)
 		)
 		(property "Value" "DC_MAIN"
-			(at 63.5 33.02 0)
+			(at 67.31 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20944,7 +21373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 38.1 0)
+			(at 67.31 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20955,7 +21384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 38.1 0)
+			(at 67.31 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20966,7 +21395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"DC_MAIN\""
-			(at 63.5 38.1 0)
+			(at 67.31 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22461,6 +22890,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 44.45 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd001a42-db1b-4b25-a6d2-efa46dd0b4cf")
+		(property "Reference" "#PWR0495"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_MAIN_PRE_DIODE"
+			(at 44.45 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"DC_MAIN_PRE_DIODE\""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4861cbbc-0c19-4b72-835f-6c96e51cf7b9")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0495")
 					(unit 1)
 				)
 			)
