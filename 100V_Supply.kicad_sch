@@ -5,6 +5,330 @@
 	(uuid "acd9f255-2e0b-46fa-9017-9fa954285d33")
 	(paper "A4")
 	(lib_symbols
+		(symbol "BSC500N20NS3GATMA1:BSC500N20NS3GATMA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BSC500N20NS3GATMA1"
+				(at 8.89 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BSC500N20NS3GATMA1"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/BSC500N20NS3GATMA1.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MOSFET N-Ch 200V 24A TDSON-8"
+				(at -2.54 -11.43 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BSC500N20NS3GATMA1"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "726-BSC500N20NS3GATM"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC500N20NS3GATMA1?qs=4MqXaUMeF54aXXyD9f8gXA%3D%3D"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "BSC500N20NS3GATMA1"
+				(at 21.59 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc500n20ns3gatma1/infineon-technologies-ag?region=nac"
+				(at 21.59 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BSC500N20NS3GATMA1_1_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -11.43 90)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 90)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -11.43 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -3.81 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 11.43 270)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 11.43 270)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 11.43 270)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 11.43 270)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 11.43 270)
+					(length 5.08)
+					(name "D_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -517,312 +841,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FDMC86240:FDMC86240"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 21.59 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "FDMC86240"
-				(at 21.59 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "FDMC86139P"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMC86240-D.pdf"
-				(at 21.59 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Max rDS(on) = 51 m at VGS = 10 V, ID = 4.6 A ; Low Profile - 1 mm max in Power 33 ; Shielded Gate MOSFET Technology; RoHS Compliant ; 100% UIL Tested ; Max rDS(on) = 70 m at VGS = 6 V, ID = 3.9 A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 21.59 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 21.59 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "FDMC86240"
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "512-FDMC86240"
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDMC86240?qs=XB1QqrCl809CNoa90%252B2pHw%3D%3D"
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "FDMC86240"
-				(at 21.59 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fdmc86240/on-semiconductor?region=nac"
-				(at 21.59 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "FDMC86240_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 10.16 -15.24 90)
-					(length 5.08)
-					(name "S_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -15.24 90)
-					(length 5.08)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -15.24 90)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 7.62 270)
-					(length 5.08)
-					(name "D_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 7.62 270)
-					(length 5.08)
-					(name "D_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 7.62 270)
-					(length 5.08)
-					(name "D_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 7.62 270)
-					(length 5.08)
-					(name "D_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2214,7 +2232,7 @@
 		(uuid "69169850-5852-43e2-acf9-92c62c0bf4da")
 	)
 	(junction
-		(at 167.64 57.15)
+		(at 168.91 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "693c2ec7-69fd-4001-bee5-a1098e7dc030")
@@ -2232,7 +2250,7 @@
 		(uuid "788c2803-350a-43b2-b5b3-2f27b713481c")
 	)
 	(junction
-		(at 175.26 57.15)
+		(at 176.53 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c28937-db36-409c-807e-9dc912526438")
@@ -2256,10 +2274,16 @@
 		(uuid "b3c3e92b-4f83-4143-a123-66ac5e83c583")
 	)
 	(junction
-		(at 172.72 57.15)
+		(at 173.99 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b730c4ea-a5b3-4766-90a6-d64a9e3f2720")
+	)
+	(junction
+		(at 166.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c75699af-4f07-4420-ab4e-f6cece5b9b8d")
 	)
 	(junction
 		(at 50.8 114.3)
@@ -2268,7 +2292,7 @@
 		(uuid "cd75c4c5-90bb-4447-ab9e-a19510d8138d")
 	)
 	(junction
-		(at 170.18 57.15)
+		(at 171.45 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec3ce07-800e-49a2-9bf0-0451016dcbd2")
@@ -2336,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "079d86ef-e4ef-4ef1-9f92-9b3f26b25c31")
-	)
-	(wire
-		(pts
-			(xy 172.72 57.15) (xy 175.26 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08449c61-2a0b-43fa-b61d-ce5cd573a903")
 	)
 	(wire
 		(pts
@@ -2419,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 167.64 63.5)
+			(xy 168.91 57.15) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 57.15) (xy 172.72 63.5)
+			(xy 173.99 57.15) (xy 173.99 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2779,16 +2793,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 172.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8205fec0-ab48-4ed6-a4bb-abf0e7e0cbea")
-	)
-	(wire
-		(pts
 			(xy 63.5 110.49) (xy 63.5 91.44)
 		)
 		(stroke
@@ -2889,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 57.15) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a6596a-c271-4c8a-8071-977dd33ee2ab")
+	)
+	(wire
+		(pts
 			(xy 101.6 57.15) (xy 123.19 57.15)
 		)
 		(stroke
@@ -2929,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 57.15) (xy 184.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7bc7a6-3e65-4cbb-9c56-33de74d6fc9a")
+	)
+	(wire
+		(pts
 			(xy 129.54 109.22) (xy 129.54 106.68)
 		)
 		(stroke
@@ -2949,23 +2973,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 175.26 63.5)
+			(xy 176.53 57.15) (xy 176.53 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ef4c44a-8986-4e80-a736-64289e6b0c85")
-	)
-	(wire
-		(pts
-			(xy 175.26 57.15) (xy 184.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dbd13f-717b-441f-a9f4-38f9c4b243fc")
 	)
 	(wire
 		(pts
@@ -3129,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 167.64 57.15)
+			(xy 130.81 57.15) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 170.18 63.5)
+			(xy 171.45 57.15) (xy 171.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3266,16 +3280,6 @@
 			(type default)
 		)
 		(uuid "e747fabd-eed5-4473-a496-14920095cadd")
-	)
-	(wire
-		(pts
-			(xy 167.64 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c75ec6-2bac-469d-a81e-d4718b4a5358")
 	)
 	(wire
 		(pts
@@ -5895,6 +5899,194 @@
 		)
 	)
 	(symbol
+		(lib_id "BSC500N20NS3GATMA1:BSC500N20NS3GATMA1")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fc829af-29d2-4622-a0e7-fa887d415dbf")
+		(property "Reference" "Q1602"
+			(at 141.478 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC500N20NS3GATMA1"
+			(at 141.478 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BSC500N20NS3GATMA1:BSC500N20NS3GATMA1"
+			(at 193.04 169.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/BSC500N20NS3GATMA1.pdf"
+			(at 193.04 269.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 200V 24A TDSON-8"
+			(at 168.91 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 193.04 469.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 193.04 569.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSC500N20NS3GATMA1"
+			(at 193.04 669.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-BSC500N20NS3GATM"
+			(at 193.04 769.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC500N20NS3GATMA1?qs=4MqXaUMeF54aXXyD9f8gXA%3D%3D"
+			(at 193.04 869.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "BSC500N20NS3GATMA1"
+			(at 193.04 969.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc500n20ns3gatma1/infineon-technologies-ag?region=nac"
+			(at 193.04 1069.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "151d81bd-0909-4f09-949a-f10c9f14b362")
+		)
+		(pin "8"
+			(uuid "5938cd59-a8a2-4002-898e-e6319562e8b7")
+		)
+		(pin "3"
+			(uuid "9434a4da-254c-4147-9839-2ee024c7d520")
+		)
+		(pin "1"
+			(uuid "6e308ee1-2424-42bb-84b4-90e60275eeb5")
+		)
+		(pin "6"
+			(uuid "0ea3f2fd-41ba-4937-a247-aa20670d6ea7")
+		)
+		(pin "7"
+			(uuid "a8d2dd4f-2105-44fb-88f8-4d732b86e92c")
+		)
+		(pin "5"
+			(uuid "b215b611-6cbb-47cc-acd0-073e461b7c06")
+		)
+		(pin "9"
+			(uuid "bedfcd6f-8d01-42c8-ade3-28d976b5baec")
+		)
+		(pin "4"
+			(uuid "97c2ad17-182f-4020-8054-b41e7f529adc")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/042a0157-c895-4fee-b312-8cb9bd0fcaa1"
+					(reference "Q1602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "S5MB:S5MB")
 		(at 217.17 57.15 0)
 		(unit 1)
@@ -7874,189 +8066,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/042a0157-c895-4fee-b312-8cb9bd0fcaa1"
 					(reference "R1605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FDMC86240:FDMC86240")
-		(at 158.75 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3b4f88f-2bb5-438f-9003-092458e7928d")
-		(property "Reference" "Q1601"
-			(at 154.432 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FDMC86240"
-			(at 159.004 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FDMC86240:FDMC86139P"
-			(at 180.34 166.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMC86240-D.pdf"
-			(at 180.34 266.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Max rDS(on) = 51 m at VGS = 10 V, ID = 4.6 A ; Low Profile - 1 mm max in Power 33 ; Shielded Gate MOSFET Technology; RoHS Compliant ; 100% UIL Tested ; Max rDS(on) = 70 m at VGS = 6 V, ID = 3.9 A"
-			(at 158.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 180.34 466.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 180.34 566.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FDMC86240"
-			(at 180.34 666.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "512-FDMC86240"
-			(at 180.34 766.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDMC86240?qs=XB1QqrCl809CNoa90%252B2pHw%3D%3D"
-			(at 180.34 866.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "FDMC86240"
-			(at 180.34 966.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fdmc86240/on-semiconductor?region=nac"
-			(at 180.34 1066.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "8"
-			(uuid "65c398c5-c5b1-4788-8fb1-acf783739634")
-		)
-		(pin "7"
-			(uuid "727fe13d-9d11-4e75-b437-0f76951b36bb")
-		)
-		(pin "6"
-			(uuid "114377a0-ee8d-438b-8df3-ab33bb192a3f")
-		)
-		(pin "5"
-			(uuid "764215a5-678a-4cd1-a708-02117754b4bf")
-		)
-		(pin "4"
-			(uuid "e388100a-d5ce-4748-9808-cbfdca15303a")
-		)
-		(pin "3"
-			(uuid "cf2a118a-8f29-42fe-b65f-5adee4391bb9")
-		)
-		(pin "2"
-			(uuid "33238d68-c13b-482d-8b43-4c053f9dcac4")
-		)
-		(pin "1"
-			(uuid "a3df8b9d-8dc8-413d-9ec0-59f0e7d9d90a")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/042a0157-c895-4fee-b312-8cb9bd0fcaa1"
-					(reference "Q1601")
 					(unit 1)
 				)
 			)

@@ -6527,6 +6527,12 @@
 		(uuid "2272de94-503d-48b8-b6ba-9130925688e8")
 	)
 	(junction
+		(at 50.8 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5509e4-7736-486f-aa71-0c82d9feb00d")
+	)
+	(junction
 		(at 162.56 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6611,12 +6617,6 @@
 		(uuid "676eb8ff-aa0a-4656-87b0-197fb7847f37")
 	)
 	(junction
-		(at 50.8 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b5c3335-343d-4092-9bd0-1cdad1eea95d")
-	)
-	(junction
 		(at 330.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6665,10 +6665,10 @@
 		(uuid "a3e283e0-167b-4c06-8af8-65f3bbd4c60c")
 	)
 	(junction
-		(at 48.26 60.96)
+		(at 48.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abec9dd9-52d1-453a-97b3-025f04ea1a33")
+		(uuid "a6327fd1-e510-4571-b6a6-3519efafe51f")
 	)
 	(junction
 		(at 130.81 163.83)
@@ -7036,16 +7036,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198e5651-7cef-4e19-917b-92b5b7250b82")
-	)
-	(wire
-		(pts
 			(xy 325.12 46.99) (xy 346.71 46.99)
 		)
 		(stroke
@@ -7053,6 +7043,16 @@
 			(type default)
 		)
 		(uuid "19a8723c-36e4-4c57-b920-87524d4cd145")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f1fbbd-c2af-4ba3-a1ef-d689e26d1698")
 	)
 	(wire
 		(pts
@@ -7186,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 59.69 53.34)
+			(xy 59.69 48.26) (xy 59.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7646,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 55.88) (xy 48.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48de99e5-fed8-4882-ad41-4b0ae95fb712")
-	)
-	(wire
-		(pts
 			(xy 177.8 88.9) (xy 184.15 88.9)
 		)
 		(stroke
@@ -7686,6 +7676,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb53598-25a3-40b3-bab9-5792774d2829")
+	)
+	(wire
+		(pts
 			(xy 381 88.9) (xy 393.7 88.9)
 		)
 		(stroke
@@ -7696,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 59.69 67.31)
+			(xy 59.69 63.5) (xy 59.69 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7733,16 +7733,6 @@
 			(type default)
 		)
 		(uuid "50b67443-080f-474a-a984-8072b3235b0d")
-	)
-	(wire
-		(pts
-			(xy 39.37 58.42) (xy 50.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ae94c9-e0d8-44bd-8e77-52edb49c107e")
 	)
 	(wire
 		(pts
@@ -7976,16 +7966,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 60.96) (xy 48.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a53230-8407-4cc2-837f-8f90b8563145")
-	)
-	(wire
-		(pts
 			(xy 222.25 139.7) (xy 234.95 139.7)
 		)
 		(stroke
@@ -8106,7 +8086,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 58.42) (xy 69.85 58.42)
+			(xy 64.77 55.88) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8276,16 +8256,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 63.5) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e535fb7-5879-4302-a9f7-d7b28edfe49c")
-	)
-	(wire
-		(pts
 			(xy 171.45 149.86) (xy 171.45 152.4)
 		)
 		(stroke
@@ -8346,16 +8316,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 48.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86006e5c-f50c-4d50-b288-0b81dec681ac")
-	)
-	(wire
-		(pts
 			(xy 203.2 233.68) (xy 200.66 233.68)
 		)
 		(stroke
@@ -8393,6 +8353,16 @@
 			(type default)
 		)
 		(uuid "8ae7fd50-331b-4ed7-b51d-983c078ed27b")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bda0bc0-2e34-46fc-8a10-ac39b94231dc")
 	)
 	(wire
 		(pts
@@ -8526,16 +8496,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 50.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8f5468-08fd-486f-8a85-235b55726cfd")
-	)
-	(wire
-		(pts
 			(xy 381 73.66) (xy 381 76.2)
 		)
 		(stroke
@@ -8643,6 +8603,16 @@
 			(type default)
 		)
 		(uuid "a7ce7e91-9ac5-4c35-878f-bc2e59bae0f7")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 54.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9681f3e-94c9-4f27-af07-b5384a93249f")
 	)
 	(wire
 		(pts
@@ -8876,6 +8846,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc6a151-b733-4955-a2bf-c951ae7f77ee")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 227.33 45.72)
 		)
 		(stroke
@@ -8936,6 +8916,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 60.96) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06c69a5-93b4-465f-b0c2-937557e7dc87")
+	)
+	(wire
+		(pts
 			(xy 133.35 260.35) (xy 139.7 260.35)
 		)
 		(stroke
@@ -8953,16 +8943,6 @@
 			(type default)
 		)
 		(uuid "c25860f3-38c0-4bf9-8c5a-690474820c95")
-	)
-	(wire
-		(pts
-			(xy 48.26 60.96) (xy 54.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3962429-f7a1-4897-9124-31c6526ef757")
 	)
 	(wire
 		(pts
@@ -9076,6 +9056,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 63.5) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccca21e0-a76d-4a31-8cd9-ec2b2177214a")
+	)
+	(wire
+		(pts
 			(xy 386.08 36.83) (xy 393.7 36.83)
 		)
 		(stroke
@@ -9083,6 +9073,16 @@
 			(type default)
 		)
 		(uuid "cf807e47-5848-44e1-92ec-16be7b2a9c48")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa4f700-8096-46a8-9a38-2f133889fa1f")
 	)
 	(wire
 		(pts
@@ -9526,7 +9526,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 69.85 60.96)
+			(xy 64.77 58.42) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -19599,27 +19599,15 @@
 		)
 		(uuid "0b79fe66-35b2-4f63-80ed-8776d087a70a")
 	)
-	(label "USB_PRE_P"
-		(at 69.85 60.96 0)
+	(label "USB_P"
+		(at 69.85 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
-		(uuid "0e6c76d3-2dca-47ae-9090-7f06cc46f454")
-	)
-	(label "USB_PRE_N"
-		(at 101.6 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fe06da7-346d-4fa5-95e3-dcccbf67e759")
+		(uuid "1632e295-f4aa-4736-aa3d-4668966d07b6")
 	)
 	(label "LCD_TX_AUX"
 		(at 180.34 210.82 0)
@@ -19650,6 +19638,16 @@
 			(justify left bottom)
 		)
 		(uuid "28caafe0-4130-462d-a2a9-2f65eb80bca2")
+	)
+	(label "USB_N"
+		(at 101.6 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b7ae358-407b-4392-a010-dc5bd89e49d9")
 	)
 	(label "USB_REFCLK"
 		(at 101.6 48.26 180)
@@ -19761,6 +19759,16 @@
 		)
 		(uuid "46cdc72a-b275-4567-b598-59eed431169e")
 	)
+	(label "USB_P"
+		(at 101.6 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5207d372-28fb-4bda-9494-b5de46058dc0")
+	)
 	(label "SD_CLK_PRE"
 		(at 337.82 44.45 0)
 		(effects
@@ -19871,16 +19879,15 @@
 		)
 		(uuid "8f63d863-4d71-4c56-8e3a-fb3e56d46d99")
 	)
-	(label "USB_PRE_P"
-		(at 101.6 58.42 180)
+	(label "USB_N"
+		(at 69.85 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "929e08f0-15e0-4b1c-99ca-4de183ccb35c")
+		(uuid "91d6cfa3-45f6-47a4-af2e-d552d280c6b8")
 	)
 	(label "LCD_RX4"
 		(at 116.84 218.44 0)
@@ -20011,17 +20018,6 @@
 			(justify left bottom)
 		)
 		(uuid "d89e0355-c846-4818-8e5d-1956e1d2afc1")
-	)
-	(label "USB_PRE_N"
-		(at 69.85 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "da59c7cb-a3ef-4411-ae07-8d481638ccb8")
 	)
 	(label "EXT_AFE_CS2_3V3"
 		(at 137.16 158.75 0)
@@ -21513,7 +21509,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 59.69 50.8 0)
+		(at 59.69 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21524,7 +21520,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ffbc84d-cf60-4bdc-a531-b86c88215809")
 		(property "Reference" "#PWR01005"
-			(at 59.69 54.61 0)
+			(at 59.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21535,7 +21531,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 59.69 45.72 0)
+			(at 59.69 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21545,7 +21541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 50.8 0)
+			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21556,7 +21552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 50.8 0)
+			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21567,7 +21563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 59.69 50.8 0)
+			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21907,6 +21903,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
 					(reference "J1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 342.9 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29224678-24d4-4f2c-9a83-ecfa20dbb031")
+		(property "Reference" "#PWR01053"
+			(at 342.9 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_HDA"
+			(at 342.9 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD_HDA\""
+			(at 342.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "476b55ef-80bb-49b6-b2f2-d2293bdf09b1")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
+					(reference "#PWR01053")
 					(unit 1)
 				)
 			)
@@ -25279,7 +25353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 67.31 0)
+		(at 59.69 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25290,7 +25364,7 @@
 		(fields_autoplaced yes)
 		(uuid "785892e5-9eed-41d2-99a0-746e2fb8bc76")
 		(property "Reference" "#PWR01006"
-			(at 59.69 73.66 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25301,7 +25375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 72.39 0)
+			(at 59.69 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25311,7 +25385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 67.31 0)
+			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25322,7 +25396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 67.31 0)
+			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25333,7 +25407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 67.31 0)
+			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25435,7 +25509,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 59.69 58.42 0)
+		(at 59.69 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25445,7 +25519,7 @@
 		(dnp no)
 		(uuid "7ba7faa5-0b58-43ff-96f4-a1a083d9ba4b")
 		(property "Reference" "U1002"
-			(at 52.07 50.292 0)
+			(at 52.07 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25456,7 +25530,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 45.212 52.578 0)
+			(at 45.212 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25467,7 +25541,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 60.96 64.77 0)
+			(at 60.96 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25480,7 +25554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 60.96 66.675 0)
+			(at 60.96 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25492,7 +25566,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 59.69 58.42 0)
+			(at 59.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27955,84 +28029,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
 					(reference "#PWR01007")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 342.9 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7b82e1d-85f2-4006-bc11-610c85675428")
-		(property "Reference" "#PWR01053"
-			(at 342.9 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_1V8"
-			(at 342.9 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"USB_1V8\""
-			(at 342.9 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "caa934cc-d01a-48c3-a559-b2892b687696")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
-					(reference "#PWR01053")
 					(unit 1)
 				)
 			)

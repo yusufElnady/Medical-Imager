@@ -1350,6 +1350,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ESD5Z12T1G:ESD5Z12T1G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ESD5Z12T1G"
+				(at 11.43 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SODFL1608X70N"
+				(at 11.43 -97.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF"
+				(at 11.43 -197.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Low Clamping Voltage; Small Body Outline Dimensions: 0.047 x 0.032 (1.20 mm x 0.80 mm); Low Leakage; Response Time is Typically < 1 ns; IEC6100042 Level 4 ESD Protection and IEC6100044 Level 4 EFT Protection; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Peak Power up to 240 Watts @ 8 x 20 s Pulse; Low Body Height: 0.028 (0.7 mm); ESD Rating of Class 3 (> 16 kV) per Human Body Model; These Devices are PbFre"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 11.43 -397.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -497.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD5Z12T1G"
+				(at 11.43 -597.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "863-ESD5Z12T1G"
+				(at 11.43 -697.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD5Z12T1G?qs=2OtswVQKCOGXcPEz0%252Bii5A%3D%3D"
+				(at 11.43 -797.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "ESD5Z12T1G"
+				(at 11.43 -897.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd5z12t1g/on-semiconductor?utm_currency=USD&region=nac"
+				(at 11.43 -997.46 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ESD5Z12T1G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2433,6 +2671,375 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NCV1117DT18T5G:NCV1117DT18T5G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 16.51 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NCV1117DT18T5G"
+				(at 16.51 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NVD5117PLT4GVF01"
+				(at 31.75 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+				(at 31.75 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available"
+				(at -15.24 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.38"
+				(at 31.75 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 31.75 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NCV1117DT18T5G"
+				(at 31.75 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "863-NCV1117DT18T5G"
+				(at 31.75 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCV1117DT18T5G?qs=8sOby8ZxZLGXkGmR6WAgCg%3D%3D"
+				(at 31.75 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "NCV1117DT18T5G"
+				(at 31.75 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncv1117dt18t5g/on-semiconductor?region=nac"
+				(at 31.75 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "NCV1117DT18T5G_1_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 90)
+					(length 5.08)
+					(name "ADJ/GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "S8CM-M3_I:S8CM-M3_I"
 			(pin_names
 				(hide yes)
@@ -2664,6 +3271,441 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SI2302DS:SI2302DS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 2.5435 2.5435 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SI2302DS"
+				(at 2.5473 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SI2302DS:SOT23-3_TO-236AB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-Channel 20V 2.5A (Tc) 830mW (Tc) Surface Mount TO-236AB (SOT23)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "NXP Semiconductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SC-59 NXP Semiconductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2302DS/NXP+Semiconductors/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SI2302DS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SI2302DS/NXP+Semiconductors/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SI2302DS_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.0389 1.4018)
+					(end -1.524 2.921)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.0376 -2.929)
+					(end -1.524 -1.397)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.0334 -0.7625)
+					(end -1.524 0.762)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.159) (xy 0 2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.635) (xy -0.508 -0.635) (xy -1.524 0)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.159) (xy 0 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 1.397 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.159) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.159) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.7626 0.7626)
+					(end 2.032 0.889)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 3.048) (xy 1.397 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.762) (xy 2.032 -0.254) (xy 0.762 -0.254) (xy 1.397 0.762)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -0.254) (xy 1.397 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -3.048) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "G"
+					(at -5.0912 0 0)
+					(effects
+						(font
+							(size 1.2728 1.2728)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D"
+					(at -2.5454 3.8181 0)
+					(effects
+						(font
+							(size 1.2727 1.2727)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "S"
+					(at -2.5421 -5.0842 0)
+					(effects
+						(font
+							(size 1.2711 1.2711)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4218,12 +5260,6 @@
 		(uuid "00d88c29-551d-4d2c-a810-05f4c767114b")
 	)
 	(junction
-		(at 160.02 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04a29779-3bb3-4252-8a83-423e36dac167")
-	)
-	(junction
 		(at 101.6 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4338,22 +5374,16 @@
 		(uuid "38424551-280b-4584-9b3e-a4f66ce54333")
 	)
 	(junction
-		(at 259.08 181.61)
+		(at 22.86 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f675d56-34d5-4ae8-8c8c-adbce447129b")
+		(uuid "4490e637-6db7-45c4-98db-7edeebfd63c2")
 	)
 	(junction
 		(at 39.37 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b9d9dcf-f303-4922-b3be-53bea7e41dde")
-	)
-	(junction
-		(at 198.12 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "510b63e4-4bf4-471d-a6ef-862c5bcfd537")
 	)
 	(junction
 		(at 49.53 185.42)
@@ -4410,28 +5440,10 @@
 		(uuid "66326493-6e04-4a12-ac8b-a22033c68975")
 	)
 	(junction
-		(at 198.12 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68a3898b-0419-406f-af7d-ae60dd5673b9")
-	)
-	(junction
 		(at 163.83 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b6ad8c9-c4ef-470b-add0-c0f4f484937a")
-	)
-	(junction
-		(at 160.02 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70ad937f-0a3f-4fa7-b651-b5854da42ccf")
-	)
-	(junction
-		(at 259.08 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e7e6bb-6674-42c2-bc81-bcdf85895cd3")
 	)
 	(junction
 		(at 176.53 123.19)
@@ -4452,7 +5464,7 @@
 		(uuid "750ce159-0b0b-419b-842c-6ab004c8bd89")
 	)
 	(junction
-		(at 22.86 76.2)
+		(at 35.56 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777b6e52-b629-4fe3-ac0f-ebacec2334c6")
@@ -4468,6 +5480,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f3ab05a-0ce1-4ff2-bceb-575cbe49e54a")
+	)
+	(junction
+		(at 40.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81614ea2-0f27-4e69-ae82-5d1e4c785e6b")
 	)
 	(junction
 		(at 101.6 177.8)
@@ -4560,22 +5578,10 @@
 		(uuid "aa27206e-2614-416e-95cb-c8810b82d4db")
 	)
 	(junction
-		(at 198.12 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba84168-d022-412c-abf5-b178f2399b31")
-	)
-	(junction
 		(at 67.31 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae4515da-973e-406e-8925-9db13ea37dd3")
-	)
-	(junction
-		(at 200.66 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afcb70b9-c6ca-4c2a-a95b-1dfa2bc7e292")
 	)
 	(junction
 		(at 177.8 62.23)
@@ -4620,7 +5626,7 @@
 		(uuid "c7c47711-4e0b-493f-a8db-632cb13dd639")
 	)
 	(junction
-		(at 261.62 168.91)
+		(at 254 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7c60d28-f98f-45c5-80d9-765978d168ce")
@@ -4638,16 +5644,16 @@
 		(uuid "d423ff49-7346-4d5d-9faa-ba0eafd70d01")
 	)
 	(junction
+		(at 190.5 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55a3daf-57e8-4e55-9dd2-11e64fb73c21")
+	)
+	(junction
 		(at 223.52 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d60945a1-537f-4a3a-a39c-fd3626c7b120")
-	)
-	(junction
-		(at 259.08 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbba1af6-bcdf-4b5d-adbf-6ab32315e2d8")
 	)
 	(junction
 		(at 391.16 208.28)
@@ -4656,7 +5662,7 @@
 		(uuid "dc234aeb-d930-4e25-afa1-04ad12476ee6")
 	)
 	(junction
-		(at 22.86 63.5)
+		(at 35.56 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfc7116f-7b01-48db-9fda-dc19c0d51e38")
@@ -4710,12 +5716,6 @@
 		(uuid "fd86eac6-4325-4f74-8150-574322070ee1")
 	)
 	(junction
-		(at 198.12 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fef5de6e-974e-452c-891a-b50190e0670f")
-	)
-	(junction
 		(at 340.36 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4726,20 +5726,12 @@
 		(uuid "0c72ce1b-793a-4c0a-b317-322f4cd3229a")
 	)
 	(no_connect
-		(at 165.1 151.13)
-		(uuid "0cda5fc2-4b39-4465-8e13-b707801d3bc4")
-	)
-	(no_connect
 		(at 300.99 229.87)
 		(uuid "0fa901d4-771b-4221-a65e-fc896aab9d35")
 	)
 	(no_connect
 		(at 363.22 100.33)
 		(uuid "39dde14b-8bb3-485f-b26a-afbbd4844fa0")
-	)
-	(no_connect
-		(at 226.06 179.07)
-		(uuid "7f1409b3-670e-4567-9876-b579f51b3213")
 	)
 	(no_connect
 		(at 88.9 123.19)
@@ -4752,14 +5744,6 @@
 	(no_connect
 		(at 69.85 46.99)
 		(uuid "cc1e048b-973d-4f8c-9052-591283939895")
-	)
-	(no_connect
-		(at 165.1 179.07)
-		(uuid "df54b5ea-910a-42e0-870e-cca435bac251")
-	)
-	(no_connect
-		(at 226.06 151.13)
-		(uuid "f9d06758-37e0-4d44-b813-0dcf789b71f1")
 	)
 	(wire
 		(pts
@@ -4823,16 +5807,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 153.67) (xy 198.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b22622-7747-4f4e-9458-cff3ea6d020a")
-	)
-	(wire
-		(pts
 			(xy 298.45 99.06) (xy 298.45 101.6)
 		)
 		(stroke
@@ -4843,7 +5817,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 63.5) (xy 17.78 66.04)
+			(xy 24.13 69.85) (xy 24.13 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4880,16 +5854,6 @@
 			(type default)
 		)
 		(uuid "02742acb-1e04-41a3-97ca-70ae1f346461")
-	)
-	(wire
-		(pts
-			(xy 256.54 153.67) (xy 259.08 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03764d42-14a8-4acf-8ebd-9ce727115f06")
 	)
 	(wire
 		(pts
@@ -4991,6 +5955,16 @@
 		)
 		(uuid "06b6f8a3-cc45-4163-9c8e-922667ea325a")
 	)
+	(wire
+		(pts
+			(xy 41.91 132.08) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e45c8e-5b3e-42e1-b16e-a933f9fbb89b")
+	)
 	(polyline
 		(pts
 			(xy 39.37 68.58) (xy 135.89 71.374)
@@ -5014,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 29.21 76.2)
+			(xy 35.56 80.01) (xy 35.56 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5024,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 73.66) (xy 17.78 76.2)
+			(xy 24.13 80.01) (xy 24.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5034,7 +6008,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 140.97) (xy 223.52 168.91)
+			(xy 223.52 140.97) (xy 223.52 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5064,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 163.83) (xy 274.32 168.91)
+			(xy 266.7 171.45) (xy 266.7 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5164,6 +6138,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 41.91) (xy 27.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe87675-fa88-4f0d-871a-f89cce4e452e")
+	)
+	(wire
+		(pts
 			(xy 87.63 229.87) (xy 87.63 232.41)
 		)
 		(stroke
@@ -5231,6 +6215,16 @@
 			(type default)
 		)
 		(uuid "1679892f-b1e9-4b9d-94f5-8e8988c8c074")
+	)
+	(wire
+		(pts
+			(xy 162.56 140.97) (xy 162.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168b9a18-b5c7-4ef5-adc3-2c46f0cc90e4")
 	)
 	(wire
 		(pts
@@ -5425,6 +6419,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 134.62) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262c7457-4eab-47f2-babd-95c4e3814282")
+	)
+	(wire
+		(pts
 			(xy 182.88 218.44) (xy 173.99 218.44)
 		)
 		(stroke
@@ -5445,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 168.91) (xy 261.62 168.91)
+			(xy 266.7 173.99) (xy 254 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5475,6 +6479,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 173.99) (xy 203.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283761ce-953d-49e9-aa09-203f03559732")
+	)
+	(wire
+		(pts
 			(xy 368.3 156.21) (xy 368.3 160.02)
 		)
 		(stroke
@@ -5482,16 +6496,6 @@
 			(type default)
 		)
 		(uuid "2932b865-6eb1-4eaf-a0f8-e42e02e4017a")
-	)
-	(wire
-		(pts
-			(xy 195.58 179.07) (xy 198.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2abc34ab-ea7a-4e03-b470-b8465fb93f32")
 	)
 	(wire
 		(pts
@@ -5505,7 +6509,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 60.96) (xy 22.86 63.5)
+			(xy 35.56 68.58) (xy 35.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5545,13 +6549,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 168.91) (xy 200.66 173.99)
+			(xy 46.99 124.46) (xy 46.99 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2de89f72-53e2-443d-9527-a4be114d36f6")
+		(uuid "2e0e39c8-e702-460b-8851-1dcf2f4c46f1")
 	)
 	(wire
 		(pts
@@ -5602,6 +6606,16 @@
 			(type default)
 		)
 		(uuid "30938ff9-62df-4c87-9da9-cdf9112195fa")
+	)
+	(wire
+		(pts
+			(xy 46.99 123.19) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309960e9-c546-4d71-a9d8-2e741563df6b")
 	)
 	(wire
 		(pts
@@ -5695,16 +6709,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 173.99) (xy 165.1 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ae2606-3abf-4eb3-bafe-e11db05ed70e")
-	)
-	(wire
-		(pts
 			(xy 356.87 167.64) (xy 361.95 167.64)
 		)
 		(stroke
@@ -5725,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 198.12 140.97)
+			(xy 195.58 140.97) (xy 200.66 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5845,16 +6849,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 181.61) (xy 198.12 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c562039-0683-47c8-b2ba-74fbbfd398ce")
-	)
-	(wire
-		(pts
 			(xy 241.3 53.34) (xy 241.3 59.69)
 		)
 		(stroke
@@ -5865,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 76.2) (xy 29.21 76.2)
+			(xy 24.13 81.28) (xy 35.56 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5915,23 +6909,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 153.67) (xy 198.12 179.07)
+			(xy 180.34 152.4) (xy 180.34 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3efea0b7-5946-46a3-a7e6-f210029cede5")
-	)
-	(wire
-		(pts
-			(xy 200.66 140.97) (xy 198.12 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa4e658-969d-472f-ba7f-2bb0baf38508")
 	)
 	(wire
 		(pts
@@ -5955,7 +6939,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 163.83) (xy 261.62 168.91)
+			(xy 254 171.45) (xy 254 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6045,16 +7029,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 181.61) (xy 198.12 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47bfef41-9ef4-483b-abb2-0e04169191ce")
-	)
-	(wire
-		(pts
 			(xy 127 182.88) (xy 127 186.69)
 		)
 		(stroke
@@ -6082,16 +7056,6 @@
 			(type default)
 		)
 		(uuid "48c91c47-33a5-47cd-a157-d8c8580511c4")
-	)
-	(wire
-		(pts
-			(xy 222.25 146.05) (xy 226.06 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49312932-c354-4537-93b6-9f9dfd7fc4e5")
 	)
 	(wire
 		(pts
@@ -6235,16 +7199,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 173.99) (xy 195.58 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5571fca6-804a-4d12-9810-f31f01fb8d40")
-	)
-	(wire
-		(pts
 			(xy 195.58 218.44) (xy 204.47 218.44)
 		)
 		(stroke
@@ -6252,26 +7206,6 @@
 			(type default)
 		)
 		(uuid "55b2ee6f-ee2b-45f4-813a-71a24178fb22")
-	)
-	(wire
-		(pts
-			(xy 160.02 186.69) (xy 160.02 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5634c522-b2c7-4ce8-a050-3cf2c5b9753a")
-	)
-	(wire
-		(pts
-			(xy 261.62 140.97) (xy 261.62 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5648c1dd-0514-4b53-8f2c-5e764398bcbc")
 	)
 	(wire
 		(pts
@@ -6295,6 +7229,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 60.96) (xy 22.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f6e021-0776-4731-96e1-aab012789287")
+	)
+	(wire
+		(pts
 			(xy 88.9 182.88) (xy 87.63 182.88)
 		)
 		(stroke
@@ -6302,16 +7246,6 @@
 			(type default)
 		)
 		(uuid "576be194-83c6-4078-a03f-191d66eeca92")
-	)
-	(wire
-		(pts
-			(xy 195.58 151.13) (xy 198.12 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ea3114-f8ea-46a4-8861-d8b9a839b25b")
 	)
 	(wire
 		(pts
@@ -6332,16 +7266,6 @@
 			(type default)
 		)
 		(uuid "580d22b0-7a93-43ea-a80b-7133d927d817")
-	)
-	(wire
-		(pts
-			(xy 222.25 173.99) (xy 226.06 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59bc4c97-e4f7-40ca-8a6c-dc2178746038")
 	)
 	(wire
 		(pts
@@ -6485,16 +7409,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 153.67) (xy 259.08 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64683183-5bde-438e-aa02-4749aeff57f4")
-	)
-	(wire
-		(pts
 			(xy 85.09 162.56) (xy 85.09 163.83)
 		)
 		(stroke
@@ -6505,7 +7419,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 181.61) (xy 259.08 185.42)
+			(xy 40.64 140.97) (xy 40.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6542ed56-1123-43a8-8a7a-7deec5224bc7")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 241.3 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6625,16 +7549,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 158.75) (xy 160.02 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cac4446-bbf3-45eb-8f74-8acd1650bc50")
-	)
-	(wire
-		(pts
 			(xy 162.56 140.97) (xy 165.1 140.97)
 		)
 		(stroke
@@ -6745,16 +7659,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 151.13) (xy 259.08 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75cacc79-1ce1-4551-b2e9-27f2b85aff6c")
-	)
-	(wire
-		(pts
 			(xy 29.21 201.93) (xy 39.37 201.93)
 		)
 		(stroke
@@ -6762,26 +7666,6 @@
 			(type default)
 		)
 		(uuid "7614ac57-39a5-4231-be74-e3454535fa99")
-	)
-	(wire
-		(pts
-			(xy 160.02 173.99) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76859eed-9ee6-4cbf-96f3-cbde48e27a1e")
-	)
-	(wire
-		(pts
-			(xy 198.12 151.13) (xy 198.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774d9e74-e020-4ca3-8b82-fef6e986e3ed")
 	)
 	(wire
 		(pts
@@ -6855,6 +7739,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 41.91) (xy 22.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc60f8-9164-4ca5-8edc-164a8f551c4e")
+	)
+	(wire
+		(pts
 			(xy 44.45 41.91) (xy 45.72 41.91)
 		)
 		(stroke
@@ -6912,16 +7806,6 @@
 			(type default)
 		)
 		(uuid "839ba918-eed5-4848-af0b-248bdb9926cc")
-	)
-	(wire
-		(pts
-			(xy 195.58 168.91) (xy 213.36 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d8c452-6dcd-4aa0-be66-a6509df4e668")
 	)
 	(wire
 		(pts
@@ -6995,16 +7879,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 146.05) (xy 160.02 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1c360c-5c09-40e8-a747-2308a8af522d")
-	)
-	(wire
-		(pts
 			(xy 62.23 44.45) (xy 69.85 44.45)
 		)
 		(stroke
@@ -7042,16 +7916,6 @@
 			(type default)
 		)
 		(uuid "8db3b2bd-b412-4161-a43b-b24707aee432")
-	)
-	(wire
-		(pts
-			(xy 158.75 146.05) (xy 160.02 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dba40f5-6b96-4dac-9302-473f0e1e7af8")
 	)
 	(wire
 		(pts
@@ -7135,16 +7999,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 123.19) (xy 50.8 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fb169d-711e-436d-af5d-ddd743b9d160")
-	)
-	(wire
-		(pts
 			(xy 119.38 167.64) (xy 120.65 167.64)
 		)
 		(stroke
@@ -7205,7 +8059,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 163.83) (xy 200.66 168.91)
+			(xy 190.5 171.45) (xy 190.5 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7215,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 168.91) (xy 261.62 168.91)
+			(xy 248.92 173.99) (xy 254 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7262,16 +8116,6 @@
 			(type default)
 		)
 		(uuid "9ae7c9d3-147e-4e48-8e59-d404ce46c36f")
-	)
-	(wire
-		(pts
-			(xy 256.54 181.61) (xy 259.08 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b97cc56-913b-4d8f-9475-3530b28fd9b1")
 	)
 	(wire
 		(pts
@@ -7382,6 +8226,16 @@
 			(type default)
 		)
 		(uuid "a2f14126-b89f-401b-a13f-1fb938e82609")
+	)
+	(wire
+		(pts
+			(xy 203.2 171.45) (xy 203.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33c9875-db3a-4c35-8fec-e9de70f746d1")
 	)
 	(polyline
 		(pts
@@ -7585,6 +8439,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 133.35) (xy 40.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b145db78-e25a-4043-b55b-869cd91d9486")
+	)
+	(wire
+		(pts
 			(xy 125.73 252.73) (xy 125.73 255.27)
 		)
 		(stroke
@@ -7602,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "b4f29aed-5829-485e-9c03-6592f55c3d40")
-	)
-	(wire
-		(pts
-			(xy 198.12 140.97) (xy 198.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ff7f5d-6e59-4634-93e0-fc33f89cf414")
 	)
 	(wire
 		(pts
@@ -7635,16 +8489,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 179.07) (xy 259.08 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f8de85-44c1-491b-a419-38880bb87408")
-	)
-	(wire
-		(pts
 			(xy 97.79 182.88) (xy 97.79 186.69)
 		)
 		(stroke
@@ -7662,6 +8506,16 @@
 			(type default)
 		)
 		(uuid "b8158b35-7cab-4b90-9a8d-1fef688d3a6a")
+	)
+	(wire
+		(pts
+			(xy 170.18 173.99) (xy 162.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdae8c-c55e-4a23-a49d-abdb57b980c4")
 	)
 	(wire
 		(pts
@@ -7735,16 +8589,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 168.91) (xy 261.62 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc530d2b-31aa-4252-bb07-b4a1212e7279")
-	)
-	(wire
-		(pts
 			(xy 62.23 229.87) (xy 62.23 232.41)
 		)
 		(stroke
@@ -7755,7 +8599,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 63.5) (xy 29.21 63.5)
+			(xy 24.13 69.85) (xy 35.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7785,23 +8629,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 168.91) (xy 223.52 168.91)
+			(xy 223.52 173.99) (xy 233.68 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4aea81e-caed-4b22-ba85-fb4465345e4b")
-	)
-	(wire
-		(pts
-			(xy 198.12 146.05) (xy 195.58 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5bb6334-62d5-4cf8-ab8f-646674e5bb19")
 	)
 	(wire
 		(pts
@@ -7812,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "c62ce28f-2283-4498-8239-ddd611c0953d")
+	)
+	(wire
+		(pts
+			(xy 177.8 181.61) (xy 177.8 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bbae23-98e1-49a0-b9c5-e460fa299d2c")
 	)
 	(wire
 		(pts
@@ -7895,16 +8739,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 168.91) (xy 162.56 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9c1e43-045f-4598-9414-391b9a50f926")
-	)
-	(wire
-		(pts
 			(xy 62.23 34.29) (xy 62.23 44.45)
 		)
 		(stroke
@@ -7945,7 +8779,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 66.04) (xy 29.21 63.5)
+			(xy 35.56 72.39) (xy 35.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7972,16 +8806,6 @@
 			(type default)
 		)
 		(uuid "d15f663b-0262-4a07-aff4-1ffdb7f4bbf6")
-	)
-	(wire
-		(pts
-			(xy 213.36 168.91) (xy 213.36 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1607e86-9847-4384-9e19-30f31e26be15")
 	)
 	(wire
 		(pts
@@ -8015,16 +8839,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 173.99) (xy 160.02 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52f2044-3565-4035-9dde-44929b35bd78")
-	)
-	(wire
-		(pts
 			(xy 231.14 53.34) (xy 231.14 59.69)
 		)
 		(stroke
@@ -8035,7 +8849,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 76.2) (xy 22.86 78.74)
+			(xy 35.56 81.28) (xy 35.56 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8075,13 +8889,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 146.05) (xy 256.54 146.05)
+			(xy 30.48 132.08) (xy 31.75 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8851abd-bd5d-459c-9d4d-2a9cb327c5c1")
+		(uuid "d87dd128-99c1-405a-bb61-ca981d265697")
 	)
 	(wire
 		(pts
@@ -8142,16 +8956,6 @@
 			(type default)
 		)
 		(uuid "dac3de92-deae-44b2-9ae2-3500f845bcbb")
-	)
-	(wire
-		(pts
-			(xy 165.1 168.91) (xy 162.56 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db384480-16c0-4c26-8db2-e4c3a1e87083")
 	)
 	(wire
 		(pts
@@ -8255,16 +9059,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 151.13) (xy 259.08 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e729d16d-3989-4e80-8500-423395b8e670")
-	)
-	(wire
-		(pts
 			(xy 97.79 175.26) (xy 97.79 167.64)
 		)
 		(stroke
@@ -8285,7 +9079,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 41.91) (xy 27.94 41.91)
+			(xy 21.59 41.91) (xy 22.86 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8312,16 +9106,6 @@
 			(type default)
 		)
 		(uuid "e9a8ebff-5f13-4992-b7fb-6a18d9eb0b7f")
-	)
-	(wire
-		(pts
-			(xy 259.08 179.07) (xy 259.08 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d3a9df-8b49-4a86-b2fb-23691a8082c7")
 	)
 	(polyline
 		(pts
@@ -8455,26 +9239,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 173.99) (xy 256.54 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49145fd-ae3f-412f-8294-1b2ce534ebec")
-	)
-	(wire
-		(pts
-			(xy 198.12 179.07) (xy 198.12 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ad6e0a-6520-42f0-beeb-45a9a2a0ade7")
-	)
-	(wire
-		(pts
 			(xy 74.93 229.87) (xy 74.93 232.41)
 		)
 		(stroke
@@ -8525,6 +9289,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 181.61) (xy 241.3 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8af6f2b-9f43-4b4e-a6bc-9c28a9a553b5")
+	)
+	(wire
+		(pts
 			(xy 100.33 229.87) (xy 100.33 232.41)
 		)
 		(stroke
@@ -8572,16 +9346,6 @@
 			(type default)
 		)
 		(uuid "fc43f1e3-8e37-47d5-bf4c-abc92b94aca7")
-	)
-	(wire
-		(pts
-			(xy 160.02 146.05) (xy 165.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe052c04-c676-47b2-bd6b-53115547dbe9")
 	)
 	(wire
 		(pts
@@ -8676,7 +9440,8 @@
 		)
 	)
 	(image
-		(at 72.898 136.398)
+		(at 99.568 133.858)
+		(scale 0.89041)
 		(uuid "5317dad8-95cf-4c96-a0ff-75588ed0fcad")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA90AAABiCAIAAADC2CfsAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nO3de1yT9R4H8J8wGQ1h6QCRVBKG7gBConXwQih0ERIxGbAOKKgEBaLU4dgLTKtTIZqZZhGZWhDE"
@@ -9753,29 +10518,15 @@
 		)
 		(uuid "95db3479-0b02-44d3-8574-f96fb90efd63")
 	)
-	(hierarchical_label "AFE_3V3_EN"
-		(shape input)
-		(at 158.75 173.99 180)
+	(label "IM_5V_G"
+		(at 41.91 132.08 90)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
+				(size 0.75 0.75)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "00b19c81-1274-4747-9cdc-d752beb28294")
-	)
-	(hierarchical_label "AFE_3V3_EN"
-		(shape input)
-		(at 222.25 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "1cf268e7-6de8-47b7-91fd-0d4792ad2a24")
+		(uuid "febe5607-54f4-4164-954f-82e240ffbd62")
 	)
 	(hierarchical_label "-5V_EN"
 		(shape input)
@@ -9801,7 +10552,7 @@
 	)
 	(hierarchical_label "IM_5V_EN"
 		(shape input)
-		(at 44.45 123.19 180)
+		(at 30.48 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9843,18 +10594,6 @@
 		)
 		(uuid "ac9f99e7-4c9d-4ad4-9031-7b0e824f9931")
 	)
-	(hierarchical_label "AFE_1V8_EN"
-		(shape input)
-		(at 158.75 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "cdc13562-7d80-4bd9-ba7c-d3eb32f317d0")
-	)
 	(hierarchical_label "100V_EN"
 		(shape input)
 		(at 304.8 44.45 180)
@@ -9865,18 +10604,6 @@
 			(justify right)
 		)
 		(uuid "d5a813ac-c53b-49cf-92fc-5bcc8b42c865")
-	)
-	(hierarchical_label "AFE_1V8_EN"
-		(shape input)
-		(at 222.25 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "df5fc3b9-cf02-4896-973c-123646003231")
 	)
 	(hierarchical_label "50V_EN"
 		(shape input)
@@ -10131,6 +10858,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 241.3 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b4ea12-a1d7-4922-8016-c6a8c478e731")
+		(property "Reference" "#PWR0499"
+			(at 241.3 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f599de8-6180-492a-861e-f66f910eaaa4")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0499")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 85.09 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -10229,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 208.2292 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10261,7 +11066,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 208.28 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -10674,84 +11479,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0490")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d104adb-21c7-4e11-be83-4fdd74f4a9c5")
-		(property "Reference" "#PWR0433"
-			(at 160.02 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c612a4a-3fd3-400f-b476-06ee877218bc")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -11314,7 +12041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 185.42 0)
+		(at 180.34 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11325,7 +12052,7 @@
 		(fields_autoplaced yes)
 		(uuid "16359954-f1c5-4860-b0fd-471e6130cdda")
 		(property "Reference" "#PWR0443"
-			(at 198.12 191.77 0)
+			(at 180.34 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,7 +12063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 190.5 0)
+			(at 180.34 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11346,7 +12073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 185.42 0)
+			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +12084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 185.42 0)
+			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +12095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 185.42 0)
+			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11779,6 +12506,176 @@
 		)
 	)
 	(symbol
+		(lib_id "SI2302DS:SI2302DS")
+		(at 46.99 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dbf0afe-bb98-434c-894f-d5411c1b6ff4")
+		(property "Reference" "Q401"
+			(at 50.292 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2302DS"
+			(at 50.292 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI2302DS:SOT23-3_TO-236AB"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 20V 2.5A (Tc) 830mW (Tc) Surface Mount TO-236AB (SOT23)"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "NXP Semiconductors"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SC-59 NXP Semiconductors"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SI2302DS/NXP+Semiconductors/view-part/?ref=snap"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SI2302DS"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SI2302DS/NXP+Semiconductors/view-part/?ref=eda"
+			(at 46.99 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "ce9769bd-9227-4d90-bd4e-2adca5eb9b11")
+		)
+		(pin "1"
+			(uuid "bf70547b-8164-430f-86a6-49ed6da90e3e")
+		)
+		(pin "3"
+			(uuid "6940440b-68df-459d-a2c6-8442b6e9841c")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "Q401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 219.71 34.29 0)
 		(unit 1)
@@ -11956,7 +12853,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 170.1292 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,7 +12885,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 170.18 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -12187,6 +13084,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29685e20-4cd5-4022-ba05-7b65417d0cf0")
+		(property "Reference" "#PWR0497"
+			(at 40.64 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.704 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cffd36ad-2ad4-42c7-ac54-99d6f08d789c")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0497")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 111.76 38.1 0)
 		(unit 1)
@@ -12259,234 +13233,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0418")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP176BMX180TCG:NCP176BMX180TCG")
-		(at 241.3 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29c5618f-19e2-439c-aad0-b29b26785c00")
-		(property "Reference" "U404"
-			(at 241.3 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP176BMX180TCG"
-			(at 241.3 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP176BMX180TCG:PSON40P120X120X45-7N_NCP176BMX180TCG"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-XDFN (1.2x1.2)"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "XFDFN-6 ON Semiconductor"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "XDFN-6 ON Semiconductor"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP176BMX180TCG/Onsemi/view-part/?ref=eda"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP176BMX180TCG/Onsemi/view-part/?ref=snap"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "NCP176BMX180TCG"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1108777&manufacturer=ON Semiconductor&part_name=NCP176BMX180TCG&search_term=ncp176bmx180tcg"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ON Semiconductor"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "6"
-			(uuid "f14b9031-f92a-42f5-b333-14851884bd90")
-		)
-		(pin "7"
-			(uuid "9bacb2e3-ddef-4573-9e27-d214ea4f0a0e")
-		)
-		(pin "3"
-			(uuid "9792b5ca-6ed9-408a-8c15-422ae4f8c2f3")
-		)
-		(pin "4"
-			(uuid "4a2d11ab-dc8c-42f6-a9b8-e1c8691dd2d2")
-		)
-		(pin "2"
-			(uuid "3f863138-1d31-407e-ad58-4290eada5267")
-		)
-		(pin "5"
-			(uuid "b111bff4-7e26-4bec-8889-0b42173d12ab")
-		)
-		(pin "1"
-			(uuid "9c96ca41-3d89-46b3-97bc-2a9d1441835d")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -12572,7 +13318,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 213.36 163.83 0)
+		(at 203.2 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12583,7 +13329,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b518cbe-47c0-49f3-ab26-a5d04b4fef9f")
 		(property "Reference" "#PWR0447"
-			(at 213.36 167.64 0)
+			(at 203.2 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +13340,7 @@
 			)
 		)
 		(property "Value" "AFE2_3V3D"
-			(at 213.36 158.75 0)
+			(at 203.2 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12604,7 +13350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 163.83 0)
+			(at 203.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12615,7 +13361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 163.83 0)
+			(at 203.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12626,7 +13372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AFE2_3V3D\""
-			(at 213.36 163.83 0)
+			(at 203.2 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,303 +13389,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0447")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP176AMX330TCG:NCP176AMX330TCG")
-		(at 241.3 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b552d35-a2b4-4b34-8f7d-f2e023984be7")
-		(property "Reference" "U405"
-			(at 241.3 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP176AMX330TCG"
-			(at 241.3 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP176AMX330TCG:PSON40P120X120X45-7N_NCP176AMX330TCG"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-XDFN (1.2x1.2)"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "XFDFN-6 ON Semiconductor"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "XDFN-6 ON Semiconductor"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=eda"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=snap"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "NCP176AMX330TCG"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ON Semiconductor"
-			(at 241.3 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "3117260f-624e-4940-968d-04865f68880f")
-		)
-		(pin "3"
-			(uuid "fbea8d84-fa92-4dff-bb5b-b17382ea1874")
-		)
-		(pin "6"
-			(uuid "af3d2e29-ea8d-43a2-b711-8298f91d0979")
-		)
-		(pin "2"
-			(uuid "811f2826-0e18-4972-b8d4-ddbdf0eb91bc")
-		)
-		(pin "7"
-			(uuid "085b59e9-1c10-4f8f-813f-777ef6add6a5")
-		)
-		(pin "5"
-			(uuid "dacdc020-5359-4d9b-99e2-b5a89b5a35c0")
-		)
-		(pin "4"
-			(uuid "afb39295-0d84-463c-a426-a277c660e0e8")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 160.02 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b96c7c0-8c18-4ae0-9fd3-2d36e4a31fad")
-		(property "Reference" "R417"
-			(at 157.226 182.626 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 157.226 185.166 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.036 183.134 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 0402"
-			(at 160.02 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "478bbedd-698b-492c-9cb5-efafccdab709")
-		)
-		(pin "2"
-			(uuid "0b191433-dc97-4ace-a24d-a4e4f1bbc8ce")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -13276,7 +13725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 346.71 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13330,6 +13779,258 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "C417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NCV1117DT18T5G:NCV1117DT18T5G")
+		(at 241.3 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f78ea36-2f3e-4d24-b4c1-13b5fd0482d2")
+		(property "Reference" "IC402"
+			(at 241.3 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV1117DT18T5G"
+			(at 241.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NCV1117DT18T5G:NVD5117PLT4GVF01"
+			(at 209.55 235.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+			(at 209.55 335.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.38"
+			(at 209.55 535.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 209.55 635.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCV1117DT18T5G"
+			(at 209.55 735.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NCV1117DT18T5G"
+			(at 209.55 835.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCV1117DT18T5G?qs=8sOby8ZxZLGXkGmR6WAgCg%3D%3D"
+			(at 209.55 935.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "NCV1117DT18T5G"
+			(at 209.55 1035.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncv1117dt18t5g/on-semiconductor?region=nac"
+			(at 209.55 1135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "60270d00-07d8-49fe-a08b-ea79b58a71cd")
+		)
+		(pin "2"
+			(uuid "6ddd8072-d362-4486-aa71-b17497e158cf")
+		)
+		(pin "3"
+			(uuid "91c1c10f-1407-4a6c-b5c4-6122d6a5f6b4")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "IC402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 241.3 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "309571fa-1128-47c6-b38e-54e45cd7ffd6")
+		(property "Reference" "U405"
+			(at 241.3 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 241.3 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 241.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 243.84 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 241.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4e8da87e-a1d7-4251-a759-7ad84635ecdb")
+		)
+		(pin "2"
+			(uuid "88bcc413-19f8-4649-8e07-e11e2f668f7b")
+		)
+		(pin "1"
+			(uuid "e4b430aa-403c-4bee-ba8d-bae2398696d2")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "U405")
 					(unit 1)
 				)
 			)
@@ -13411,87 +14112,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "R409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 160.02 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33c12482-d35b-4dff-a41b-851701674209")
-		(property "Reference" "R416"
-			(at 157.226 154.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 157.226 157.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.036 155.194 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 0402"
-			(at 160.02 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59298629-0157-479a-b13a-af5ef304f7cf")
-		)
-		(pin "2"
-			(uuid "445f60e2-2ac0-4a25-83a9-ba1c6b5cea8f")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -13663,84 +14283,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "D411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38d3aab9-5b7f-41b1-9ffe-77be16df6239")
-		(property "Reference" "#PWR0434"
-			(at 160.02 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e195a8f2-dd90-4712-927f-ad3e58262a6f")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -13925,7 +14467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 154.94 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14085,7 +14627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 180.34 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14245,7 +14787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 193.04 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14384,7 +14926,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 200.66 163.83 0)
+		(at 190.5 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14395,7 +14937,7 @@
 		(fields_autoplaced yes)
 		(uuid "40a98d6a-2660-4835-8682-645d39c89bb0")
 		(property "Reference" "#PWR0445"
-			(at 200.66 167.64 0)
+			(at 190.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14406,7 +14948,7 @@
 			)
 		)
 		(property "Value" "AFE1_3V3D"
-			(at 200.66 158.75 0)
+			(at 190.5 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14416,7 +14958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 163.83 0)
+			(at 190.5 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,7 +14969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 163.83 0)
+			(at 190.5 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14438,7 +14980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AFE1_3V3D\""
-			(at 200.66 163.83 0)
+			(at 190.5 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14798,7 +15340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 396.24 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,6 +15550,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0451")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f389ee1-8876-4d90-8fdf-0f5d448ccd0e")
+		(property "Reference" "#PWR0434"
+			(at 177.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4f98e3a-416c-4c6c-b2c0-1b134b42868f")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -15293,7 +15913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 372.11 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15611,7 +16231,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 185.42 0)
+		(at 241.3 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15622,7 +16242,7 @@
 		(fields_autoplaced yes)
 		(uuid "60508854-e1d4-4f66-a8cf-8426a35b5eec")
 		(property "Reference" "#PWR0461"
-			(at 259.08 191.77 0)
+			(at 241.3 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15633,7 +16253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 190.5 0)
+			(at 241.3 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15643,7 +16263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 185.42 0)
+			(at 241.3 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15654,7 +16274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 185.42 0)
+			(at 241.3 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,7 +16285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 185.42 0)
+			(at 241.3 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15790,7 +16410,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 170.1292 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15822,7 +16442,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 170.18 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -16746,7 +17366,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 69.85 0)
+		(at 35.56 76.2 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16756,7 +17377,7 @@
 		(dnp no)
 		(uuid "7179e9df-5fd5-400a-a803-6af77d89a15d")
 		(property "Reference" "C413"
-			(at 33.02 68.5799 0)
+			(at 31.75 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16767,7 +17388,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 33.02 71.1199 0)
+			(at 31.75 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16778,7 +17399,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 30.1752 73.66 0)
+			(at 34.5948 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16789,7 +17410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 69.85 0)
+			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16800,7 +17421,7 @@
 			)
 		)
 		(property "Description" "10uF >10v 0805"
-			(at 29.21 69.85 0)
+			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17219,7 +17840,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 22.86 60.96 0)
+		(at 35.56 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17227,10 +17848,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75a3a7db-023f-463b-b7fa-02ba13e95620")
 		(property "Reference" "#PWR0480"
-			(at 22.86 64.77 0)
+			(at 35.56 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17241,7 +17861,7 @@
 			)
 		)
 		(property "Value" "DC_MAIN_PRE"
-			(at 22.86 55.88 0)
+			(at 31.75 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17251,7 +17871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 60.96 0)
+			(at 35.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17262,7 +17882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 60.96 0)
+			(at 35.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17273,7 +17893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"DC_MAIN_PRE\""
-			(at 22.86 60.96 0)
+			(at 35.56 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18121,7 +18741,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 246.3292 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +18773,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 246.38 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -18258,8 +18878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NCP176AMX330TCG:NCP176AMX330TCG")
-		(at 180.34 173.99 0)
+		(lib_id "power:GND")
+		(at 46.99 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18267,29 +18887,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8df7ba9f-bb6d-4ff8-95ec-778532ae255b")
-		(property "Reference" "U403"
-			(at 180.34 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP176AMX330TCG"
-			(at 180.34 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP176AMX330TCG:PSON40P120X120X45-7N_NCP176AMX330TCG"
-			(at 180.34 173.99 0)
+		(uuid "8cbd1832-2a6d-4ff6-b9b9-6996012d0e36")
+		(property "Reference" "#PWR0498"
+			(at 46.99 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18297,11 +18897,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 173.99 0)
+			(at 46.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18311,8 +18931,8 @@
 				)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-XDFN (1.2x1.2)"
-			(at 180.34 173.99 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18320,154 +18940,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "XFDFN-6 ON Semiconductor"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "XDFN-6 ON Semiconductor"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=eda"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP176AMX330TCG/Onsemi/view-part/?ref=snap"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "NCP176AMX330TCG"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ON Semiconductor"
-			(at 180.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
-			(uuid "2a06bb38-2e40-4d0a-ad17-6b25385df5d1")
-		)
-		(pin "3"
-			(uuid "1cf8421d-c8de-476d-98e2-85444daf1898")
-		)
-		(pin "6"
-			(uuid "920795db-a287-4805-83f9-0e8634347d3c")
-		)
-		(pin "2"
-			(uuid "3a5abc63-9039-4e77-b545-f0da57a08a27")
-		)
-		(pin "7"
-			(uuid "5b77527e-12b1-4487-b97a-67de182f38d6")
-		)
-		(pin "5"
-			(uuid "64cd5db9-4438-4343-8885-477a374c704f")
-		)
-		(pin "4"
-			(uuid "4c08e18b-2bdd-4054-a99f-d2cd306370ae")
+			(uuid "3980c797-e6db-4f35-95fe-d265ccb60ea0")
 		)
 		(instances
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U403")
+					(reference "#PWR0498")
 					(unit 1)
 				)
 			)
@@ -18550,6 +19031,89 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 177.8 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef15bcd-c115-4ce8-a90f-f16e69cd8a99")
+		(property "Reference" "U403"
+			(at 177.8 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 177.8 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 177.8 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 177.8 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19d6cc9d-7a9c-4079-b164-d7ff1f8a47e2")
+		)
+		(pin "2"
+			(uuid "cfd2ab84-47bb-43c0-957b-003c4942d14b")
+		)
+		(pin "1"
+			(uuid "d698d282-f868-469c-9183-7eee7d863650")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -18639,7 +19203,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 261.62 163.83 0)
+		(at 254 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18650,7 +19214,7 @@
 		(fields_autoplaced yes)
 		(uuid "90df4212-6c45-4af4-9b9d-e99b272ff36a")
 		(property "Reference" "#PWR0465"
-			(at 261.62 167.64 0)
+			(at 254 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18661,7 +19225,7 @@
 			)
 		)
 		(property "Value" "AFE3_3V3D"
-			(at 261.62 158.75 0)
+			(at 254 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18671,7 +19235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 163.83 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18682,7 +19246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 163.83 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18693,7 +19257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AFE3_3V3D\""
-			(at 261.62 163.83 0)
+			(at 254 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19228,7 +19792,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 208.2292 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19260,7 +19824,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 208.28 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +20197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 347.98 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19694,7 +20258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 78.74 0)
+		(at 35.56 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19705,7 +20269,7 @@
 		(fields_autoplaced yes)
 		(uuid "a70ebd5b-5a2d-41f6-8bb5-c5be66aa0dbd")
 		(property "Reference" "#PWR0484"
-			(at 22.86 85.09 0)
+			(at 35.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19716,7 +20280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 83.82 0)
+			(at 35.56 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19726,7 +20290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 78.74 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19737,7 +20301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 78.74 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19748,7 +20312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 78.74 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19765,6 +20329,255 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0484")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD5Z12T1G:ESD5Z12T1G")
+		(at 22.86 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83376ab-f30f-4268-b70d-aff09e980053")
+		(property "Reference" "D413"
+			(at 26.67 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD5Z12T1G"
+			(at 26.67 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESD5Z12T1G:SODFL1608X70N"
+			(at -74.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF"
+			(at -174.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low Clamping Voltage; Small Body Outline Dimensions: 0.047 x 0.032 (1.20 mm x 0.80 mm); Low Leakage; Response Time is Typically < 1 ns; IEC6100042 Level 4 ESD Protection and IEC6100044 Level 4 EFT Protection; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Peak Power up to 240 Watts @ 8 x 20 s Pulse; Low Body Height: 0.028 (0.7 mm); ESD Rating of Class 3 (> 16 kV) per Human Body Model; These Devices are PbFre"
+			(at 22.86 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.7"
+			(at -374.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -474.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z12T1G"
+			(at -574.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-ESD5Z12T1G"
+			(at -674.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD5Z12T1G?qs=2OtswVQKCOGXcPEz0%252Bii5A%3D%3D"
+			(at -774.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "ESD5Z12T1G"
+			(at -874.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd5z12t1g/on-semiconductor?utm_currency=USD&region=nac"
+			(at -974.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "2de9493f-a1ca-4364-84a6-b6b01d2895d7")
+		)
+		(pin "1"
+			(uuid "2bce67bd-22e4-4ef6-833a-d70fdb79cbf6")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "D413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40.64 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8d45132-6f15-4d6a-b64c-4312f1d408b8")
+		(property "Reference" "R423"
+			(at 37.846 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 37.846 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.656 137.414 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K 0402"
+			(at 40.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "471e8467-a321-40a4-98aa-11d6a59a99a8")
+		)
+		(pin "2"
+			(uuid "1ede31f1-eee7-469e-a898-ad73c3b76b62")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "R423")
 					(unit 1)
 				)
 			)
@@ -19948,7 +20761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 398.78 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20264,7 +21077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 167.64 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20583,7 +21396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 288.29 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20871,234 +21684,6 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "#PWR0475")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP176BMX180TCG:NCP176BMX180TCG")
-		(at 180.34 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c13f4a75-3101-4b71-9705-dab917d3767c")
-		(property "Reference" "U402"
-			(at 180.34 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP176BMX180TCG"
-			(at 180.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP176BMX180TCG:PSON40P120X120X45-7N_NCP176BMX180TCG"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA 6-XDFN (1.2x1.2)"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "XFDFN-6 ON Semiconductor"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "XDFN-6 ON Semiconductor"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP176BMX180TCG/Onsemi/view-part/?ref=eda"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP176BMX180TCG/Onsemi/view-part/?ref=snap"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "NCP176BMX180TCG"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1108777&manufacturer=ON Semiconductor&part_name=NCP176BMX180TCG&search_term=ncp176bmx180tcg"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ON Semiconductor"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "6"
-			(uuid "5e437312-7dda-4b50-8d43-f3dc76abb60d")
-		)
-		(pin "7"
-			(uuid "1c628d6b-e40e-4316-994d-2a9d5411e1bd")
-		)
-		(pin "3"
-			(uuid "2fe8fb69-48f8-490a-ab14-6577dfc987f9")
-		)
-		(pin "4"
-			(uuid "846b6f84-2db9-4d10-accb-ed0c32b997de")
-		)
-		(pin "2"
-			(uuid "f8790f7f-2f87-4540-81d4-37a7c6529581")
-		)
-		(pin "5"
-			(uuid "3e14ccdd-bff1-4881-adbf-e0e808887ef1")
-		)
-		(pin "1"
-			(uuid "8166983b-fc9e-41a4-a56c-b8c8c5b2bd6d")
-		)
-		(instances
-			(project "MedicalImager"
-				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
-					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -21439,7 +22024,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 246.3292 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21471,7 +22056,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 246.38 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -21492,6 +22077,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
 					(reference "FB408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9399a80-ac89-4a80-8353-28b587e4b393")
+		(property "Reference" "#PWR0433"
+			(at 22.86 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43564001-5823-46ef-9cfd-b0ae6adbdaa0")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -21677,7 +22340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 307.34 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23052,6 +23715,175 @@
 		)
 	)
 	(symbol
+		(lib_id "NCV1117DT18T5G:NCV1117DT18T5G")
+		(at 180.34 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df332b88-23cd-4913-bdca-97b859a6707b")
+		(property "Reference" "IC401"
+			(at 180.34 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV1117DT18T5G"
+			(at 180.34 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NCV1117DT18T5G:NVD5117PLT4GVF01"
+			(at 148.59 235.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+			(at 148.59 335.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available"
+			(at 195.58 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.38"
+			(at 148.59 535.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 148.59 635.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCV1117DT18T5G"
+			(at 148.59 735.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NCV1117DT18T5G"
+			(at 148.59 835.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCV1117DT18T5G?qs=8sOby8ZxZLGXkGmR6WAgCg%3D%3D"
+			(at 148.59 935.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "NCV1117DT18T5G"
+			(at 148.59 1035.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncv1117dt18t5g/on-semiconductor?region=nac"
+			(at 148.59 1135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "004e7298-9631-4eec-a6be-d2b632b9364b")
+		)
+		(pin "2"
+			(uuid "90f0601c-9f88-4b7d-a6b4-b36c5bd050a0")
+		)
+		(pin "3"
+			(uuid "691c8254-f358-4792-a277-320858aa8f3b")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "IC401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 228.6 40.64 0)
 		(unit 1)
@@ -23661,7 +24493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 342.9 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23799,6 +24631,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 35.56 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e82f8aee-c038-4d8d-a002-da7d51fa870f")
+		(property "Reference" "R422"
+			(at 39.37 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 39.37 128.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.306 133.096 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1K 0402"
+			(at 35.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "509d9247-d398-4820-9f93-b05140e8fc31")
+		)
+		(pin "2"
+			(uuid "b427d9ab-a4fb-4229-9ae0-b91689c337bd")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/bd63d6e1-5dfb-4921-86f2-9a66ea07210d"
+					(reference "R422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 208.28 218.44 90)
 		(unit 1)
@@ -23820,7 +24733,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 208.2292 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23852,7 +24765,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 208.28 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -23880,7 +24793,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 274.32 163.83 0)
+		(at 266.7 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23891,7 +24804,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee596bdb-a3f0-41a6-8cce-5977b17191b1")
 		(property "Reference" "#PWR0467"
-			(at 274.32 167.64 0)
+			(at 266.7 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23902,7 +24815,7 @@
 			)
 		)
 		(property "Value" "AFE4_3V3D"
-			(at 274.32 158.75 0)
+			(at 266.7 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23912,7 +24825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 163.83 0)
+			(at 266.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23923,7 +24836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 163.83 0)
+			(at 266.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23934,7 +24847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AFE4_3V3D\""
-			(at 274.32 163.83 0)
+			(at 266.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24589,7 +25502,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM15AG601SN1D"
+		(property "Value" "MPZ1005S900HT000"
 			(at 170.1292 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24621,7 +25534,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM15AG601SN1D 0402"
+		(property "Description" "MPZ1005S900HT000 0402"
 			(at 170.18 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -24808,7 +25721,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 17.78 69.85 0)
+		(at 24.13 76.2 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24818,7 +25732,7 @@
 		(dnp no)
 		(uuid "f7b74a60-c972-47d9-9e9d-917d31f7c43c")
 		(property "Reference" "C412"
-			(at 21.59 68.5799 0)
+			(at 20.32 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24829,7 +25743,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 21.59 71.1199 0)
+			(at 20.32 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24840,7 +25754,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 18.7452 73.66 0)
+			(at 23.1648 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24851,7 +25765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 69.85 0)
+			(at 24.13 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24862,7 +25776,7 @@
 			)
 		)
 		(property "Description" "10uF >10v 0805"
-			(at 17.78 69.85 0)
+			(at 24.13 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
