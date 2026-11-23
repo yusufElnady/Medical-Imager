@@ -55,7 +55,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_555555d5_55555145",
+    "visible_layers": "00000000_00000000_555555dd_75555145",
     "zone_display_mode": 0
   },
   "git": {
@@ -120,9 +120,7 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [
-      "/bd63d6e1-5dfb-4921-86f2-9a66ea07210d/"
-    ],
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
