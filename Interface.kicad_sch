@@ -6929,6 +6929,12 @@
 		(uuid "2272de94-503d-48b8-b6ba-9130925688e8")
 	)
 	(junction
+		(at 224.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29586a87-4e0d-454d-b4a1-591ec3ce5283")
+	)
+	(junction
 		(at 50.8 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6995,12 +7001,6 @@
 		(uuid "571464e4-6998-47b7-a144-e2d83af6a211")
 	)
 	(junction
-		(at 224.79 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58035c02-fe79-42fc-8a2e-e8e2322ea636")
-	)
-	(junction
 		(at 130.81 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7011,12 +7011,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64fe0e6f-2aff-433c-baa0-5a9606e9e6cd")
-	)
-	(junction
-		(at 224.79 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "676eb8ff-aa0a-4656-87b0-197fb7847f37")
 	)
 	(junction
 		(at 330.2 59.69)
@@ -7201,6 +7195,16 @@
 			(type default)
 		)
 		(uuid "03f88f93-d4a9-4cf2-8bcd-975d63ea55dc")
+	)
+	(wire
+		(pts
+			(xy 224.79 39.37) (xy 224.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05498e3f-ddd3-4f60-a4a7-5dcc56c48fd1")
 	)
 	(wire
 		(pts
@@ -7754,6 +7758,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 39.37) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320258b7-b6dd-4a9c-b2f1-5f127f2a8bfa")
+	)
+	(wire
+		(pts
 			(xy 113.03 210.82) (xy 128.27 210.82)
 		)
 		(stroke
@@ -7834,7 +7848,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 38.1) (xy 224.79 43.18)
+			(xy 224.79 38.1) (xy 224.79 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8731,6 +8745,16 @@
 			(type default)
 		)
 		(uuid "84382142-47da-4569-8cb7-9aba3da61fc4")
+	)
+	(wire
+		(pts
+			(xy 231.14 38.1) (xy 231.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846f0324-5741-4c36-850a-c6fa9ed4e091")
 	)
 	(wire
 		(pts
@@ -9754,17 +9778,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 43.18) (xy 224.79 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58bcd5a-8297-4c4f-a258-b0679a2c7c5f")
-	)
-	(wire
-		(pts
-			(xy 196.85 53.34) (xy 224.79 53.34)
+			(xy 196.85 53.34) (xy 227.33 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9811,16 +9825,6 @@
 			(type default)
 		)
 		(uuid "e767854e-7fde-47ef-a475-8e61877e123f")
-	)
-	(wire
-		(pts
-			(xy 224.79 53.34) (xy 227.33 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81f073c-b4a6-421c-80ad-88d3683bb214")
 	)
 	(wire
 		(pts
@@ -21255,6 +21259,84 @@
 			(project "MedicalImager"
 				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
 					(reference "#PWR01064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 231.14 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08f95c35-a08f-4b49-8f22-4758be60fc9d")
+		(property "Reference" "#PWR01066"
+			(at 231.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IM_5V"
+			(at 231.14 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"IM_5V\""
+			(at 231.14 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9dc999-7f21-4e1d-8df7-ce96f5fd9efe")
+		)
+		(instances
+			(project "MedicalImager"
+				(path "/99848109-7be9-4113-bc9c-faf6c2acfe0b/479a6f5a-02b8-4cd9-9a92-add4ba90ba54"
+					(reference "#PWR01066")
 					(unit 1)
 				)
 			)
